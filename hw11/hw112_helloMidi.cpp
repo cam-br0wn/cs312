@@ -1,4 +1,12 @@
-// helloMidi.cpp
+/***************************************************************
+hw112_helloMidi.cpp
+Copyright(c) Carleton College CS312 free open source
+Assignment : hw112
+Stritzel Matt stritzelm@carleton.edu
+Brown Cam brownc2@carleton.edu
+DATE : 2020-01-13
+TIME: 17:50:56
+***************************************************************/ 
 #include <iostream>
 #include <string>
 
