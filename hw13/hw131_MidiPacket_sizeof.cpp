@@ -8,7 +8,7 @@
 #include <string>
 
 
-// The assignment is to write a template function that will display the size in bytes and bits 
+// The assignment is to write a template function that will display the size in bytes and bits
 // for each of the eight MidiPacket structs using the sizeof() function.
 template <typename T>
 
@@ -47,7 +47,7 @@ int main() {
 }
 /*
 1. Why do MidiPacket1 and MidiPacket2 report the same size with sizeof()?
-A: 
+A:
 
 2. Why do MidiPacket3 through MidiPacket6 all report the same size with sizeof()?
 A:
