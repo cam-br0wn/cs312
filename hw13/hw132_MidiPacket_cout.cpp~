@@ -1,11 +1,11 @@
 /***************************************************************
-hw132_MidiPacket_cout.cpp
+hw121_charOutput.cpp
 Copyright (c) Carleton College CS312 free open source
-Assignment: hw132
+Assignment: hw121
 Stritzel Matt stritzelm@carleton.edu
 Brown Cam brownc@carleton.edu
-DATE: 2020-01-17
-TIME: 13:13:46
+DATE: 2019-1-15
+TIME: 14:46:25
 ****************************************************************/
 #ifndef HW131_MIDIPACKET_H_
 #include "hw131_MidiPacket.h"
@@ -104,6 +104,6 @@ We chose to use MidiPacket6 in our CMidiPacket class. Our decision was based off
 Besides the timestamp, most of the other values would fit in the range of a 'u_int8 - u_int16' number. We contemplated using MidiPacket2 as well, but 
 figured we'd call it safe with the 'u_int16' data types. And, for the timestamp, MidiPacket6 uses an appropriately larger data type: u_int32.  
 
-As far as ease of output, we guess it's harder as you have to handle cases where a packet-struct's doesn't have all its data members assigned values. (ex. data2)
+As far as ease of output, I guess it's harder as you have to handle cases where a packet-struct's doesn't have all its data members assigned values. (ex. data2)
 
 */
