@@ -20,9 +20,9 @@ using namespace CMP21;
 // Default constructor
 // Initializes a "do nothing" NOF message
 CMidiPacket::CMidiPacket()
-    : timestamp{0}, status{0x80}, data1{0}, data2{0}, length{3}
+		: timestamp{0}, status{0x80}, data1{0}, data2{0}, length{3}
 {
-  // empty body
+	// empty body
 }
 
 // Default destructor
@@ -32,7 +32,7 @@ CMidiPacket::CMidiPacket()
 // and let the compiler implement the destructor.
 CMidiPacket::~CMidiPacket()
 {
-  // empty body
+	// empty body
 }
 // END DO NOT CHANGE
 
@@ -80,13 +80,20 @@ CMidiPacket::CMidiPacket(const std::string &str)
 // send a not processed message if status is 0xFn
 std::string CMidiPacket::to_string() const
 {
-  // need to return a string to avoid compile error
-  return "You need to implement CMidiPacket::to_string()";
+	// need to return a string to avoid compile error
+	std::string time_stamp = std::to_string(timestamp);
+	std::ostringstream oss;
+    oss << std::dec << timestamp << std::hex << status << std::dec << data1;
+//    uint8_t st = oss.str();
+    std::cout << oss.str() << std::endl;
+    return " ";
+//    return time_stamp + '\t' + st;
 }
 
 // Do not change print()
 // Send a MIDIDisplay string to std::cout using toString()
 void CMidiPacket::print() const
 {
-  std::cout << to_string() << std::endl;
+    CMidiPacket mp{1000, 0x90 , 60, 100};
+	std::cout << mp.to_string() << std::endl;
 }

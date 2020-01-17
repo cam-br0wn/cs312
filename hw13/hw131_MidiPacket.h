@@ -1,4 +1,12 @@
-// boilerplate here
+/***************************************************************
+hw121_charOutput.cpp
+Copyright (c) Carleton College CS312 free open source
+Assignment: hw121
+Stritzel Matt stritzelm@carleton.edu
+Brown Cam brownc@carleton.edu
+DATE: 2019-1-09
+TIME: 14:46:25
+****************************************************************/
 
 /*** D O   N O T    M O D I F Y ***/
 
