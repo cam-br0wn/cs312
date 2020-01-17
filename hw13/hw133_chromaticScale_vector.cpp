@@ -1,4 +1,12 @@
-// boilerplate here
+/***************************************************************
+hw121_charOutput.cpp
+Copyright (c) Carleton College CS312 free open source
+Assignment: hw121
+Stritzel Matt stritzelm@carleton.edu
+Brown Cam brownc@carleton.edu
+DATE: 2019-1-15
+TIME: 14:46:25
+****************************************************************/
 
 #ifndef HW131_MIDIPACKET_H_
 #include "hw131_MidiPacket.h" // reuse from hw132
@@ -49,7 +57,6 @@ void print_chromatic_scale()
 {
   // for every element in vec
   // print the MIDIDisplay message with numbers separated by a tab character
-  std::cout << "You can do better." << std::endl;
   for (int ix = vec.size()-1; ix >= 0; --ix)
   {
     std::cout << std::dec << vec[ix].timestamp << '\t' << std::hex << vec[ix].status << '\t' << std::dec << vec[ix].data1 << '\t' << std::dec << vec[ix].data2 << std::endl;
@@ -62,9 +69,4 @@ int main()
   // DO NOT CHANGE
   stuff_chromatic_scale_vector(48, 72);
   print_chromatic_scale();
-  // play in MIDIDisplay to test
-  // debug as needed
 }
-/*
-
-*/

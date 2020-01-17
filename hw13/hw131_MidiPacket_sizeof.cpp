@@ -1,5 +1,12 @@
-// boilerplate here
-
+/***************************************************************
+hw121_charOutput.cpp
+Copyright (c) Carleton College CS312 free open source
+Assignment: hw121
+Stritzel Matt stritzelm@carleton.edu
+Brown Cam brownc@carleton.edu
+DATE: 2019-1-15
+TIME: 14:46:25
+****************************************************************/
 #ifndef HW131_MIDIPACKET_H_
 #include "hw131_MidiPacket.h"
 #endif
@@ -47,14 +54,15 @@ int main() {
 }
 /*
 1. Why do MidiPacket1 and MidiPacket2 report the same size with sizeof()?
-A:
+A: 
 
 2. Why do MidiPacket3 through MidiPacket6 all report the same size with sizeof()?
-A:
+A: 
 
 3. Why do MidiPacket7 and MidiPacket8 report the same size with sizeof()?
-A:
+A: 
 
 4. How do you explain the discrepancy between the number of data members in each of the eight MidiPacket structs and their actual size in memory?
-A: The discrepancy is caused by the fact that data members within each packet are not necessarily all 1 byte in size. Some are more, which means that the total sum of bytes required for storing the packet will exceed the number of data members in most if not all cases.
+A: The discrepancy is caused by the fact that data members within each packet are not necessarily all 1 byte in size. Some are more, which means 
+   that the total sum of bytes required for storing the packet will exceed the number of data members in most if not all cases.
 */
