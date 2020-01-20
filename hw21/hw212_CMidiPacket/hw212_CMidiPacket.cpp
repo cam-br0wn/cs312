@@ -81,19 +81,30 @@ CMidiPacket::CMidiPacket(const std::string &str)
 std::string CMidiPacket::to_string() const
 {
 	// need to return a string to avoid compile error
-	std::string time_stamp = std::to_string(timestamp);
-	std::ostringstream oss;
-    oss << std::dec << timestamp << std::hex << status << std::dec << data1;
-//    uint8_t st = oss.str();
-    std::cout << oss.str() << std::endl;
-    return " ";
-//    return time_stamp + '\t' + st;
+	uint8_t invalids[] = {0xF0, 0xF1, 0xF2, 0xF3, 0xF4, 0xF5, 0xF6, 0xF7, 0xF8, 0xF9, 0xfa, 0xfb, 0xfc, 0xfd, 0xfe, 0xff};
+	for(int j = 0; j < sizeof(invalids); j++){
+	    if(status == invalids[j]) return "Could not process Midi Packet";
+	}
+	uint8_t arr[] = {status, data1, data2};
+    std::ostringstream concat;
+    std::cout << std::dec << timestamp << std::endl;
+    concat << timestamp;
+    concat << '\t';
+    for(int i = 0; i < sizeof(arr); i++){
+        if(i == 0){
+            concat << std::hex << (int)arr[i];
+        }
+        else{
+            concat << std::dec << (int)arr[i];
+        }
+        concat << '\t';
+    }
+    return concat.str();
 }
 
 // Do not change print()
 // Send a MIDIDisplay string to std::cout using toString()
 void CMidiPacket::print() const
 {
-    CMidiPacket mp{1000, 0x90 , 60, 100};
-	std::cout << mp.to_string() << std::endl;
+    std::cout << to_string() << std::endl;
 }

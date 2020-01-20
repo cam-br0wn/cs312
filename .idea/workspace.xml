@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d7c4a89e-0ee3-4bb5-9da3-c5ddd4d2ff87" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/hw21/hw212_CMidiPacket/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/hw21/hw212_CMidiPacket/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WM3xZYnItmzeYBylpW8dXEWqJ9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.make" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7c4a89e-0ee3-4bb5-9da3-c5ddd4d2ff87" name="Default Changelist" comment="" />
+      <created>1578945883832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578945883832</updated>
+      <workItem from="1578945885127" duration="3728000" />
+      <workItem from="1579494942769" duration="88000" />
+      <workItem from="1579538128293" duration="113000" />
+      <workItem from="1579538262474" duration="1594000" />
+    </task>
+    <task id="LOCAL-00001" summary="modified hw112">
+      <created>1578948031808</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578948031808</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modified hw112" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified hw112" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="434" y="127" key="CommitChangelistDialog2" timestamp="1578948031538">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="434" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1578948031538" />
+    <state x="349" y="164" key="SettingsEditor" timestamp="1578950424317">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1578950424317" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1578948035460">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1578948035460" />
+  </component>
+</project>
