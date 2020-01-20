@@ -1,4 +1,12 @@
-// hw212_CMidiPacket.cpp
+/***************************************************************
+hw132_CMidiPacket.cpp
+Copyright (c) Carleton College CS312 free open source
+Assignment: hw212
+Stritzel Matt stritzelm@carleton.edu
+Brown Cam brownc@carleton.edu
+DATE: 2020-01-18
+TIME: 13:13:46
+****************************************************************/
 
 #ifndef HW212_CMIDIPACKET_H_
 #include "hw212_CMidiPacket.h"
@@ -44,12 +52,29 @@ CMidiPacket::~CMidiPacket()
 // use colon initialization with parameters inside curly braces
 CMidiPacket::CMidiPacket(uint32_t ts, uint8_t st, uint8_t d1)
 {
+    // Ex. CMidiPacket mp2{0, 0xc0, 11};
+    CMidiPacket packet = CMidiPacket();
+    packet.timestamp = ts;
+    packet.status = st;
+    packet.data1 = d1;
+    packet.length = 3;
+    std::cout << std::dec << packet.timestamp << '\t' << std::hex << unsigned(packet.status) << '\t' << std::dec << unsigned(packet.data1) << '\t' << std::endl;
 }
 
 // Constructor overload for two data bytes message
 // use colon initialization with parameters inside curly braces
 CMidiPacket::CMidiPacket(uint32_t ts, uint8_t st, uint8_t d1, uint8_t d2)
 {
+    // Ex. CMidiPacket mp3{0, 0x90, 67, 100};
+    CMidiPacket packet = CMidiPacket();
+    packet.timestamp = ts;
+    packet.status = st;
+    packet.data1 = d1;
+    packet.data2 = d2;
+    packet.length = 4;
+
+    std::cout << std::dec << packet.timestamp << '\t' << std::hex << unsigned(packet.status) << '\t' << std::dec << unsigned(packet.data1) << '\t' << std::dec << unsigned(packet.data2) << std::endl;
+
 }
 
 // Constructor overload for string parameter
@@ -66,6 +91,24 @@ CMidiPacket::CMidiPacket(uint32_t ts, uint8_t st, uint8_t d1, uint8_t d2)
 // assign the length once you know the status
 CMidiPacket::CMidiPacket(const std::string &str)
 {
+    CMidiPacket packet = CMidiPacket();
+    bool hasData2 = false;
+    if (packet.length == 3) {
+       hasData2 = true;
+    }
+
+    if (hasData2) {   
+        packet.timestamp = str[0];
+        packet.status = str[1];
+        packet.data1 = str[2];
+        packet.data2 = str[3];
+        std::cout << std::dec << packet.timestamp << '\t' << std::hex << unsigned(packet.status) << '\t' << std::dec << unsigned(packet.data1) << '\t' << std::dec << unsigned(packet.data2) << std::endl;
+    } else {
+        packet.timestamp = str[0];
+        packet.status = str[1];
+        packet.data1 = str[2];
+        std::cout << std::dec << packet.timestamp << '\t' << std::hex << unsigned(packet.status) << '\t' << std::dec << unsigned(packet.data1) << std::endl;
+     }
 }
 
 // Convert the CMidiPacket data to a string.
@@ -80,12 +123,23 @@ CMidiPacket::CMidiPacket(const std::string &str)
 // send a not processed message if status is 0xFn
 std::string CMidiPacket::to_string() const
 {
-	// need to return a string to avoid compile error
+
+    bool hasData2 = false;
+    if (length == 3) {
+       hasData2 = true;
+    }
+
+    // need to return a string to avoid compile error
 	uint8_t invalids[] = {0xF0, 0xF1, 0xF2, 0xF3, 0xF4, 0xF5, 0xF6, 0xF7, 0xF8, 0xF9, 0xfa, 0xfb, 0xfc, 0xfd, 0xfe, 0xff};
-	for(int j = 0; j < sizeof(invalids); j++){
-	    if(status == invalids[j]) return "Could not process Midi Packet";
+    
+	for(const u_int8_t &invalid : invalids){
+	    if(status == invalid) {
+            return "Could not process Midi Packet";
+        }
 	}
+    
 	uint8_t arr[] = {status, data1, data2};
+    std::cout << status << std::endl;
     std::ostringstream concat;
     std::cout << std::dec << timestamp << std::endl;
     concat << timestamp;
