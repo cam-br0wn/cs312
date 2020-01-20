@@ -28,9 +28,9 @@ using namespace CMP21;
 // Default constructor
 // Initializes a "do nothing" NOF message
 CMidiPacket::CMidiPacket()
-		: timestamp{0}, status{0x80}, data1{0}, data2{0}, length{3}
+    : timestamp{0}, status{0x80}, data1{0}, data2{0}, length{3}
 {
-	// empty body
+    // empty body
 }
 
 // Default destructor
@@ -40,7 +40,7 @@ CMidiPacket::CMidiPacket()
 // and let the compiler implement the destructor.
 CMidiPacket::~CMidiPacket()
 {
-	// empty body
+    // empty body
 }
 // END DO NOT CHANGE
 
@@ -58,7 +58,7 @@ CMidiPacket::CMidiPacket(uint32_t ts, uint8_t st, uint8_t d1)
     packet.status = st;
     packet.data1 = d1;
     packet.length = 3;
-    std::cout << std::dec << packet.timestamp << '\t' << std::hex << unsigned(packet.status) << '\t' << std::dec << unsigned(packet.data1) << '\t' << std::endl;
+    // std::cout << std::dec << packet.timestamp << '\t' << std::hex << unsigned(packet.status) << '\t' << std::dec << unsigned(packet.data1) << '\t' << std::endl;
 }
 
 // Constructor overload for two data bytes message
@@ -73,8 +73,7 @@ CMidiPacket::CMidiPacket(uint32_t ts, uint8_t st, uint8_t d1, uint8_t d2)
     packet.data2 = d2;
     packet.length = 4;
 
-    std::cout << std::dec << packet.timestamp << '\t' << std::hex << unsigned(packet.status) << '\t' << std::dec << unsigned(packet.data1) << '\t' << std::dec << unsigned(packet.data2) << std::endl;
-
+    // std::cout << std::dec << packet.timestamp << '\t' << std::hex << unsigned(packet.status) << '\t' << std::dec << unsigned(packet.data1) << '\t' << std::dec << unsigned(packet.data2) << std::endl;
 }
 
 // Constructor overload for string parameter
@@ -93,22 +92,55 @@ CMidiPacket::CMidiPacket(const std::string &str)
 {
     CMidiPacket packet = CMidiPacket();
     bool hasData2 = false;
-    if (packet.length == 3) {
-       hasData2 = true;
+    if (str.size() == 3)
+    {
+        hasData2 = true;
     }
 
-    if (hasData2) {   
-        packet.timestamp = str[0];
-        packet.status = str[1];
-        packet.data1 = str[2];
-        packet.data2 = str[3];
-        std::cout << std::dec << packet.timestamp << '\t' << std::hex << unsigned(packet.status) << '\t' << std::dec << unsigned(packet.data1) << '\t' << std::dec << unsigned(packet.data2) << std::endl;
-    } else {
-        packet.timestamp = str[0];
-        packet.status = str[1];
-        packet.data1 = str[2];
-        std::cout << std::dec << packet.timestamp << '\t' << std::hex << unsigned(packet.status) << '\t' << std::dec << unsigned(packet.data1) << std::endl;
-     }
+    if (hasData2)
+    {
+        // parse by '/t'
+        std::istringstream iss(str);
+        std::string sub;
+        std::string arr[4];
+        int i = 0;
+        while (std::getline(iss, sub, '\t'))
+        {
+            arr[i] = sub;
+            //  std::cout << sub << " ";
+            i++;
+        }
+        //  std::cout << '\n';
+        packet.timestamp = std::stoi(arr[0]);
+        std::stringstream stat;
+        stat << arr[1];
+        stat >> std::hex >> packet.status;
+        packet.data1 = std::stoi(arr[2]);
+        packet.data2 = std::stoi(arr[3]);
+
+        // std::cout << std::dec << packet.timestamp << '\t' << std::hex << unsigned(packet.status) << '\t' << std::dec << unsigned(packet.data1) << '\t' << std::dec << unsigned(packet.data2) << std::endl;
+    }
+    else
+    {
+        // parse by '/t'
+        std::istringstream iss(str);
+        std::string sub;
+        std::string std::array(std::string, 4);
+        int i = 0;
+        while (std::getline(iss, sub, '\t'))
+        {
+            arr[i] = sub;
+            //   std::cout << sub << " ";
+            i++;
+        }
+        //std::cout << '\n';
+        packet.timestamp = std::stoi(arr[0]);
+        std::stringstream stat;
+        stat << arr[1];
+        stat >> std::hex >> packet.status;
+        packet.data1 = std::stoi(arr[2]);
+        // std::cout << std::dec << packet.timestamp << '\t' << std::hex << unsigned(packet.status) << '\t' << std::dec << unsigned(packet.data1) << std::endl;
+    }
 }
 
 // Convert the CMidiPacket data to a string.
@@ -121,39 +153,40 @@ CMidiPacket::CMidiPacket(const std::string &str)
 // Length will never be displayed in a MIDIDisplay message.
 // timestamp, data1, and data2 (if used) are decimal numbers.
 // send a not processed message if status is 0xFn
+#if 0
 std::string CMidiPacket::to_string() const
 {
 
     bool hasData2 = false;
-    if (length == 3) {
-       hasData2 = true;
+    if (length == 3)
+    {
+        hasData2 = true;
     }
 
     // need to return a string to avoid compile error
-	uint8_t invalids[] = {0xF0, 0xF1, 0xF2, 0xF3, 0xF4, 0xF5, 0xF6, 0xF7, 0xF8, 0xF9, 0xfa, 0xfb, 0xfc, 0xfd, 0xfe, 0xff};
-    
-	for(const u_int8_t &invalid : invalids){
-	    if(status == invalid) {
-            return "Could not process Midi Packet";
-        }
-	}
-    
-	uint8_t arr[] = {status, data1, data2};
-    std::cout << status << std::endl;
+    uint8_t invalids[] = {0xF0, 0xF1, 0xF2, 0xF3, 0xF4, 0xF5, 0xF6, 0xF7, 0xF8, 0xF9, 0xfa, 0xfb, 0xfc, 0xfd, 0xfe, 0xff};
+
+    // uint8_t arr[] = {status, data1, data2};
     std::ostringstream concat;
-    std::cout << std::dec << timestamp << std::endl;
-    concat << timestamp;
-    concat << '\t';
-    for(int i = 0; i < sizeof(arr); i++){
-        if(i == 0){
-            concat << std::hex << (int)arr[i];
-        }
-        else{
-            concat << std::dec << (int)arr[i];
-        }
-        concat << '\t';
-    }
+    concat << timestamp << '\t' << status << '\t' << data1 << '\t';
     return concat.str();
+}
+#endif
+
+std::string CMidiPacket::to_string() const
+{
+    if ((status >= 0xF0) && (status <= 0xFF))
+    {
+        return "# 0xFn status_ not processed";
+    }
+
+    std::stringstream ss;
+    std::string res;
+    std::string tab = "\t";
+    ss << timestamp << tab << std::hex << +status << tab << std::dec << +data1;
+    if (length == 3)
+        ss << tab << +data2;
+    return ss.str();
 }
 
 // Do not change print()
