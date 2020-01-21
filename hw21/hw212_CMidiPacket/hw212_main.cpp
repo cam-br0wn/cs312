@@ -29,21 +29,21 @@ int main()
 
   // output messages using print()
   mp1.print();
-  //  std::cout << "# length " << +mp1.length << std::endl;
+  std::cout << "# length " << +mp1.length << std::endl;
   mp2.print();
-  //std::cout << "# length " << +mp2.length << std::endl;
+  std::cout << "# length " << +mp2.length << std::endl;
   mp3.print();
-  //std::cout << "# length " << +mp3.length << std::endl;
+  std::cout << "# length " << +mp3.length << std::endl;
   mp4.print();
-  //std::cout << "# length " << +mp4.length << std::endl;
+  std::cout << "# length " << +mp4.length << std::endl;
   mp5.print();
-  // std::cout << "# length " << +mp5.length << std::endl;
+   std::cout << "# length " << +mp5.length << std::endl;
   mp6.print();
-  //std::cout << "# length " << +mp6.length << std::endl;
+  std::cout << "# length " << +mp6.length << std::endl;
   mp7.print();
-  // std::cout << "# length " << +mp7.length << std::endl;
+   std::cout << "# length " << +mp7.length << std::endl;
   mp8.print();
-  // std::cout << "# length " << +mp8.length << std::endl;
+   std::cout << "# length " << +mp8.length << std::endl;
   mp9.print();
-  //std::cout << "# length " << +mp9.length << std::endl;
+  std::cout << "# length " << +mp9.length << std::endl;
 }
