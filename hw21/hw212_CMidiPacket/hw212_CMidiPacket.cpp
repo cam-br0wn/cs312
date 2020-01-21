@@ -106,7 +106,14 @@ CMidiPacket::CMidiPacket(const std::string &str)
     uint8_t data_1 = std::atoi(strVec.at(2).c_str());
     data1 = data_1;
 
-    length = strVec.size()-1;
+    
+    if ((status >= 0xF0) && (status <= 0xFF))
+    {
+        length = 0;
+    }
+    else{
+        length = strVec.size()-1;
+    }
 
     if(length == 3) {
         uint8_t data_2 = std::atoi(strVec.at(3).c_str());
