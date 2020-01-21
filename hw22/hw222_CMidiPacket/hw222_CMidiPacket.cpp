@@ -115,6 +115,99 @@ CMidiPacket::CMidiPacket(const std::string &str)
 
 }
 
+
+//  GETTERS
+uint32_t CMidiPacket::get_timestamp() const 
+{
+    return timestamp_;
+}
+uint8_t CMidiPacket::get_status() const 
+{
+    return length_;
+}
+uint8_t CMidiPacket::get_data1() const 
+{
+    return data1_;
+}
+uint8_t CMidiPacket::get_data2() const 
+{
+    return data2_;
+}
+uint8_t CMidiPacket::get_length() const 
+{
+    return length_;
+}
+uint8_t CMidiPacket::get_midi_channel() const 
+{
+    return length_;
+}
+
+ // SETTERS
+void CMidiPacket::set_timestamp(const uint32_t &ts) {
+    timestamp_ = ts;
+}
+
+// status determines the length
+void CMidiPacket::set_status(const uint8_t &st) {
+  status_ = st;
+}
+// length cannot be set without knowing status
+void CMidiPacket::set_status_length() {
+   // if (status ..... )
+}
+
+void CMidiPacket::set_data1(const uint8_t &d1) {
+    data1_ = d1;
+}
+
+void CMidiPacket::set_data1(const uint8_t &d2) {
+    data2_ = d2;
+}
+
+
+
+// void set_midi_channel(const uint8_t &chan);
+//  bool is_status_8n() const;
+//   bool is_status_9n() const;
+//   bool is_status_An() const;
+//   bool is_status_Bn() const;
+//   bool is_status_Cn() const;
+//   bool is_status_Dn() const;
+//   bool is_status_En() const;
+//   bool is_status_Fn() const;
+//   bool is_note_off() const;
+//   bool is_note_on() const;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Convert the CMidiPacket data to a string.
 // Separate numbers with a single tab char.
 // Account for 1 data byte or 2 data byte messages.
@@ -145,5 +238,5 @@ std::string CMidiPacket::to_string() const
 // Send a MIDIDisplay string to std::cout using toString()
 void CMidiPacket::print() const
 {
-    std::cout << to_string() << std::endl;
+  std::cout << to_string() << std::endl;
 }
