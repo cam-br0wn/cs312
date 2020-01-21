@@ -144,9 +144,9 @@ std::string CMidiPacket::to_string() const
     std::stringstream ss;
     std::string res;
     std::string tab = "\t";
-    ss << std::dec << static_cast<int>(timestamp) << tab << std::hex << static_cast<int>(status) << tab << std::dec << static_cast<int>(data1);
-    if (length == 3)
-        ss << tab << std::dec << static_cast<int>(data2);
+    ss << std::dec << static_cast<int>(+timestamp) << tab << std::hex << static_cast<int>(+status) << tab << std::dec << static_cast<int>(+data1);
+    if (+length == 3)
+        ss << tab << std::dec << static_cast<int>(+data2);
     return ss.str();
 }
 
