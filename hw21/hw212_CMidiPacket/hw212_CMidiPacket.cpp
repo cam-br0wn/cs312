@@ -104,8 +104,13 @@ CMidiPacket::CMidiPacket(const std::string &str)
     uint32_t time_stamp = std::atoi(strVec.at(0).c_str());
     packet.timestamp = time_stamp;
 
-    uint8_t status_uint8 = static_cast<uint8_t>(*strVec.at(1).c_str());
-    packet.status = status_uint8;
+    // Not sure if this is returning the proper value, but best attempt
+    std::stringstream stat;
+    stat << std::hex << strVec.at(1).c_str();
+    int status_int;
+    stat >> status_int;
+    packet.status = (uint8_t)status_int;
+
 
     uint8_t data_1 = std::atoi(strVec.at(2).c_str());
     packet.data1 = data_1;
