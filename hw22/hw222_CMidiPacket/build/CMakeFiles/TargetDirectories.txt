@@ -1,0 +1,3 @@
+/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw22/hw222_CMidiPacket/build/CMakeFiles/rebuild_cache.dir
+/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw22/hw222_CMidiPacket/build/CMakeFiles/edit_cache.dir
+/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw22/hw222_CMidiPacket/build/CMakeFiles/cmp22.dir
