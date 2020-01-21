@@ -29,7 +29,7 @@ int main()
 
   // output messages using print()
   mp1.print();
-  std::cout << "# length " << +mp1.length << std::endl;
+  std::cout << "# length " << + mp1.length << std::endl;
   mp2.print();
   std::cout << "# length " << +mp2.length << std::endl;
   mp3.print();

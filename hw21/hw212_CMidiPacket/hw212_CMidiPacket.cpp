@@ -54,28 +54,21 @@ CMidiPacket::~CMidiPacket()
 // use colon initialization with parameters inside curly braces
 CMidiPacket::CMidiPacket(uint32_t ts, uint8_t st, uint8_t d1)
 {
-    // Ex. CMidiPacket mp2{0, 0xc0, 11};
-    CMidiPacket packet = CMidiPacket();
-    packet.timestamp = ts;
-    packet.status = st;
-    packet.data1 = d1;
-    packet.length = 2;
-//    std::cout << packet.timestamp << '\t' << std::to_string(packet.status) << '\t' << std::to_string(packet.data1) << '\t' << std::endl;
+    timestamp = ts;
+    status = st;
+    data1 = d1;
+    length = 2;
 }
 
 // Constructor overload for two data bytes message
 // use colon initialization with parameters inside curly braces
 CMidiPacket::CMidiPacket(uint32_t ts, uint8_t st, uint8_t d1, uint8_t d2)
 {
-    // Ex. CMidiPacket mp3{0, 0x90, 67, 100};
-    CMidiPacket packet = CMidiPacket();
-    packet.timestamp = ts;
-    packet.status = st;
-    packet.data1 = d1;
-    packet.data2 = d2;
-    packet.length = 3;
-
-//     std::cout << packet.timestamp << '\t' << std::to_string(packet.status) << '\t' << std::to_string(packet.data1) << '\t' << std::to_string(packet.data2) << std::endl;
+    timestamp = ts;
+    status = st;
+    data1 = d1;
+    data2 = d2;
+    length = 3;
 }
 
 // Constructor overload for string parameter
@@ -92,7 +85,6 @@ CMidiPacket::CMidiPacket(uint32_t ts, uint8_t st, uint8_t d1, uint8_t d2)
 // assign the length once you know the status
 CMidiPacket::CMidiPacket(const std::string &str)
 {
-    CMidiPacket packet = CMidiPacket();
     std::istringstream ss(str);
     std::string substr;
     std::vector<std::string> strVec;
@@ -102,24 +94,23 @@ CMidiPacket::CMidiPacket(const std::string &str)
     }
 
     uint32_t time_stamp = std::atoi(strVec.at(0).c_str());
-    packet.timestamp = time_stamp;
+    timestamp = time_stamp;
 
-    // Not sure if this is returning the proper value, but best attempt
     std::stringstream stat;
     stat << std::hex << strVec.at(1).c_str();
     int status_int;
     stat >> status_int;
-    packet.status = (uint8_t)status_int;
+    status = (uint8_t)status_int;
 
 
     uint8_t data_1 = std::atoi(strVec.at(2).c_str());
-    packet.data1 = data_1;
+    data1 = data_1;
 
-    packet.length = strVec.size()-1;
+    length = strVec.size()-1;
 
-    if(packet.length == 3) {
+    if(length == 3) {
         uint8_t data_2 = std::atoi(strVec.at(3).c_str());
-        packet.data2 = data_2;
+        data2 = data_2;
     }
 
 }
