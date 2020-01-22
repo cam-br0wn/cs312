@@ -1,4 +1,12 @@
-// hw222_test_CMidiPacket.cpp
+/***************************************************************
+hw222_test_CMidiPacket.cpp
+Copyright (c) Carleton College CS312 free open source
+Assignment: hw222
+Stritzel Matt stritzelm@carleton.edu
+Brown Cam brownc@carleton.edu
+DATE: 2020-01-22
+TIME: 13:38:44
+****************************************************************/
 #ifndef HW222_TEST_CMidiPacket_H_
 #include "hw222_test_CMidiPacket.h"
 #endif
@@ -66,7 +74,8 @@ void test_constructor_string()
   CMidiPacket mp1("1001\t91\t61\t101");
   print_sub_message("(1001\t91\t61\t101)", mp1);
 
-  CMidiPacket mp2("1002 B2 7 102");
+  // remove later
+  CMidiPacket mp2("1002\tB2\t7\t102");
   print_sub_message("NO TABS: (1002 B2 7 102)", mp2);
 
 }

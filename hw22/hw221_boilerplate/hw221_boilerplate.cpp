@@ -1,3 +1,12 @@
+/***************************************************************
+hw221_boilerplate.cpp
+Copyright (c) Carleton College CS312 free open source
+Assignment: hw221
+Stritzel Matt stritzelm@carleton.edu
+Brown Cam brownc@carleton.edu
+DATE: 2020-01-22
+TIME: 13:38:44
+****************************************************************/
 #include <iostream>
 #include <string>
 
