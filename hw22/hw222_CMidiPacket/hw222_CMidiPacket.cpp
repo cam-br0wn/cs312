@@ -112,7 +112,6 @@ CMidiPacket::CMidiPacket(const std::string &str)
         uint8_t data_2 = std::atoi(strVec.at(3).c_str());
         data2_ = data_2;
     }
-
 }
 
 
@@ -160,51 +159,54 @@ void CMidiPacket::set_data1(const uint8_t &d1) {
     data1_ = d1;
 }
 
-void CMidiPacket::set_data1(const uint8_t &d2) {
+void CMidiPacket::set_data2(const uint8_t &d2) {
     data2_ = d2;
 }
 
 
-
 // void set_midi_channel(const uint8_t &chan);
-//  bool is_status_8n() const;
-//   bool is_status_9n() const;
-//   bool is_status_An() const;
-//   bool is_status_Bn() const;
-//   bool is_status_Cn() const;
-//   bool is_status_Dn() const;
-//   bool is_status_En() const;
-//   bool is_status_Fn() const;
-//   bool is_note_off() const;
-//   bool is_note_on() const;
+bool CMidiPacket::is_status_8n() const {
 
 
+    return ( (status_ >=128) && (status_ <=143));
+}  //128-143
+
+bool CMidiPacket::is_status_9n() const {
+
+    return ((status_ >=144) && (status_ <=159));
+}  //128-143
+   
 
 
+bool CMidiPacket::is_status_An() const {
+    return ( (status_ >160) && (status_ <=175));
 
+}
+bool CMidiPacket::is_status_Bn() const {
+    return ( (status_ >=176) && (status_ <=191));
+}
 
+bool CMidiPacket::is_status_Cn() const {
+    return ( (status_ >=192) && (status_ <=207));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+bool CMidiPacket::is_status_Dn() const {
+    return ( (status_ >=208) && (status_ <=223));
+ 
+}
+bool CMidiPacket::is_status_En() const {
+    return ( (status_ >=224) && (status_ <=239));
+}
+bool CMidiPacket::is_status_Fn() const {
+    return ( (status_ >=240) && (status_ <=265));
+}
+    
+bool CMidiPacket::is_note_off() const {
+       return is_status_8n();
+}
+bool CMidiPacket::is_note_on() const {
+    return is_status_9n();
+}
 
 
 
@@ -240,3 +242,5 @@ void CMidiPacket::print() const
 {
   std::cout << to_string() << std::endl;
 }
+
+

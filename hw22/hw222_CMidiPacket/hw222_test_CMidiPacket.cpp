@@ -59,6 +59,7 @@ void test_constructor_two_data_bytes()
 
 void test_constructor_string()
 {
+  
   CMidiPacket mp("100\tc0\t11");
   print_main_message("test_constructor_string\n(100\tc0\t11)", mp);
 
@@ -67,10 +68,12 @@ void test_constructor_string()
 
   CMidiPacket mp2("1002 B2 7 102");
   print_sub_message("NO TABS: (1002 B2 7 102)", mp2);
+
 }
 
 void test_to_string()
 {
+
   CMidiPacket mp(100, 0xC0, 11);
   print_main_message("test_to_string\n(100, 0xC0, 11)", mp);
 
