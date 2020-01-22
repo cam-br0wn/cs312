@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/hw222_CMidiPacket.cpp
+hw222_CMidiPacket.h
+/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/hw222_CMidiPacket.h
+iostream
+-
+string
+-
+sstream
+-
+vector
+-
+stdlib.h
+-
+iomanip
+-
+
+/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/hw222_CMidiPacket.h
+iostream
+-
+string
+-
+
