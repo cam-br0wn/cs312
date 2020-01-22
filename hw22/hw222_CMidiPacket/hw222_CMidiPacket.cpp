@@ -92,6 +92,12 @@ CMidiPacket::CMidiPacket(const std::string &str)
     {
         strVec.push_back(substr);
     }
+    if(strVec.size() <= 1){
+        strVec.clear();
+        while(getline(ss, substr, ' ')){
+            strVec.push_back(substr);
+        }
+    }
 
     uint32_t time_stamp = std::atoi(strVec.at(0).c_str());
     timestamp_ = time_stamp;
@@ -198,7 +204,7 @@ bool CMidiPacket::is_status_En() const {
     return ( (status_ >=224) && (status_ <=239));
 }
 bool CMidiPacket::is_status_Fn() const {
-    return ( (status_ >=240) && (status_ <=265));
+    return ( (status_ >=240) );
 }
     
 bool CMidiPacket::is_note_off() const {
