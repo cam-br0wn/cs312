@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/hw222_CMidiPacket.cpp
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw222_CMidiPacket.cpp
 hw222_CMidiPacket.h
-/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/hw222_CMidiPacket.h
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw222_CMidiPacket.h
 iostream
 -
 string
@@ -22,9 +22,25 @@ stdlib.h
 iomanip
 -
 
-/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/hw222_CMidiPacket.h
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw222_CMidiPacket.h
 iostream
 -
 string
 -
+
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_main.cpp
+hw233_playdrums.h
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_playdrums.h
+
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_playdrums.cpp
+hw233_playdrums.h
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_playdrums.h
+iostream
+-
+vector
+-
+
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_playdrums.h
+hw222_CMidiPacket.h
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw222_CMidiPacket.h
 

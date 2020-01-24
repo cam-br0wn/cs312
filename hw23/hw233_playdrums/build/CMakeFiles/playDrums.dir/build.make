@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CMake.app/Contents/bin/cmake
+CMAKE_COMMAND = /Software/elcapitan-local/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
+RM = /Software/elcapitan-local/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums
+CMAKE_SOURCE_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/build
+CMAKE_BINARY_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/playDrums.dir/depend.make
@@ -59,58 +59,58 @@ include CMakeFiles/playDrums.dir/flags.make
 
 CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.o: CMakeFiles/playDrums.dir/flags.make
 CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.o: ../hw222_CMidiPacket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.o -c /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/hw222_CMidiPacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw222_CMidiPacket.cpp
 
 CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/hw222_CMidiPacket.cpp > CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw222_CMidiPacket.cpp > CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.i
 
 CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/hw222_CMidiPacket.cpp -o CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.s
-
-CMakeFiles/playDrums.dir/hw233_playdrums.cpp.o: CMakeFiles/playDrums.dir/flags.make
-CMakeFiles/playDrums.dir/hw233_playdrums.cpp.o: ../hw233_playdrums.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/playDrums.dir/hw233_playdrums.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/playDrums.dir/hw233_playdrums.cpp.o -c /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/hw233_playdrums.cpp
-
-CMakeFiles/playDrums.dir/hw233_playdrums.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/playDrums.dir/hw233_playdrums.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/hw233_playdrums.cpp > CMakeFiles/playDrums.dir/hw233_playdrums.cpp.i
-
-CMakeFiles/playDrums.dir/hw233_playdrums.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/playDrums.dir/hw233_playdrums.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/hw233_playdrums.cpp -o CMakeFiles/playDrums.dir/hw233_playdrums.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw222_CMidiPacket.cpp -o CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.s
 
 CMakeFiles/playDrums.dir/hw233_main.cpp.o: CMakeFiles/playDrums.dir/flags.make
 CMakeFiles/playDrums.dir/hw233_main.cpp.o: ../hw233_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/playDrums.dir/hw233_main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/playDrums.dir/hw233_main.cpp.o -c /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/hw233_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/playDrums.dir/hw233_main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/playDrums.dir/hw233_main.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_main.cpp
 
 CMakeFiles/playDrums.dir/hw233_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/playDrums.dir/hw233_main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/hw233_main.cpp > CMakeFiles/playDrums.dir/hw233_main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_main.cpp > CMakeFiles/playDrums.dir/hw233_main.cpp.i
 
 CMakeFiles/playDrums.dir/hw233_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/playDrums.dir/hw233_main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/hw233_main.cpp -o CMakeFiles/playDrums.dir/hw233_main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_main.cpp -o CMakeFiles/playDrums.dir/hw233_main.cpp.s
+
+CMakeFiles/playDrums.dir/hw233_playdrums.cpp.o: CMakeFiles/playDrums.dir/flags.make
+CMakeFiles/playDrums.dir/hw233_playdrums.cpp.o: ../hw233_playdrums.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/playDrums.dir/hw233_playdrums.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/playDrums.dir/hw233_playdrums.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_playdrums.cpp
+
+CMakeFiles/playDrums.dir/hw233_playdrums.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/playDrums.dir/hw233_playdrums.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_playdrums.cpp > CMakeFiles/playDrums.dir/hw233_playdrums.cpp.i
+
+CMakeFiles/playDrums.dir/hw233_playdrums.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/playDrums.dir/hw233_playdrums.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_playdrums.cpp -o CMakeFiles/playDrums.dir/hw233_playdrums.cpp.s
 
 # Object files for target playDrums
 playDrums_OBJECTS = \
 "CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.o" \
-"CMakeFiles/playDrums.dir/hw233_playdrums.cpp.o" \
-"CMakeFiles/playDrums.dir/hw233_main.cpp.o"
+"CMakeFiles/playDrums.dir/hw233_main.cpp.o" \
+"CMakeFiles/playDrums.dir/hw233_playdrums.cpp.o"
 
 # External object files for target playDrums
 playDrums_EXTERNAL_OBJECTS =
 
 playDrums: CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.o
-playDrums: CMakeFiles/playDrums.dir/hw233_playdrums.cpp.o
 playDrums: CMakeFiles/playDrums.dir/hw233_main.cpp.o
+playDrums: CMakeFiles/playDrums.dir/hw233_playdrums.cpp.o
 playDrums: CMakeFiles/playDrums.dir/build.make
 playDrums: CMakeFiles/playDrums.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable playDrums"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable playDrums"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/playDrums.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/playDrums.dir/clean:
 .PHONY : CMakeFiles/playDrums.dir/clean
 
 CMakeFiles/playDrums.dir/depend:
-	cd /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/build /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/build /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/build/CMakeFiles/playDrums.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/build /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/build /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/build/CMakeFiles/playDrums.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/playDrums.dir/depend
 

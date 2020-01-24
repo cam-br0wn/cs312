@@ -8,6 +8,7 @@ CMakeFiles/playDrums.dir/hw233_main.cpp.o: ../hw222_CMidiPacket.h
 CMakeFiles/playDrums.dir/hw233_main.cpp.o: ../hw233_main.cpp
 CMakeFiles/playDrums.dir/hw233_main.cpp.o: ../hw233_playdrums.h
 
+CMakeFiles/playDrums.dir/hw233_playdrums.cpp.o: ../hw222_CMidiPacket.h
 CMakeFiles/playDrums.dir/hw233_playdrums.cpp.o: ../hw233_playdrums.cpp
 CMakeFiles/playDrums.dir/hw233_playdrums.cpp.o: ../hw233_playdrums.h
 
