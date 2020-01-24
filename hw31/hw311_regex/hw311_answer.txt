@@ -1,0 +1,6 @@
+// boilerplate here
+My find regex is here: ^(\w+)\s+(\w+)\s+(\S*)$
+
+My replace regex is here:
+
+My converted output is here:

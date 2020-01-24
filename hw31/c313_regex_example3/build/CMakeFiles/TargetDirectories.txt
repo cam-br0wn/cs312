@@ -1,0 +1,3 @@
+/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw31/c313_regex_example3/build/CMakeFiles/rebuild_cache.dir
+/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw31/c313_regex_example3/build/CMakeFiles/edit_cache.dir
+/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw31/c313_regex_example3/build/CMakeFiles/helloMidi.dir
