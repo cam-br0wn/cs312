@@ -1,4 +1,12 @@
-// boilerplate here
+/***************************************************************
+hw233_playdrums.cpp
+Copyright (c) Carleton College CS312 free open source
+Assignment: hw233
+Stritzel Matt stritzelm@carleton.edu
+Brown Cam brownc@carleton.edu
+DATE: 2020-01-18
+TIME: 13:45:40
+****************************************************************/
 
 #ifndef HW233_PLAYDRUMS_H_
 #include "hw233_playdrums.h"

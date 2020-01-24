@@ -1,9 +1,15 @@
-// boilerplate here
-
+/***************************************************************
+hw232_gmdrums.cpp
+Copyright (c) Carleton College CS312 free open source
+Assignment: hw232
+Stritzel Matt stritzelm@carleton.edu
+Brown Cam brownc@carleton.edu
+DATE: 2020-01-22
+TIME: 14:40:17
+****************************************************************/
 #include <iostream>
 #include <fstream>
 #include <vector>
-// add more includes as needed
 
 const std::vector<std::string> kDRUM_NAMES_VEC = {
 		"35 Bass Drum 2",

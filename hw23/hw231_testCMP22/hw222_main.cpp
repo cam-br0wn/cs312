@@ -1,22 +1,24 @@
 /***************************************************************
-hw233_main.cpp
+hw222_main.cpp
 Copyright (c) Carleton College CS312 free open source
-Assignment: hw233
+Assignment: hw222
 Stritzel Matt stritzelm@carleton.edu
 Brown Cam brownc@carleton.edu
-DATE: 2020-01-23
-TIME: 13:40:46
+DATE: 2020-01-22
+TIME: 13:38:44
 ****************************************************************/
 
-#ifndef HW233_PLAYDRUMS_H_
-#include "hw233_playdrums.h"
+#ifndef HW222_CMIDIPACKET_H_
+#include "hw222_CMidiPacket.h"
 #endif
+
+#ifndef HW222_TEST_CMidiPacket_H_
+#include "hw222_test_CMidiPacket.h"
+#endif
+
 using namespace CMP22;
 
 int main()
 {
-	const int kFIRST_DRUM = 35;
-	const int kLAST_DRUM = 81;
-	create_gmdrums_vector(kFIRST_DRUM, kLAST_DRUM);
-	print_drums();
+  run_CMidiPacket_tests();
 }
