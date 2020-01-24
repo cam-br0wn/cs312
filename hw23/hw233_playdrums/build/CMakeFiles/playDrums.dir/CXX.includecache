@@ -28,16 +28,20 @@ iostream
 string
 -
 
-/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_main.cpp
-hw233_playdrums.h
-/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_playdrums.h
-
 /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_playdrums.cpp
 hw233_playdrums.h
 /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_playdrums.h
 iostream
 -
+string
+-
+sstream
+-
 vector
+-
+stdlib.h
+-
+iomanip
 -
 
 /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_playdrums.h
