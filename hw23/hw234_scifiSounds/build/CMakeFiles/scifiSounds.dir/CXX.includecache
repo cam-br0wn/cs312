@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/hw222_CMidiPacket.h
+iostream
+-
+string
+-
+
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp
+hw234_scifiSounds.h
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/hw234_scifiSounds.h
+iostream
+-
+string
+-
+sstream
+-
+vector
+-
+stdlib.h
+-
+iomanip
+-
+
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/hw234_scifiSounds.h
+hw222_CMidiPacket.h
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/hw222_CMidiPacket.h
+

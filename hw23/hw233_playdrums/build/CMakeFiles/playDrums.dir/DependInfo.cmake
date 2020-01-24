@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/hw222_CMidiPacket.cpp" "/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/build/CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.o"
-  "/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/hw233_main.cpp" "/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/build/CMakeFiles/playDrums.dir/hw233_main.cpp.o"
-  "/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/hw233_playdrums.cpp" "/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw23/hw233_playdrums/build/CMakeFiles/playDrums.dir/hw233_playdrums.cpp.o"
+  "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw222_CMidiPacket.cpp" "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/build/CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.o"
+  "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_main.cpp" "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/build/CMakeFiles/playDrums.dir/hw233_main.cpp.o"
+  "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_playdrums.cpp" "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/build/CMakeFiles/playDrums.dir/hw233_playdrums.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

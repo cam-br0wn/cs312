@@ -48,10 +48,10 @@ RM = /Software/elcapitan-local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums
+CMAKE_SOURCE_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/build
+CMAKE_BINARY_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/build/CMakeFiles /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/build/CMakeFiles /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named playDrums
+# Target rules for targets named scifiSounds
 
 # Build rule for target.
-playDrums: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 playDrums
-.PHONY : playDrums
+scifiSounds: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 scifiSounds
+.PHONY : scifiSounds
 
 # fast build rule for target.
-playDrums/fast:
-	$(MAKE) -f CMakeFiles/playDrums.dir/build.make CMakeFiles/playDrums.dir/build
-.PHONY : playDrums/fast
+scifiSounds/fast:
+	$(MAKE) -f CMakeFiles/scifiSounds.dir/build.make CMakeFiles/scifiSounds.dir/build
+.PHONY : scifiSounds/fast
 
 hw222_CMidiPacket.o: hw222_CMidiPacket.cpp.o
 
@@ -129,7 +129,7 @@ hw222_CMidiPacket.o: hw222_CMidiPacket.cpp.o
 
 # target to build an object file
 hw222_CMidiPacket.cpp.o:
-	$(MAKE) -f CMakeFiles/playDrums.dir/build.make CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.o
+	$(MAKE) -f CMakeFiles/scifiSounds.dir/build.make CMakeFiles/scifiSounds.dir/hw222_CMidiPacket.cpp.o
 .PHONY : hw222_CMidiPacket.cpp.o
 
 hw222_CMidiPacket.i: hw222_CMidiPacket.cpp.i
@@ -138,7 +138,7 @@ hw222_CMidiPacket.i: hw222_CMidiPacket.cpp.i
 
 # target to preprocess a source file
 hw222_CMidiPacket.cpp.i:
-	$(MAKE) -f CMakeFiles/playDrums.dir/build.make CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.i
+	$(MAKE) -f CMakeFiles/scifiSounds.dir/build.make CMakeFiles/scifiSounds.dir/hw222_CMidiPacket.cpp.i
 .PHONY : hw222_CMidiPacket.cpp.i
 
 hw222_CMidiPacket.s: hw222_CMidiPacket.cpp.s
@@ -147,62 +147,62 @@ hw222_CMidiPacket.s: hw222_CMidiPacket.cpp.s
 
 # target to generate assembly for a file
 hw222_CMidiPacket.cpp.s:
-	$(MAKE) -f CMakeFiles/playDrums.dir/build.make CMakeFiles/playDrums.dir/hw222_CMidiPacket.cpp.s
+	$(MAKE) -f CMakeFiles/scifiSounds.dir/build.make CMakeFiles/scifiSounds.dir/hw222_CMidiPacket.cpp.s
 .PHONY : hw222_CMidiPacket.cpp.s
 
-hw233_main.o: hw233_main.cpp.o
+hw234_main.o: hw234_main.cpp.o
 
-.PHONY : hw233_main.o
-
-# target to build an object file
-hw233_main.cpp.o:
-	$(MAKE) -f CMakeFiles/playDrums.dir/build.make CMakeFiles/playDrums.dir/hw233_main.cpp.o
-.PHONY : hw233_main.cpp.o
-
-hw233_main.i: hw233_main.cpp.i
-
-.PHONY : hw233_main.i
-
-# target to preprocess a source file
-hw233_main.cpp.i:
-	$(MAKE) -f CMakeFiles/playDrums.dir/build.make CMakeFiles/playDrums.dir/hw233_main.cpp.i
-.PHONY : hw233_main.cpp.i
-
-hw233_main.s: hw233_main.cpp.s
-
-.PHONY : hw233_main.s
-
-# target to generate assembly for a file
-hw233_main.cpp.s:
-	$(MAKE) -f CMakeFiles/playDrums.dir/build.make CMakeFiles/playDrums.dir/hw233_main.cpp.s
-.PHONY : hw233_main.cpp.s
-
-hw233_playdrums.o: hw233_playdrums.cpp.o
-
-.PHONY : hw233_playdrums.o
+.PHONY : hw234_main.o
 
 # target to build an object file
-hw233_playdrums.cpp.o:
-	$(MAKE) -f CMakeFiles/playDrums.dir/build.make CMakeFiles/playDrums.dir/hw233_playdrums.cpp.o
-.PHONY : hw233_playdrums.cpp.o
+hw234_main.cpp.o:
+	$(MAKE) -f CMakeFiles/scifiSounds.dir/build.make CMakeFiles/scifiSounds.dir/hw234_main.cpp.o
+.PHONY : hw234_main.cpp.o
 
-hw233_playdrums.i: hw233_playdrums.cpp.i
+hw234_main.i: hw234_main.cpp.i
 
-.PHONY : hw233_playdrums.i
+.PHONY : hw234_main.i
 
 # target to preprocess a source file
-hw233_playdrums.cpp.i:
-	$(MAKE) -f CMakeFiles/playDrums.dir/build.make CMakeFiles/playDrums.dir/hw233_playdrums.cpp.i
-.PHONY : hw233_playdrums.cpp.i
+hw234_main.cpp.i:
+	$(MAKE) -f CMakeFiles/scifiSounds.dir/build.make CMakeFiles/scifiSounds.dir/hw234_main.cpp.i
+.PHONY : hw234_main.cpp.i
 
-hw233_playdrums.s: hw233_playdrums.cpp.s
+hw234_main.s: hw234_main.cpp.s
 
-.PHONY : hw233_playdrums.s
+.PHONY : hw234_main.s
 
 # target to generate assembly for a file
-hw233_playdrums.cpp.s:
-	$(MAKE) -f CMakeFiles/playDrums.dir/build.make CMakeFiles/playDrums.dir/hw233_playdrums.cpp.s
-.PHONY : hw233_playdrums.cpp.s
+hw234_main.cpp.s:
+	$(MAKE) -f CMakeFiles/scifiSounds.dir/build.make CMakeFiles/scifiSounds.dir/hw234_main.cpp.s
+.PHONY : hw234_main.cpp.s
+
+hw234_scifiSounds.o: hw234_scifiSounds.cpp.o
+
+.PHONY : hw234_scifiSounds.o
+
+# target to build an object file
+hw234_scifiSounds.cpp.o:
+	$(MAKE) -f CMakeFiles/scifiSounds.dir/build.make CMakeFiles/scifiSounds.dir/hw234_scifiSounds.cpp.o
+.PHONY : hw234_scifiSounds.cpp.o
+
+hw234_scifiSounds.i: hw234_scifiSounds.cpp.i
+
+.PHONY : hw234_scifiSounds.i
+
+# target to preprocess a source file
+hw234_scifiSounds.cpp.i:
+	$(MAKE) -f CMakeFiles/scifiSounds.dir/build.make CMakeFiles/scifiSounds.dir/hw234_scifiSounds.cpp.i
+.PHONY : hw234_scifiSounds.cpp.i
+
+hw234_scifiSounds.s: hw234_scifiSounds.cpp.s
+
+.PHONY : hw234_scifiSounds.s
+
+# target to generate assembly for a file
+hw234_scifiSounds.cpp.s:
+	$(MAKE) -f CMakeFiles/scifiSounds.dir/build.make CMakeFiles/scifiSounds.dir/hw234_scifiSounds.cpp.s
+.PHONY : hw234_scifiSounds.cpp.s
 
 # Help Target
 help:
@@ -212,16 +212,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... playDrums"
+	@echo "... scifiSounds"
 	@echo "... hw222_CMidiPacket.o"
 	@echo "... hw222_CMidiPacket.i"
 	@echo "... hw222_CMidiPacket.s"
-	@echo "... hw233_main.o"
-	@echo "... hw233_main.i"
-	@echo "... hw233_main.s"
-	@echo "... hw233_playdrums.o"
-	@echo "... hw233_playdrums.i"
-	@echo "... hw233_playdrums.s"
+	@echo "... hw234_main.o"
+	@echo "... hw234_main.i"
+	@echo "... hw234_main.s"
+	@echo "... hw234_scifiSounds.o"
+	@echo "... hw234_scifiSounds.i"
+	@echo "... hw234_scifiSounds.s"
 .PHONY : help
 
 
