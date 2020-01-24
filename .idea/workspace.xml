@@ -11,11 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d7c4a89e-0ee3-4bb5-9da3-c5ddd4d2ff87" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw22/hw221_boilerplate/hw221_boilerplate.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hw22/hw221_boilerplate/hw221_boilerplate.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw22/hw222_CMidiPacket/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/hw22/hw222_CMidiPacket/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw22/hw222_CMidiPacket/hw222_CMidiPacket.h" beforeDir="false" afterPath="$PROJECT_DIR$/hw22/hw222_CMidiPacket/hw222_CMidiPacket.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +31,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1WM3xZYnItmzeYBylpW8dXEWqJ9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
