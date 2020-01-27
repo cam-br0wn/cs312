@@ -1,0 +1,30 @@
+# CMakeLists_gtest.txt
+
+cmake_minimum_required(VERSION 3.0)
+set(APPNAME "gtestCMP32")
+project(${APPNAME})
+
+# JE sets to 0
+# class labs sets to 1
+set(FOR_CLASS 1)
+if(${FOR_CLASS}) 
+  set( HOME "/Volumes/cs312-00-w20/StuWork/stritzelm" )
+elseif(NOT ${FOR_CLASS})
+  set( HOME "/Users/je/cs312/_cs312" )
+endif(${FOR_CLASS}) 
+
+set(GTEST_INC "${HOME}/common/googletest/include/")
+set(GTEST_LIB "${HOME}/common/googletest/lib")
+include_directories(${GTEST_INC})
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -std=c++17 -Wall ")
+set(SOURCE_FILES
+  hw322_CMidiPacket.cpp
+  hw322_gtests.cpp
+)
+add_executable(${APPNAME} ${SOURCE_FILES})
+set(LINK_LIBS
+    ${GTEST_LIB}/libgtest_main.a
+    ${GTEST_LIB}/libgtest.a
+)
+target_link_libraries(${APPNAME} ${LINK_LIBS})
+add_test(NAME CMP32_test COMMAND ${APPNAME})
