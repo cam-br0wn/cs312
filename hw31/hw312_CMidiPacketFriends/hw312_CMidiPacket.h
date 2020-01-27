@@ -1,12 +1,12 @@
-// hw212_CMidiPacket.h
-/*
-JE version of hw212_CMidiPacket.h
-hw212_CMidiPacket is now late and will not be accepted
-This version is used for class lab 3.1
-Ideally you'd have hw222_CMidiPacket well underway.
-Add features developed in hw312_CMidiPacket to your hw222_CMidiPacket 
-as soon as possible.
-*/
+/***************************************************************
+hw312_CMidiPacket.h
+Copyright (c) Carleton College CS312 free open source
+Assignment: hw312
+Stritzel Matt stritzelm@carleton.edu
+Brown Cam brownc@carleton.edu
+DATE: 2020-01-26
+TIME: 23:09:54
+****************************************************************/
 
 #ifndef HW312_CMIDIPACKET_H_
 #define HW312_CMIDIPACKET_H_
@@ -18,12 +18,12 @@ namespace CMP31
 {
 class CMidiPacket
 {
-  // MidiPacket2 data
-  uint32_t timestamp_;
-  uint8_t status_;
-  uint8_t data1_;
-  uint8_t data2_;
-  uint8_t length_;
+    // MidiPacket2 data
+    uint32_t timestamp_;
+    uint8_t status_;
+    uint8_t data1_;
+    uint8_t data2_;
+    uint8_t length_;
 
 public:
   // from class snippet
@@ -67,6 +67,7 @@ public:
   // operator< for testing less_than for MidiPackets
   friend bool operator<(const CMidiPacket &a, const CMidiPacket &b);
   /****************************** END FRIENDS ******************************/
+
 };
 } // namespace CMP31
 #endif // HW212_CMIDIPACKET_H_

@@ -1,12 +1,12 @@
-// hw212_CMidiPacket.cpp
-/*
-JE version of hw212_CMidiPacket.cpp
-hw212_CMidiPacket is now late and will not be accepted
-This version is used for class lab 3.1
-Ideally you'd have hw222_CMidiPacket well underway.
-Add features developed in hw312_CMidiPacket to your hw222_CMidiPacket 
-as soon as possible.
-*/
+/***************************************************************
+hw312_CMidiPacket.cpp
+Copyright (c) Carleton College CS312 free open source
+Assignment: hw312
+Stritzel Matt stritzelm@carleton.edu
+Brown Cam brownc@carleton.edu
+DATE: 2020-01-26
+TIME: 23:09:54
+****************************************************************/
 
 #ifndef HW312_CMIDIPACKET_H_
 #include "hw312_CMidiPacket.h"
@@ -167,7 +167,7 @@ std::ostream &CMP31::operator<<(std::ostream &os, const CMidiPacket &mp)
   os << std::dec << static_cast<int>(mp.timestamp_) << '\t' << std::hex << static_cast<int>(mp.status_) << '\t' << std::dec << static_cast<int>(mp.data1_);
   if (mp.length_ == 3)
   {
-    os << std::dec << static_cast<int>(mp.data2_);
+    os << '\t' << std::dec << static_cast<int>(mp.data2_);
   }
   os << '\n';
   return os;
@@ -176,12 +176,21 @@ std::ostream &CMP31::operator<<(std::ostream &os, const CMidiPacket &mp)
 // removed const from mp because mp will be changed when reading from input stream
 std::istream &CMP31::operator>>(std::istream &is, CMidiPacket &mp)
 {
-  is >> std::dec >> static_cast<int>(mp.timestamp_) >> '\t' >> std::hex >> static_cast<int>(mp.status_) >> '\t' >> std::dec >> static_cast<int>(mp.data1_);
+    char tab = '\t';
+    char* tab_pointer = &tab;
+    char new_line = '\n';
+    char* new_line_pointer = &new_line;
+  is >> std::dec >> mp.timestamp_;
+  is >> tab_pointer;
+  is >> std::hex >> mp.status_;
+  is >> tab_pointer;
+  is >> std::dec >> mp.data1_;
   if (mp.length_ == 3)
   {
-    is >> std::dec >> static_cast<int>(mp.data2_);
+      is >> tab_pointer;
+      is >> std::dec >> mp.data2_;
   }
-  is >> '\n';
+  is >> new_line_pointer;
   return is;
 }
 
@@ -192,9 +201,7 @@ bool CMP31::operator==(const CMidiPacket &a, const CMidiPacket &b)
   // equivalent data members timestamp_, status_, data1_, data2_, length_
   // match exactly between a and b
   // return true or false
-  std::cout << "You need to write operator==\n";
-  bool ok = false;
-  return ok;
+  return (a.timestamp_ == b.timestamp_) && (a.status_ == b.status_) && (a.data1_ == b.data1_) && (a.data2_ == b.data2_);
 }
 
 // the most complicated overload in CMidiPacket

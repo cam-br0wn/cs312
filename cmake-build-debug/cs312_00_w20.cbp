@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cs312_00_w20"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cs312_00_w20">
+				<Option output="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/cs312_00_w20" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/common"/>
+					<Add directory="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw13"/>
+					<Add directory="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw212_CMidiPacket"/>
+					<Add directory="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw222_CMidiPacket"/>
+					<Add directory="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_chrono/c23_MidiPacketTimer"/>
+					<Add directory="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw231_testCMP22"/>
+					<Add directory="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums"/>
+					<Add directory="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds"/>
+					<Add directory="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/c313_regex_example3"/>
+					<Add directory="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/hw312_CMidiPacketFriends"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/Makefile&quot;  VERBOSE=1 cs312_00_w20"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cs312_00_w20/fast">
+				<Option output="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/cs312_00_w20" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/common"/>
+					<Add directory="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw13"/>
+					<Add directory="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw212_CMidiPacket"/>
+					<Add directory="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw222_CMidiPacket"/>
+					<Add directory="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_chrono/c23_MidiPacketTimer"/>
+					<Add directory="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw231_testCMP22"/>
+					<Add directory="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums"/>
+					<Add directory="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds"/>
+					<Add directory="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/c313_regex_example3"/>
+					<Add directory="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/hw312_CMidiPacketFriends"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/Makefile&quot;  VERBOSE=1 cs312_00_w20/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/common/hw222_CMidiPacket.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/common/hw222_CMidiPacket.h">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw11/a.out">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw11/a.out.dSYM/Contents/Info.plist">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw11/a.out.dSYM/Contents/Resources/DWARF/a.out">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw11/foo">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw11/helloMidi">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw11/helloMidi.dSYM/Contents/Info.plist">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw11/helloMidi.dSYM/Contents/Resources/DWARF/helloMidi">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw11/hw111_boilerplate.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw11/hw112_helloMidi.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw12/hw121_charOutput.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw12/hw122_charOutputTemplate.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw12/hw123_charLoop.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw12/hw124_asciiTool.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw12/hw125_printMajorScale.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw13/a.out">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw13/a.out.dSYM/Contents/Info.plist">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw13/a.out.dSYM/Contents/Resources/DWARF/a.out">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw13/hw13.zip">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw13/hw131_MidiPacket.h">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw13/hw131_MidiPacket_sizeof.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw13/hw132_MidiPacket_cout.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw13/hw133_chromaticScale_vector.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/_MACOSX">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/a.out">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io01_global_struct.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io02_boolalpha.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io03_showpos.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io04_showbase.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io05_format1.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io06_format2.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io07_format3.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io08_format4.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io09_format5.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io10_format6.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io11_format7.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io12_format8.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io13_stdcintest.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/a.out">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str01_initialize.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str02_length_size.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str03_copy_constructor.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str04_assignment_operator.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str05_append.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str06_append_char.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str07_chars_index.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str08_chars_at.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str09_assign.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str10_insert.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str11_erase.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str12_replace.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str13_compare.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str14_substr.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str15_find.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str16_find_tab_chars.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/a.out">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss02_string_to_number.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss03_stringstreams.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss04_str2float.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss06_binary_bitset.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c214_pointers/ptr01_at_star.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c214_pointers/ptr02_elementAccess.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c214_pointers/ptr03_set2null.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/deleteme.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21cd">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw211_hexIntToString/a.out">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw211_hexIntToString/a.out.dSYM/Contents/Info.plist">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw211_hexIntToString/a.out.dSYM/Contents/Resources/DWARF/a.out">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw212_CMidiPacket/a.out">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw212_CMidiPacket/a.out.dSYM/Contents/Info.plist">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw212_CMidiPacket/a.out.dSYM/Contents/Resources/DWARF/a.out">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw212_CMidiPacket/hw212_CMidiPacket.h">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw212_CMidiPacket/hw212_main.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/c221_argc_argv/argc_argv.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/c221_argc_argv/c221_argc_argv.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw221_boilerplate/hw221_boilerplate.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw222_CMidiPacket/hw222_CMidiPacket.h">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw222_CMidiPacket/hw222_main.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.h">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_chrono/c23_MidiPacketTimer/C23_CTimer.h">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_chrono/c23_MidiPacketTimer/hw131_MidiPacket.h">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_chrono/c23_chronoFeatures.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_chrono/c23_simpleDelay.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand1.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand2.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand3.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand4.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand5.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand6.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand7.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand8.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand9.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v01.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v02.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v03.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v04.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v05.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v06.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v07.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v08.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v09.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v10.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v11.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v12.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v13.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v14.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v15.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v16.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v17.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v18.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v19.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v20.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v21.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v22.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v23.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v24.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v25.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v26.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v27.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v28.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v29.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw231_testCMP22/hw222_CMidiPacket.h">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw231_testCMP22/hw222_main.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw231_testCMP22/hw231_testCMP22.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw232_gmdrums/hw232_gmdrums.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw232_gmdrums/hw232_main.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw222_CMidiPacket.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw222_CMidiPacket.h">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_main.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_playdrums.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_playdrums.h">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/hw222_CMidiPacket.h">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/hw234_main.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/hw234_scifiSounds.h">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/c311_regex_example1/c311_regex.txt">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/c312_regex_example2/c312_regex2.txt">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/c313_regex_example3/c313_helloMidi_regex.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/c313_regex_example3/hw312_CMidiPacket.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/c313_regex_example3/hw312_CMidiPacket.h">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/hw311_regex/hw311_answer.txt">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/hw311_regex/oldDatabase.txt">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.h">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/hw312_CMidiPacketFriends/hw312_main.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.h">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/test_directory/tester.cpp">
+			<Option target="cs312_00_w20"/>
+		</Unit>
+		<Unit filename="/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

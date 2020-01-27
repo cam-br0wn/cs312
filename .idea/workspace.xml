@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="cs312_00_w20" targetName="cs312_00_w20" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -10,7 +12,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7c4a89e-0ee3-4bb5-9da3-c5ddd4d2ff87" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/cs312-00-w20.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cs312-00-w20.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw23/hw234_scifiSounds/build/CMakeFiles/3.16.0/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw23/hw234_scifiSounds/build/CMakeFiles/3.16.0/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw23/hw234_scifiSounds/build/CMakeFiles/3.16.0/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw23/hw234_scifiSounds/build/CMakeFiles/3.16.0/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw23/hw234_scifiSounds/build/CMakeFiles/3.16.0/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw23/hw234_scifiSounds/build/CMakeFiles/3.16.0/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw23/hw234_scifiSounds/build/CMakeFiles/3.16.0/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw23/hw234_scifiSounds/build/CMakeFiles/3.16.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw23/hw234_scifiSounds/build/CMakeFiles/3.16.0/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw23/hw234_scifiSounds/build/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw23/hw234_scifiSounds/build/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw23/hw234_scifiSounds/build/CMakeFiles/scifiSounds.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw23/hw234_scifiSounds/build/CMakeFiles/scifiSounds.dir/hw222_CMidiPacket.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw311_regex/hw311_answer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw311_regex/hw311_answer.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw311_regex/oldDatabase.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw311_regex/oldDatabase.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/3.16.0-rc4/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/3.16.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/3.16.0-rc4/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/3.16.0-rc4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/3.16.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/3.16.0-rc4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/3.16.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/3.16.0-rc4/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/3.16.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/3.16.0-rc4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/3.16.0-rc4/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/3.16.2/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/3.16.0-rc4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/3.16.0-rc4/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/3.16.2/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/cmp31.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/cmp31.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/cmp31.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/cmp31.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/cmp31.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/cmp31.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/cmp31.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/cmp31.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/cmp31.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/cmp31.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/cmp31.dir/hw312_CMidiPacket.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/cmp31.dir/hw312_CMidiPacket.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/cmp31.dir/hw312_main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/cmp31.dir/hw312_main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/cmp31.dir/hw312_test_CMidiPacket.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/cmp31.dir/hw312_test_CMidiPacket.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/cmp31.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/CMakeFiles/cmp31.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/cmp31" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/build/cmp31" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.h" beforeDir="false" afterPath="$PROJECT_DIR$/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +69,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -40,11 +90,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw31/hw311_regex" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.make" />
+  </component>
+  <component name="RunManager">
+    <configuration name="cs312_00_w20" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cs312_00_w20" TARGET_NAME="cs312_00_w20" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cs312_00_w20" RUN_TARGET_NAME="cs312_00_w20">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -73,6 +132,7 @@
       <workItem from="1579538128293" duration="113000" />
       <workItem from="1579538262474" duration="1594000" />
       <workItem from="1579716131202" duration="2107000" />
+      <workItem from="1580097564894" duration="3638000" />
     </task>
     <task id="LOCAL-00001" summary="modified hw112">
       <created>1578948031808</created>
@@ -88,6 +148,7 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="modified hw112" />
     <option name="LAST_COMMIT_MESSAGE" value="modified hw112" />
   </component>
@@ -96,6 +157,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="434" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1578948031538" />
+    <state x="498" y="435" key="FileChooserDialogImpl" timestamp="1580100633550">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="498" y="435" key="FileChooserDialogImpl/0.0.1680.1050@0.0.1680.1050" timestamp="1580100633550" />
     <state x="349" y="164" key="SettingsEditor" timestamp="1578950424317">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -104,6 +169,14 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1578948035460" />
+    <state x="629" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580098772932">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="629" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.1027@0.23.1680.1027" timestamp="1580098772932" />
+    <state x="377" y="309" width="667" height="729" key="find.popup" timestamp="1580100335604">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="377" y="309" width="667" height="729" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1580100335604" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1579577611760">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

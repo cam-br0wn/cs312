@@ -1,25 +1,25 @@
-Justin	Creighton	(408)274-1391
-Sari	Dwyer	(541)713-2241
-Luis	Metzler	(660)299-4151
-Caridad	Worthy	(225)314-1509
-Mana	Mckay	(361)903-5171
-Ryan	Pettis	(575)443-3333
-Chassidy	Ott	(585)472-1483
-Rana	Elkins	(818)623-8830
-Harley	Sorenson	(443)782-6537
-Rosalina	Hobbs	(402)286-3439
-Arlie	Pinto	(430)994-1641
-Henry	Samson	(407)699-7668
-Verena	Lockett	(732)739-5150
-Debby	Feldman	(678)404-1948
-Keenan	Vann	(641)921-8478
-Angelo	Bounds	(386)397-3184
-Taunya	Crutchfield	(671)635-1188
-Russell	Zeller	(386)283-7545
-Rasheeda	Winfield	(361)216-5271
-Elenore	Spaulding	(617)821-7668
-Rima	Mcintyre	(763)473-5312
-Gabrielle	Smyth	(201)710-6795
-Audria	Mcfarland	(479)820-9842
-Dusti	Abraham	(469)352-1352
-Latrina	Wendt	(513)560-9145
+Creighton,Justin,408,274,1391
+Dwyer,Sari,541,713,2241
+Metzler,Luis,660,299,4151
+Worthy,Caridad,225,314,1509
+Mckay,Mana,361,903,5171
+Pettis,Ryan,575,443,3333
+Ott,Chassidy,585,472,1483
+Elkins,Rana,818,623,8830
+Sorenson,Harley,443,782,6537
+Hobbs,Rosalina,402,286,3439
+Pinto,Arlie,430,994,1641
+Samson,Henry,407,699,7668
+Lockett,Verena,732,739,5150
+Feldman,Debby,678,404,1948
+Vann,Keenan,641,921,8478
+Bounds,Angelo,386,397,3184
+Crutchfield,Taunya,671,635,1188
+Zeller,Russell,386,283,7545
+Winfield,Rasheeda,361,216,5271
+Spaulding,Elenore,617,821,7668
+Mcintyre,Rima,763,473,5312
+Smyth,Gabrielle,201,710,6795
+Mcfarland,Audria,479,820,9842
+Abraham,Dusti,469,352,1352
+Wendt,Latrina,513,560,9145

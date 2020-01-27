@@ -3,9 +3,9 @@ set( APPNAME "cmp31" )
 project( ${APPNAME} )
 
 #edit next line
-#set( HOME "/Volumes/cs312-00-w20/StuWork/<your_email_name>" )
-set( HOME "/Users/je" )
-set( COMMON "${HOME}/cs312/common" )
+set( HOME "/Volumes/cs312-00-w20/StuWork/brownc2" )
+#set( HOME "/Users/je" )
+set( COMMON "${HOME}/cs312/cs312-00-w20/common" )
 
 set( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -Wall " )
 set( SOURCE_FILES

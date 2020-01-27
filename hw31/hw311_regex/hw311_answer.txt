@@ -1,6 +1,39 @@
-// boilerplate here
-My find regex is here: ^(\w+)\s+(\w+)\s+(\S*)$
+/***************************************************************
+hw311_answer.txt
+Copyright (c) Carleton College CS312 free open source
+Assignment: hw311
+Stritzel Matt stritzelm@carleton.edu
+Brown Cam brownc@carleton.edu
+DATE: 2020-01-26
+TIME: 23:09:54
+****************************************************************/
+My find regex is here: ^(\w+)\s+(\w+)\s+(\()(\d+)(\))(\d+).(\d+)$
 
-My replace regex is here:
+My replace regex is here: $2,$1,$4,$6,$7
 
 My converted output is here:
+Creighton,Justin,408,274,1391
+Dwyer,Sari,541,713,2241
+Metzler,Luis,660,299,4151
+Worthy,Caridad,225,314,1509
+Mckay,Mana,361,903,5171
+Pettis,Ryan,575,443,3333
+Ott,Chassidy,585,472,1483
+Elkins,Rana,818,623,8830
+Sorenson,Harley,443,782,6537
+Hobbs,Rosalina,402,286,3439
+Pinto,Arlie,430,994,1641
+Samson,Henry,407,699,7668
+Lockett,Verena,732,739,5150
+Feldman,Debby,678,404,1948
+Vann,Keenan,641,921,8478
+Bounds,Angelo,386,397,3184
+Crutchfield,Taunya,671,635,1188
+Zeller,Russell,386,283,7545
+Winfield,Rasheeda,361,216,5271
+Spaulding,Elenore,617,821,7668
+Mcintyre,Rima,763,473,5312
+Smyth,Gabrielle,201,710,6795
+Mcfarland,Audria,479,820,9842
+Abraham,Dusti,469,352,1352
+Wendt,Latrina,513,560,9145

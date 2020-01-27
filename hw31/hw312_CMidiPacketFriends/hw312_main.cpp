@@ -1,4 +1,12 @@
-// hw222_main.cpp
+/***************************************************************
+hw312_main.cpp
+Copyright (c) Carleton College CS312 free open source
+Assignment: hw312
+Stritzel Matt stritzelm@carleton.edu
+Brown Cam brownc@carleton.edu
+DATE: 2020-01-26
+TIME: 23:09:54
+****************************************************************/
 
 #ifndef HW312_CMIDIPACKET_H_
 #include "hw312_CMidiPacket.h"
