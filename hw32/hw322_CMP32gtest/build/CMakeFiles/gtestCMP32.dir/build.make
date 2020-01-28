@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CMake.app/Contents/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.16.2/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.16.2/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw32/hw322_CMP32gtest
+CMAKE_SOURCE_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw32/hw322_CMP32gtest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw32/hw322_CMP32gtest/build
+CMAKE_BINARY_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw32/hw322_CMP32gtest/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gtestCMP32.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/gtestCMP32.dir/flags.make
 
 CMakeFiles/gtestCMP32.dir/hw322_CMidiPacket.cpp.o: CMakeFiles/gtestCMP32.dir/flags.make
 CMakeFiles/gtestCMP32.dir/hw322_CMidiPacket.cpp.o: ../hw322_CMidiPacket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw32/hw322_CMP32gtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gtestCMP32.dir/hw322_CMidiPacket.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtestCMP32.dir/hw322_CMidiPacket.cpp.o -c /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw32/hw322_CMP32gtest/hw322_CMidiPacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw32/hw322_CMP32gtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gtestCMP32.dir/hw322_CMidiPacket.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtestCMP32.dir/hw322_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw32/hw322_CMP32gtest/hw322_CMidiPacket.cpp
 
 CMakeFiles/gtestCMP32.dir/hw322_CMidiPacket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtestCMP32.dir/hw322_CMidiPacket.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw32/hw322_CMP32gtest/hw322_CMidiPacket.cpp > CMakeFiles/gtestCMP32.dir/hw322_CMidiPacket.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw32/hw322_CMP32gtest/hw322_CMidiPacket.cpp > CMakeFiles/gtestCMP32.dir/hw322_CMidiPacket.cpp.i
 
 CMakeFiles/gtestCMP32.dir/hw322_CMidiPacket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtestCMP32.dir/hw322_CMidiPacket.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw32/hw322_CMP32gtest/hw322_CMidiPacket.cpp -o CMakeFiles/gtestCMP32.dir/hw322_CMidiPacket.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw32/hw322_CMP32gtest/hw322_CMidiPacket.cpp -o CMakeFiles/gtestCMP32.dir/hw322_CMidiPacket.cpp.s
 
 CMakeFiles/gtestCMP32.dir/hw322_gtests.cpp.o: CMakeFiles/gtestCMP32.dir/flags.make
 CMakeFiles/gtestCMP32.dir/hw322_gtests.cpp.o: ../hw322_gtests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw32/hw322_CMP32gtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gtestCMP32.dir/hw322_gtests.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtestCMP32.dir/hw322_gtests.cpp.o -c /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw32/hw322_CMP32gtest/hw322_gtests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw32/hw322_CMP32gtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gtestCMP32.dir/hw322_gtests.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtestCMP32.dir/hw322_gtests.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw32/hw322_CMP32gtest/hw322_gtests.cpp
 
 CMakeFiles/gtestCMP32.dir/hw322_gtests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtestCMP32.dir/hw322_gtests.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw32/hw322_CMP32gtest/hw322_gtests.cpp > CMakeFiles/gtestCMP32.dir/hw322_gtests.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw32/hw322_CMP32gtest/hw322_gtests.cpp > CMakeFiles/gtestCMP32.dir/hw322_gtests.cpp.i
 
 CMakeFiles/gtestCMP32.dir/hw322_gtests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtestCMP32.dir/hw322_gtests.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw32/hw322_CMP32gtest/hw322_gtests.cpp -o CMakeFiles/gtestCMP32.dir/hw322_gtests.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw32/hw322_CMP32gtest/hw322_gtests.cpp -o CMakeFiles/gtestCMP32.dir/hw322_gtests.cpp.s
 
 # Object files for target gtestCMP32
 gtestCMP32_OBJECTS = \
@@ -94,10 +94,10 @@ gtestCMP32_EXTERNAL_OBJECTS =
 gtestCMP32: CMakeFiles/gtestCMP32.dir/hw322_CMidiPacket.cpp.o
 gtestCMP32: CMakeFiles/gtestCMP32.dir/hw322_gtests.cpp.o
 gtestCMP32: CMakeFiles/gtestCMP32.dir/build.make
-gtestCMP32: /Volumes/cs312-00-w20/StuWork/stritzelm/common/googletest/lib/libgtest_main.a
-gtestCMP32: /Volumes/cs312-00-w20/StuWork/stritzelm/common/googletest/lib/libgtest.a
+gtestCMP32: /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/googletest/lib/libgtest_main.a
+gtestCMP32: /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/googletest/lib/libgtest.a
 gtestCMP32: CMakeFiles/gtestCMP32.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw32/hw322_CMP32gtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable gtestCMP32"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw32/hw322_CMP32gtest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable gtestCMP32"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtestCMP32.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -110,6 +110,6 @@ CMakeFiles/gtestCMP32.dir/clean:
 .PHONY : CMakeFiles/gtestCMP32.dir/clean
 
 CMakeFiles/gtestCMP32.dir/depend:
-	cd /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw32/hw322_CMP32gtest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw32/hw322_CMP32gtest /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw32/hw322_CMP32gtest /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw32/hw322_CMP32gtest/build /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw32/hw322_CMP32gtest/build /Volumes/cs312-00-w20/StuWork/stritzelm/cs312/hw32/hw322_CMP32gtest/build/CMakeFiles/gtestCMP32.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw32/hw322_CMP32gtest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw32/hw322_CMP32gtest /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw32/hw322_CMP32gtest /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw32/hw322_CMP32gtest/build /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw32/hw322_CMP32gtest/build /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw32/hw322_CMP32gtest/build/CMakeFiles/gtestCMP32.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gtestCMP32.dir/depend
 

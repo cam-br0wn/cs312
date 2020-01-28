@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312
 -- The C compiler identification is AppleClang 11.0.0.11000033
 -- The CXX compiler identification is AppleClang 11.0.0.11000033
 -- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug
+-- Build files have been written to: /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug

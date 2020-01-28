@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20
+CMAKE_SOURCE_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug
+CMAKE_BINARY_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cs312_00_w20.dir/depend.make
@@ -59,1550 +59,1550 @@ include CMakeFiles/cs312_00_w20.dir/flags.make
 
 CMakeFiles/cs312_00_w20.dir/common/hw222_CMidiPacket.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/common/hw222_CMidiPacket.cpp.o: ../common/hw222_CMidiPacket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cs312_00_w20.dir/common/hw222_CMidiPacket.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/common/hw222_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/common/hw222_CMidiPacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cs312_00_w20.dir/common/hw222_CMidiPacket.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/common/hw222_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/common/hw222_CMidiPacket.cpp
 
 CMakeFiles/cs312_00_w20.dir/common/hw222_CMidiPacket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/common/hw222_CMidiPacket.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/common/hw222_CMidiPacket.cpp > CMakeFiles/cs312_00_w20.dir/common/hw222_CMidiPacket.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/common/hw222_CMidiPacket.cpp > CMakeFiles/cs312_00_w20.dir/common/hw222_CMidiPacket.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/common/hw222_CMidiPacket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/common/hw222_CMidiPacket.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/common/hw222_CMidiPacket.cpp -o CMakeFiles/cs312_00_w20.dir/common/hw222_CMidiPacket.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/common/hw222_CMidiPacket.cpp -o CMakeFiles/cs312_00_w20.dir/common/hw222_CMidiPacket.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw11/hw111_boilerplate.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw11/hw111_boilerplate.cpp.o: ../hw11/hw111_boilerplate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw11/hw111_boilerplate.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw11/hw111_boilerplate.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw11/hw111_boilerplate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw11/hw111_boilerplate.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw11/hw111_boilerplate.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw11/hw111_boilerplate.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw11/hw111_boilerplate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw11/hw111_boilerplate.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw11/hw111_boilerplate.cpp > CMakeFiles/cs312_00_w20.dir/hw11/hw111_boilerplate.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw11/hw111_boilerplate.cpp > CMakeFiles/cs312_00_w20.dir/hw11/hw111_boilerplate.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw11/hw111_boilerplate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw11/hw111_boilerplate.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw11/hw111_boilerplate.cpp -o CMakeFiles/cs312_00_w20.dir/hw11/hw111_boilerplate.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw11/hw111_boilerplate.cpp -o CMakeFiles/cs312_00_w20.dir/hw11/hw111_boilerplate.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw11/hw112_helloMidi.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw11/hw112_helloMidi.cpp.o: ../hw11/hw112_helloMidi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw11/hw112_helloMidi.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw11/hw112_helloMidi.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw11/hw112_helloMidi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw11/hw112_helloMidi.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw11/hw112_helloMidi.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw11/hw112_helloMidi.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw11/hw112_helloMidi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw11/hw112_helloMidi.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw11/hw112_helloMidi.cpp > CMakeFiles/cs312_00_w20.dir/hw11/hw112_helloMidi.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw11/hw112_helloMidi.cpp > CMakeFiles/cs312_00_w20.dir/hw11/hw112_helloMidi.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw11/hw112_helloMidi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw11/hw112_helloMidi.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw11/hw112_helloMidi.cpp -o CMakeFiles/cs312_00_w20.dir/hw11/hw112_helloMidi.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw11/hw112_helloMidi.cpp -o CMakeFiles/cs312_00_w20.dir/hw11/hw112_helloMidi.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw12/hw121_charOutput.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw12/hw121_charOutput.cpp.o: ../hw12/hw121_charOutput.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw12/hw121_charOutput.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw12/hw121_charOutput.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw12/hw121_charOutput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw12/hw121_charOutput.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw12/hw121_charOutput.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw12/hw121_charOutput.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw12/hw121_charOutput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw12/hw121_charOutput.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw12/hw121_charOutput.cpp > CMakeFiles/cs312_00_w20.dir/hw12/hw121_charOutput.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw12/hw121_charOutput.cpp > CMakeFiles/cs312_00_w20.dir/hw12/hw121_charOutput.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw12/hw121_charOutput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw12/hw121_charOutput.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw12/hw121_charOutput.cpp -o CMakeFiles/cs312_00_w20.dir/hw12/hw121_charOutput.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw12/hw121_charOutput.cpp -o CMakeFiles/cs312_00_w20.dir/hw12/hw121_charOutput.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw12/hw122_charOutputTemplate.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw12/hw122_charOutputTemplate.cpp.o: ../hw12/hw122_charOutputTemplate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw12/hw122_charOutputTemplate.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw12/hw122_charOutputTemplate.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw12/hw122_charOutputTemplate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw12/hw122_charOutputTemplate.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw12/hw122_charOutputTemplate.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw12/hw122_charOutputTemplate.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw12/hw122_charOutputTemplate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw12/hw122_charOutputTemplate.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw12/hw122_charOutputTemplate.cpp > CMakeFiles/cs312_00_w20.dir/hw12/hw122_charOutputTemplate.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw12/hw122_charOutputTemplate.cpp > CMakeFiles/cs312_00_w20.dir/hw12/hw122_charOutputTemplate.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw12/hw122_charOutputTemplate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw12/hw122_charOutputTemplate.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw12/hw122_charOutputTemplate.cpp -o CMakeFiles/cs312_00_w20.dir/hw12/hw122_charOutputTemplate.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw12/hw122_charOutputTemplate.cpp -o CMakeFiles/cs312_00_w20.dir/hw12/hw122_charOutputTemplate.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw12/hw123_charLoop.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw12/hw123_charLoop.cpp.o: ../hw12/hw123_charLoop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw12/hw123_charLoop.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw12/hw123_charLoop.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw12/hw123_charLoop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw12/hw123_charLoop.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw12/hw123_charLoop.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw12/hw123_charLoop.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw12/hw123_charLoop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw12/hw123_charLoop.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw12/hw123_charLoop.cpp > CMakeFiles/cs312_00_w20.dir/hw12/hw123_charLoop.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw12/hw123_charLoop.cpp > CMakeFiles/cs312_00_w20.dir/hw12/hw123_charLoop.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw12/hw123_charLoop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw12/hw123_charLoop.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw12/hw123_charLoop.cpp -o CMakeFiles/cs312_00_w20.dir/hw12/hw123_charLoop.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw12/hw123_charLoop.cpp -o CMakeFiles/cs312_00_w20.dir/hw12/hw123_charLoop.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw12/hw124_asciiTool.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw12/hw124_asciiTool.cpp.o: ../hw12/hw124_asciiTool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw12/hw124_asciiTool.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw12/hw124_asciiTool.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw12/hw124_asciiTool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw12/hw124_asciiTool.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw12/hw124_asciiTool.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw12/hw124_asciiTool.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw12/hw124_asciiTool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw12/hw124_asciiTool.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw12/hw124_asciiTool.cpp > CMakeFiles/cs312_00_w20.dir/hw12/hw124_asciiTool.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw12/hw124_asciiTool.cpp > CMakeFiles/cs312_00_w20.dir/hw12/hw124_asciiTool.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw12/hw124_asciiTool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw12/hw124_asciiTool.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw12/hw124_asciiTool.cpp -o CMakeFiles/cs312_00_w20.dir/hw12/hw124_asciiTool.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw12/hw124_asciiTool.cpp -o CMakeFiles/cs312_00_w20.dir/hw12/hw124_asciiTool.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw12/hw125_printMajorScale.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw12/hw125_printMajorScale.cpp.o: ../hw12/hw125_printMajorScale.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw12/hw125_printMajorScale.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw12/hw125_printMajorScale.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw12/hw125_printMajorScale.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw12/hw125_printMajorScale.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw12/hw125_printMajorScale.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw12/hw125_printMajorScale.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw12/hw125_printMajorScale.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw12/hw125_printMajorScale.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw12/hw125_printMajorScale.cpp > CMakeFiles/cs312_00_w20.dir/hw12/hw125_printMajorScale.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw12/hw125_printMajorScale.cpp > CMakeFiles/cs312_00_w20.dir/hw12/hw125_printMajorScale.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw12/hw125_printMajorScale.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw12/hw125_printMajorScale.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw12/hw125_printMajorScale.cpp -o CMakeFiles/cs312_00_w20.dir/hw12/hw125_printMajorScale.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw12/hw125_printMajorScale.cpp -o CMakeFiles/cs312_00_w20.dir/hw12/hw125_printMajorScale.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw13/hw131_MidiPacket_sizeof.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw13/hw131_MidiPacket_sizeof.cpp.o: ../hw13/hw131_MidiPacket_sizeof.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw13/hw131_MidiPacket_sizeof.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw13/hw131_MidiPacket_sizeof.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw13/hw131_MidiPacket_sizeof.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw13/hw131_MidiPacket_sizeof.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw13/hw131_MidiPacket_sizeof.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw13/hw131_MidiPacket_sizeof.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw13/hw131_MidiPacket_sizeof.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw13/hw131_MidiPacket_sizeof.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw13/hw131_MidiPacket_sizeof.cpp > CMakeFiles/cs312_00_w20.dir/hw13/hw131_MidiPacket_sizeof.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw13/hw131_MidiPacket_sizeof.cpp > CMakeFiles/cs312_00_w20.dir/hw13/hw131_MidiPacket_sizeof.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw13/hw131_MidiPacket_sizeof.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw13/hw131_MidiPacket_sizeof.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw13/hw131_MidiPacket_sizeof.cpp -o CMakeFiles/cs312_00_w20.dir/hw13/hw131_MidiPacket_sizeof.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw13/hw131_MidiPacket_sizeof.cpp -o CMakeFiles/cs312_00_w20.dir/hw13/hw131_MidiPacket_sizeof.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw13/hw132_MidiPacket_cout.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw13/hw132_MidiPacket_cout.cpp.o: ../hw13/hw132_MidiPacket_cout.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw13/hw132_MidiPacket_cout.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw13/hw132_MidiPacket_cout.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw13/hw132_MidiPacket_cout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw13/hw132_MidiPacket_cout.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw13/hw132_MidiPacket_cout.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw13/hw132_MidiPacket_cout.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw13/hw132_MidiPacket_cout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw13/hw132_MidiPacket_cout.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw13/hw132_MidiPacket_cout.cpp > CMakeFiles/cs312_00_w20.dir/hw13/hw132_MidiPacket_cout.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw13/hw132_MidiPacket_cout.cpp > CMakeFiles/cs312_00_w20.dir/hw13/hw132_MidiPacket_cout.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw13/hw132_MidiPacket_cout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw13/hw132_MidiPacket_cout.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw13/hw132_MidiPacket_cout.cpp -o CMakeFiles/cs312_00_w20.dir/hw13/hw132_MidiPacket_cout.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw13/hw132_MidiPacket_cout.cpp -o CMakeFiles/cs312_00_w20.dir/hw13/hw132_MidiPacket_cout.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw13/hw133_chromaticScale_vector.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw13/hw133_chromaticScale_vector.cpp.o: ../hw13/hw133_chromaticScale_vector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw13/hw133_chromaticScale_vector.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw13/hw133_chromaticScale_vector.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw13/hw133_chromaticScale_vector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw13/hw133_chromaticScale_vector.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw13/hw133_chromaticScale_vector.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw13/hw133_chromaticScale_vector.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw13/hw133_chromaticScale_vector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw13/hw133_chromaticScale_vector.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw13/hw133_chromaticScale_vector.cpp > CMakeFiles/cs312_00_w20.dir/hw13/hw133_chromaticScale_vector.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw13/hw133_chromaticScale_vector.cpp > CMakeFiles/cs312_00_w20.dir/hw13/hw133_chromaticScale_vector.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw13/hw133_chromaticScale_vector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw13/hw133_chromaticScale_vector.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw13/hw133_chromaticScale_vector.cpp -o CMakeFiles/cs312_00_w20.dir/hw13/hw133_chromaticScale_vector.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw13/hw133_chromaticScale_vector.cpp -o CMakeFiles/cs312_00_w20.dir/hw13/hw133_chromaticScale_vector.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io01_global_struct.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io01_global_struct.cpp.o: ../hw21/class21/c211_io/io01_global_struct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io01_global_struct.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io01_global_struct.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io01_global_struct.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io01_global_struct.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io01_global_struct.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io01_global_struct.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io01_global_struct.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io01_global_struct.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io01_global_struct.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io01_global_struct.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io01_global_struct.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io01_global_struct.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io01_global_struct.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io01_global_struct.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io01_global_struct.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io01_global_struct.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io01_global_struct.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io01_global_struct.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io02_boolalpha.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io02_boolalpha.cpp.o: ../hw21/class21/c211_io/io02_boolalpha.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io02_boolalpha.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io02_boolalpha.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io02_boolalpha.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io02_boolalpha.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io02_boolalpha.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io02_boolalpha.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io02_boolalpha.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io02_boolalpha.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io02_boolalpha.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io02_boolalpha.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io02_boolalpha.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io02_boolalpha.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io02_boolalpha.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io02_boolalpha.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io02_boolalpha.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io02_boolalpha.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io02_boolalpha.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io02_boolalpha.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io03_showpos.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io03_showpos.cpp.o: ../hw21/class21/c211_io/io03_showpos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io03_showpos.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io03_showpos.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io03_showpos.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io03_showpos.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io03_showpos.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io03_showpos.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io03_showpos.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io03_showpos.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io03_showpos.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io03_showpos.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io03_showpos.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io03_showpos.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io03_showpos.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io03_showpos.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io03_showpos.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io03_showpos.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io03_showpos.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io03_showpos.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io04_showbase.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io04_showbase.cpp.o: ../hw21/class21/c211_io/io04_showbase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io04_showbase.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io04_showbase.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io04_showbase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io04_showbase.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io04_showbase.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io04_showbase.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io04_showbase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io04_showbase.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io04_showbase.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io04_showbase.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io04_showbase.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io04_showbase.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io04_showbase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io04_showbase.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io04_showbase.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io04_showbase.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io04_showbase.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io04_showbase.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io05_format1.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io05_format1.cpp.o: ../hw21/class21/c211_io/io05_format1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io05_format1.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io05_format1.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io05_format1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io05_format1.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io05_format1.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io05_format1.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io05_format1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io05_format1.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io05_format1.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io05_format1.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io05_format1.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io05_format1.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io05_format1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io05_format1.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io05_format1.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io05_format1.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io05_format1.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io05_format1.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io06_format2.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io06_format2.cpp.o: ../hw21/class21/c211_io/io06_format2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io06_format2.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io06_format2.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io06_format2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io06_format2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io06_format2.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io06_format2.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io06_format2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io06_format2.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io06_format2.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io06_format2.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io06_format2.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io06_format2.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io06_format2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io06_format2.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io06_format2.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io06_format2.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io06_format2.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io06_format2.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io07_format3.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io07_format3.cpp.o: ../hw21/class21/c211_io/io07_format3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io07_format3.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io07_format3.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io07_format3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io07_format3.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io07_format3.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io07_format3.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io07_format3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io07_format3.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io07_format3.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io07_format3.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io07_format3.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io07_format3.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io07_format3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io07_format3.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io07_format3.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io07_format3.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io07_format3.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io07_format3.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io08_format4.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io08_format4.cpp.o: ../hw21/class21/c211_io/io08_format4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io08_format4.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io08_format4.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io08_format4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io08_format4.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io08_format4.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io08_format4.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io08_format4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io08_format4.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io08_format4.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io08_format4.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io08_format4.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io08_format4.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io08_format4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io08_format4.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io08_format4.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io08_format4.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io08_format4.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io08_format4.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io09_format5.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io09_format5.cpp.o: ../hw21/class21/c211_io/io09_format5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io09_format5.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io09_format5.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io09_format5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io09_format5.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io09_format5.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io09_format5.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io09_format5.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io09_format5.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io09_format5.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io09_format5.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io09_format5.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io09_format5.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io09_format5.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io09_format5.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io09_format5.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io09_format5.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io09_format5.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io09_format5.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io10_format6.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io10_format6.cpp.o: ../hw21/class21/c211_io/io10_format6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io10_format6.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io10_format6.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io10_format6.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io10_format6.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io10_format6.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io10_format6.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io10_format6.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io10_format6.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io10_format6.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io10_format6.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io10_format6.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io10_format6.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io10_format6.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io10_format6.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io10_format6.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io10_format6.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io10_format6.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io10_format6.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io11_format7.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io11_format7.cpp.o: ../hw21/class21/c211_io/io11_format7.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io11_format7.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io11_format7.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io11_format7.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io11_format7.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io11_format7.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io11_format7.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io11_format7.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io11_format7.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io11_format7.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io11_format7.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io11_format7.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io11_format7.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io11_format7.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io11_format7.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io11_format7.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io11_format7.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io11_format7.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io11_format7.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io12_format8.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io12_format8.cpp.o: ../hw21/class21/c211_io/io12_format8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io12_format8.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io12_format8.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io12_format8.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io12_format8.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io12_format8.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io12_format8.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io12_format8.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io12_format8.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io12_format8.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io12_format8.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io12_format8.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io12_format8.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io12_format8.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io12_format8.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io12_format8.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io12_format8.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io12_format8.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io12_format8.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io13_stdcintest.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io13_stdcintest.cpp.o: ../hw21/class21/c211_io/io13_stdcintest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io13_stdcintest.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io13_stdcintest.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io13_stdcintest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io13_stdcintest.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io13_stdcintest.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io13_stdcintest.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io13_stdcintest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io13_stdcintest.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io13_stdcintest.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io13_stdcintest.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io13_stdcintest.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io13_stdcintest.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io13_stdcintest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io13_stdcintest.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c211_io/io13_stdcintest.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io13_stdcintest.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c211_io/io13_stdcintest.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c211_io/io13_stdcintest.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str01_initialize.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str01_initialize.cpp.o: ../hw21/class21/c212_string/str01_initialize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str01_initialize.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str01_initialize.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str01_initialize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str01_initialize.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str01_initialize.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str01_initialize.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str01_initialize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str01_initialize.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str01_initialize.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str01_initialize.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str01_initialize.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str01_initialize.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str01_initialize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str01_initialize.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str01_initialize.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str01_initialize.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str01_initialize.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str01_initialize.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str02_length_size.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str02_length_size.cpp.o: ../hw21/class21/c212_string/str02_length_size.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str02_length_size.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str02_length_size.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str02_length_size.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str02_length_size.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str02_length_size.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str02_length_size.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str02_length_size.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str02_length_size.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str02_length_size.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str02_length_size.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str02_length_size.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str02_length_size.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str02_length_size.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str02_length_size.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str02_length_size.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str02_length_size.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str02_length_size.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str02_length_size.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str03_copy_constructor.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str03_copy_constructor.cpp.o: ../hw21/class21/c212_string/str03_copy_constructor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str03_copy_constructor.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str03_copy_constructor.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str03_copy_constructor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str03_copy_constructor.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str03_copy_constructor.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str03_copy_constructor.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str03_copy_constructor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str03_copy_constructor.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str03_copy_constructor.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str03_copy_constructor.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str03_copy_constructor.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str03_copy_constructor.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str03_copy_constructor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str03_copy_constructor.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str03_copy_constructor.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str03_copy_constructor.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str03_copy_constructor.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str03_copy_constructor.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str04_assignment_operator.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str04_assignment_operator.cpp.o: ../hw21/class21/c212_string/str04_assignment_operator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str04_assignment_operator.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str04_assignment_operator.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str04_assignment_operator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str04_assignment_operator.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str04_assignment_operator.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str04_assignment_operator.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str04_assignment_operator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str04_assignment_operator.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str04_assignment_operator.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str04_assignment_operator.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str04_assignment_operator.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str04_assignment_operator.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str04_assignment_operator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str04_assignment_operator.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str04_assignment_operator.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str04_assignment_operator.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str04_assignment_operator.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str04_assignment_operator.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str05_append.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str05_append.cpp.o: ../hw21/class21/c212_string/str05_append.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str05_append.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str05_append.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str05_append.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str05_append.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str05_append.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str05_append.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str05_append.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str05_append.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str05_append.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str05_append.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str05_append.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str05_append.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str05_append.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str05_append.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str05_append.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str05_append.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str05_append.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str05_append.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str06_append_char.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str06_append_char.cpp.o: ../hw21/class21/c212_string/str06_append_char.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str06_append_char.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str06_append_char.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str06_append_char.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str06_append_char.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str06_append_char.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str06_append_char.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str06_append_char.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str06_append_char.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str06_append_char.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str06_append_char.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str06_append_char.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str06_append_char.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str06_append_char.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str06_append_char.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str06_append_char.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str06_append_char.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str06_append_char.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str06_append_char.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str07_chars_index.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str07_chars_index.cpp.o: ../hw21/class21/c212_string/str07_chars_index.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str07_chars_index.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str07_chars_index.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str07_chars_index.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str07_chars_index.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str07_chars_index.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str07_chars_index.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str07_chars_index.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str07_chars_index.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str07_chars_index.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str07_chars_index.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str07_chars_index.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str07_chars_index.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str07_chars_index.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str07_chars_index.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str07_chars_index.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str07_chars_index.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str07_chars_index.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str07_chars_index.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str08_chars_at.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str08_chars_at.cpp.o: ../hw21/class21/c212_string/str08_chars_at.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str08_chars_at.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str08_chars_at.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str08_chars_at.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str08_chars_at.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str08_chars_at.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str08_chars_at.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str08_chars_at.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str08_chars_at.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str08_chars_at.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str08_chars_at.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str08_chars_at.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str08_chars_at.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str08_chars_at.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str08_chars_at.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str08_chars_at.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str08_chars_at.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str08_chars_at.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str08_chars_at.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str09_assign.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str09_assign.cpp.o: ../hw21/class21/c212_string/str09_assign.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str09_assign.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str09_assign.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str09_assign.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str09_assign.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str09_assign.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str09_assign.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str09_assign.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str09_assign.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str09_assign.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str09_assign.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str09_assign.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str09_assign.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str09_assign.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str09_assign.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str09_assign.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str09_assign.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str09_assign.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str09_assign.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str10_insert.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str10_insert.cpp.o: ../hw21/class21/c212_string/str10_insert.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str10_insert.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str10_insert.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str10_insert.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str10_insert.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str10_insert.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str10_insert.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str10_insert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str10_insert.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str10_insert.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str10_insert.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str10_insert.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str10_insert.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str10_insert.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str10_insert.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str10_insert.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str10_insert.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str10_insert.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str10_insert.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str11_erase.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str11_erase.cpp.o: ../hw21/class21/c212_string/str11_erase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str11_erase.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str11_erase.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str11_erase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str11_erase.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str11_erase.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str11_erase.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str11_erase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str11_erase.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str11_erase.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str11_erase.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str11_erase.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str11_erase.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str11_erase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str11_erase.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str11_erase.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str11_erase.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str11_erase.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str11_erase.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str12_replace.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str12_replace.cpp.o: ../hw21/class21/c212_string/str12_replace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str12_replace.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str12_replace.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str12_replace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str12_replace.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str12_replace.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str12_replace.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str12_replace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str12_replace.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str12_replace.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str12_replace.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str12_replace.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str12_replace.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str12_replace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str12_replace.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str12_replace.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str12_replace.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str12_replace.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str12_replace.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str13_compare.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str13_compare.cpp.o: ../hw21/class21/c212_string/str13_compare.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str13_compare.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str13_compare.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str13_compare.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str13_compare.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str13_compare.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str13_compare.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str13_compare.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str13_compare.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str13_compare.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str13_compare.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str13_compare.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str13_compare.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str13_compare.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str13_compare.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str13_compare.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str13_compare.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str13_compare.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str13_compare.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str14_substr.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str14_substr.cpp.o: ../hw21/class21/c212_string/str14_substr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str14_substr.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str14_substr.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str14_substr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str14_substr.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str14_substr.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str14_substr.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str14_substr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str14_substr.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str14_substr.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str14_substr.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str14_substr.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str14_substr.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str14_substr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str14_substr.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str14_substr.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str14_substr.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str14_substr.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str14_substr.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str15_find.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str15_find.cpp.o: ../hw21/class21/c212_string/str15_find.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str15_find.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str15_find.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str15_find.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str15_find.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str15_find.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str15_find.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str15_find.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str15_find.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str15_find.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str15_find.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str15_find.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str15_find.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str15_find.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str15_find.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str15_find.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str15_find.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str15_find.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str15_find.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str16_find_tab_chars.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str16_find_tab_chars.cpp.o: ../hw21/class21/c212_string/str16_find_tab_chars.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str16_find_tab_chars.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str16_find_tab_chars.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str16_find_tab_chars.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str16_find_tab_chars.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str16_find_tab_chars.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str16_find_tab_chars.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str16_find_tab_chars.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str16_find_tab_chars.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str16_find_tab_chars.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str16_find_tab_chars.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str16_find_tab_chars.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str16_find_tab_chars.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str16_find_tab_chars.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str16_find_tab_chars.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c212_string/str16_find_tab_chars.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str16_find_tab_chars.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c212_string/str16_find_tab_chars.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c212_string/str16_find_tab_chars.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp.o: ../hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss01_dec_hex_convert.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss02_string_to_number.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss02_string_to_number.cpp.o: ../hw21/class21/c213_sstream/ss02_string_to_number.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss02_string_to_number.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss02_string_to_number.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss02_string_to_number.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss02_string_to_number.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss02_string_to_number.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c213_sstream/ss02_string_to_number.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss02_string_to_number.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss02_string_to_number.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss02_string_to_number.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss02_string_to_number.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c213_sstream/ss02_string_to_number.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss02_string_to_number.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss02_string_to_number.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss02_string_to_number.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss02_string_to_number.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss02_string_to_number.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c213_sstream/ss02_string_to_number.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss02_string_to_number.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss03_stringstreams.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss03_stringstreams.cpp.o: ../hw21/class21/c213_sstream/ss03_stringstreams.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss03_stringstreams.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss03_stringstreams.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss03_stringstreams.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss03_stringstreams.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss03_stringstreams.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c213_sstream/ss03_stringstreams.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss03_stringstreams.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss03_stringstreams.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss03_stringstreams.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss03_stringstreams.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c213_sstream/ss03_stringstreams.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss03_stringstreams.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss03_stringstreams.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss03_stringstreams.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss03_stringstreams.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss03_stringstreams.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c213_sstream/ss03_stringstreams.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss03_stringstreams.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss04_str2float.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss04_str2float.cpp.o: ../hw21/class21/c213_sstream/ss04_str2float.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss04_str2float.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss04_str2float.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss04_str2float.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss04_str2float.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss04_str2float.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c213_sstream/ss04_str2float.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss04_str2float.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss04_str2float.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss04_str2float.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss04_str2float.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c213_sstream/ss04_str2float.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss04_str2float.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss04_str2float.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss04_str2float.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss04_str2float.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss04_str2float.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c213_sstream/ss04_str2float.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss04_str2float.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp.o: ../hw21/class21/c213_sstream/ss05_floating_point_precision.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss05_floating_point_precision.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss06_binary_bitset.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss06_binary_bitset.cpp.o: ../hw21/class21/c213_sstream/ss06_binary_bitset.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss06_binary_bitset.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss06_binary_bitset.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss06_binary_bitset.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss06_binary_bitset.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss06_binary_bitset.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c213_sstream/ss06_binary_bitset.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss06_binary_bitset.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss06_binary_bitset.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss06_binary_bitset.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss06_binary_bitset.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c213_sstream/ss06_binary_bitset.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss06_binary_bitset.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss06_binary_bitset.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss06_binary_bitset.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c213_sstream/ss06_binary_bitset.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss06_binary_bitset.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c213_sstream/ss06_binary_bitset.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c213_sstream/ss06_binary_bitset.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr01_at_star.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr01_at_star.cpp.o: ../hw21/class21/c214_pointers/ptr01_at_star.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr01_at_star.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr01_at_star.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c214_pointers/ptr01_at_star.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr01_at_star.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr01_at_star.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c214_pointers/ptr01_at_star.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr01_at_star.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr01_at_star.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c214_pointers/ptr01_at_star.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr01_at_star.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c214_pointers/ptr01_at_star.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr01_at_star.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr01_at_star.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr01_at_star.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c214_pointers/ptr01_at_star.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr01_at_star.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c214_pointers/ptr01_at_star.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr01_at_star.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr02_elementAccess.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr02_elementAccess.cpp.o: ../hw21/class21/c214_pointers/ptr02_elementAccess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr02_elementAccess.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr02_elementAccess.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c214_pointers/ptr02_elementAccess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr02_elementAccess.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr02_elementAccess.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c214_pointers/ptr02_elementAccess.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr02_elementAccess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr02_elementAccess.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c214_pointers/ptr02_elementAccess.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr02_elementAccess.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c214_pointers/ptr02_elementAccess.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr02_elementAccess.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr02_elementAccess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr02_elementAccess.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c214_pointers/ptr02_elementAccess.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr02_elementAccess.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c214_pointers/ptr02_elementAccess.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr02_elementAccess.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr03_set2null.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr03_set2null.cpp.o: ../hw21/class21/c214_pointers/ptr03_set2null.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr03_set2null.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr03_set2null.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c214_pointers/ptr03_set2null.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr03_set2null.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr03_set2null.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c214_pointers/ptr03_set2null.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr03_set2null.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr03_set2null.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c214_pointers/ptr03_set2null.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr03_set2null.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c214_pointers/ptr03_set2null.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr03_set2null.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr03_set2null.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr03_set2null.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c214_pointers/ptr03_set2null.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr03_set2null.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c214_pointers/ptr03_set2null.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr03_set2null.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp.o: ../hw21/class21/c214_pointers/ptr04_doubleDelete.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/c214_pointers/ptr04_doubleDelete.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/deleteme.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/class21/deleteme.cpp.o: ../hw21/class21/deleteme.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/deleteme.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/deleteme.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/deleteme.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/class21/deleteme.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/class21/deleteme.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/deleteme.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/deleteme.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/class21/deleteme.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/deleteme.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/deleteme.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/deleteme.cpp > CMakeFiles/cs312_00_w20.dir/hw21/class21/deleteme.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/class21/deleteme.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/class21/deleteme.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/class21/deleteme.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/deleteme.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/class21/deleteme.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/class21/deleteme.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp.o: ../hw21/hw211_hexIntToString/hw211_hexIntToString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp > CMakeFiles/cs312_00_w20.dir/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp > CMakeFiles/cs312_00_w20.dir/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/hw211_hexIntToString/hw211_hexIntToString.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp.o: ../hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp > CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp > CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_CMidiPacket.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_main.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_main.cpp.o: ../hw21/hw212_CMidiPacket/hw212_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_main.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw212_CMidiPacket/hw212_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_main.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/hw212_CMidiPacket/hw212_main.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw212_CMidiPacket/hw212_main.cpp > CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/hw212_CMidiPacket/hw212_main.cpp > CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_main.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw21/hw212_CMidiPacket/hw212_main.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw21/hw212_CMidiPacket/hw212_main.cpp -o CMakeFiles/cs312_00_w20.dir/hw21/hw212_CMidiPacket/hw212_main.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/argc_argv.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/argc_argv.cpp.o: ../hw22/c221_argc_argv/argc_argv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/argc_argv.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/argc_argv.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/c221_argc_argv/argc_argv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/argc_argv.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/argc_argv.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/c221_argc_argv/argc_argv.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/argc_argv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/argc_argv.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/c221_argc_argv/argc_argv.cpp > CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/argc_argv.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/c221_argc_argv/argc_argv.cpp > CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/argc_argv.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/argc_argv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/argc_argv.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/c221_argc_argv/argc_argv.cpp -o CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/argc_argv.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/c221_argc_argv/argc_argv.cpp -o CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/argc_argv.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/c221_argc_argv.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/c221_argc_argv.cpp.o: ../hw22/c221_argc_argv/c221_argc_argv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/c221_argc_argv.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/c221_argc_argv.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/c221_argc_argv/c221_argc_argv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/c221_argc_argv.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/c221_argc_argv.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/c221_argc_argv/c221_argc_argv.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/c221_argc_argv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/c221_argc_argv.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/c221_argc_argv/c221_argc_argv.cpp > CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/c221_argc_argv.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/c221_argc_argv/c221_argc_argv.cpp > CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/c221_argc_argv.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/c221_argc_argv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/c221_argc_argv.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/c221_argc_argv/c221_argc_argv.cpp -o CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/c221_argc_argv.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/c221_argc_argv/c221_argc_argv.cpp -o CMakeFiles/cs312_00_w20.dir/hw22/c221_argc_argv/c221_argc_argv.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp.o: ../hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp > CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp > CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp -o CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp -o CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/c221_argc_argv/argc_argv.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/hw221_boilerplate.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/hw221_boilerplate.cpp.o: ../hw22/hw221_boilerplate/hw221_boilerplate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/hw221_boilerplate.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/hw221_boilerplate.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw221_boilerplate/hw221_boilerplate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/hw221_boilerplate.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/hw221_boilerplate.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/hw221_boilerplate/hw221_boilerplate.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/hw221_boilerplate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/hw221_boilerplate.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw221_boilerplate/hw221_boilerplate.cpp > CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/hw221_boilerplate.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/hw221_boilerplate/hw221_boilerplate.cpp > CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/hw221_boilerplate.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/hw221_boilerplate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/hw221_boilerplate.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw221_boilerplate/hw221_boilerplate.cpp -o CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/hw221_boilerplate.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/hw221_boilerplate/hw221_boilerplate.cpp -o CMakeFiles/cs312_00_w20.dir/hw22/hw221_boilerplate/hw221_boilerplate.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp.o: ../hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp > CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp > CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp -o CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp -o CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_CMidiPacket.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_main.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_main.cpp.o: ../hw22/hw222_CMidiPacket/hw222_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_main.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw222_CMidiPacket/hw222_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_main.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/hw222_CMidiPacket/hw222_main.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw222_CMidiPacket/hw222_main.cpp > CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/hw222_CMidiPacket/hw222_main.cpp > CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_main.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw222_CMidiPacket/hw222_main.cpp -o CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/hw222_CMidiPacket/hw222_main.cpp -o CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_main.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp.o: ../hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp > CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp > CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp -o CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp -o CMakeFiles/cs312_00_w20.dir/hw22/hw222_CMidiPacket/hw222_test_CMidiPacket.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp.o: ../hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_MidiPacketTimer/C23_timer_test.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp.o: ../hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_playtimeLimits/c23_playtimeLimits.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_chronoFeatures.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_chronoFeatures.cpp.o: ../hw23/class23_chrono/c23_chronoFeatures.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_chronoFeatures.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_chronoFeatures.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_chrono/c23_chronoFeatures.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_chronoFeatures.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_chronoFeatures.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_chrono/c23_chronoFeatures.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_chronoFeatures.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_chronoFeatures.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_chrono/c23_chronoFeatures.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_chronoFeatures.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_chrono/c23_chronoFeatures.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_chronoFeatures.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_chronoFeatures.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_chronoFeatures.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_chrono/c23_chronoFeatures.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_chronoFeatures.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_chrono/c23_chronoFeatures.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_chronoFeatures.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_simpleDelay.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_simpleDelay.cpp.o: ../hw23/class23_chrono/c23_simpleDelay.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_simpleDelay.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_simpleDelay.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_chrono/c23_simpleDelay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_simpleDelay.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_simpleDelay.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_chrono/c23_simpleDelay.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_simpleDelay.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_simpleDelay.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_chrono/c23_simpleDelay.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_simpleDelay.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_chrono/c23_simpleDelay.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_simpleDelay.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_simpleDelay.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_simpleDelay.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_chrono/c23_simpleDelay.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_simpleDelay.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_chrono/c23_simpleDelay.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_chrono/c23_simpleDelay.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand1.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand1.cpp.o: ../hw23/class23_random/rand1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand1.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand1.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand1.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand1.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand1.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand1.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand1.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand1.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand1.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand1.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand1.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand1.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand1.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand1.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand1.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand2.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand2.cpp.o: ../hw23/class23_random/rand2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand2.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand2.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand2.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand2.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand2.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand2.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand2.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand2.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand2.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand2.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand2.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand2.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand2.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand2.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand3.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand3.cpp.o: ../hw23/class23_random/rand3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand3.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand3.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand3.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand3.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand3.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand3.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand3.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand3.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand3.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand3.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand3.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand3.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand3.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand3.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand3.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand4.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand4.cpp.o: ../hw23/class23_random/rand4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand4.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand4.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand4.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand4.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand4.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand4.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand4.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand4.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand4.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand4.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand4.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand4.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand4.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand4.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand4.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand5.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand5.cpp.o: ../hw23/class23_random/rand5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand5.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand5.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand5.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand5.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand5.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand5.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand5.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand5.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand5.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand5.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand5.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand5.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand5.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand5.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand5.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand5.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand5.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand6.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand6.cpp.o: ../hw23/class23_random/rand6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand6.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand6.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand6.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand6.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand6.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand6.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand6.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand6.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand6.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand6.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand6.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand6.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand6.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand6.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand6.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand6.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand6.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand6.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand7.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand7.cpp.o: ../hw23/class23_random/rand7.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand7.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand7.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand7.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand7.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand7.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand7.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand7.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand7.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand7.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand7.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand7.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand7.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand7.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand7.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand7.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand7.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand7.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand7.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand8.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand8.cpp.o: ../hw23/class23_random/rand8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand8.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand8.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand8.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand8.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand8.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand8.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand8.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand8.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand8.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand8.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand8.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand8.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand8.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand8.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand8.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand8.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand8.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand8.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand9.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand9.cpp.o: ../hw23/class23_random/rand9.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand9.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand9.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand9.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand9.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand9.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand9.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand9.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand9.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand9.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand9.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand9.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand9.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand9.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand9.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_random/rand9.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand9.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_random/rand9.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_random/rand9.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v01.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v01.cpp.o: ../hw23/class23_vectors/v01.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v01.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v01.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v01.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v01.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v01.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v01.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v01.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v01.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v01.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v01.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v01.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v01.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v01.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v01.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v01.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v01.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v01.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v01.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v02.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v02.cpp.o: ../hw23/class23_vectors/v02.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v02.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v02.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v02.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v02.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v02.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v02.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v02.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v02.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v02.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v02.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v02.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v02.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v02.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v02.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v02.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v02.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v02.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v02.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v03.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v03.cpp.o: ../hw23/class23_vectors/v03.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v03.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v03.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v03.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v03.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v03.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v03.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v03.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v03.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v03.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v03.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v03.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v03.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v03.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v03.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v03.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v03.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v03.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v03.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v04.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v04.cpp.o: ../hw23/class23_vectors/v04.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v04.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v04.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v04.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v04.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v04.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v04.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v04.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v04.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v04.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v04.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v04.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v04.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v04.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v04.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v04.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v04.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v04.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v04.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v05.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v05.cpp.o: ../hw23/class23_vectors/v05.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v05.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v05.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v05.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v05.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v05.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v05.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v05.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v05.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v05.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v05.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v05.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v05.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v05.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v05.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v05.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v05.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v05.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v05.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v06.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v06.cpp.o: ../hw23/class23_vectors/v06.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v06.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v06.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v06.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v06.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v06.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v06.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v06.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v06.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v06.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v06.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v06.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v06.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v06.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v06.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v06.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v06.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v06.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v06.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v07.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v07.cpp.o: ../hw23/class23_vectors/v07.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v07.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v07.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v07.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v07.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v07.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v07.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v07.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v07.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v07.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v07.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v07.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v07.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v07.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v07.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v07.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v07.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v07.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v07.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v08.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v08.cpp.o: ../hw23/class23_vectors/v08.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v08.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v08.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v08.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v08.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v08.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v08.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v08.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v08.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v08.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v08.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v08.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v08.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v08.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v08.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v08.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v08.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v08.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v08.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v09.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v09.cpp.o: ../hw23/class23_vectors/v09.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v09.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v09.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v09.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v09.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v09.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v09.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v09.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v09.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v09.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v09.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v09.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v09.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v09.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v09.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v09.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v09.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v09.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v09.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v10.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v10.cpp.o: ../hw23/class23_vectors/v10.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v10.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v10.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v10.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v10.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v10.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v10.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v10.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v10.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v10.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v10.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v10.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v10.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v10.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v10.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v10.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v10.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v10.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v10.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v11.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v11.cpp.o: ../hw23/class23_vectors/v11.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v11.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v11.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v11.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v11.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v11.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v11.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v11.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v11.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v11.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v11.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v11.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v11.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v11.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v11.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v11.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v11.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v11.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v11.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v12.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v12.cpp.o: ../hw23/class23_vectors/v12.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v12.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v12.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v12.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v12.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v12.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v12.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v12.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v12.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v12.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v12.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v12.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v12.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v12.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v12.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v12.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v12.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v12.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v12.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v13.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v13.cpp.o: ../hw23/class23_vectors/v13.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v13.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v13.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v13.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v13.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v13.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v13.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v13.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v13.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v13.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v13.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v13.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v13.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v13.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v13.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v13.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v13.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v13.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v13.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v14.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v14.cpp.o: ../hw23/class23_vectors/v14.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v14.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v14.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v14.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v14.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v14.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v14.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v14.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v14.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v14.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v14.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v14.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v14.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v14.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v14.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v14.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v14.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v14.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v14.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v15.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v15.cpp.o: ../hw23/class23_vectors/v15.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v15.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v15.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v15.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v15.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v15.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v15.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v15.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v15.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v15.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v15.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v15.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v15.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v15.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v15.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v15.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v15.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v15.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v15.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v16.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v16.cpp.o: ../hw23/class23_vectors/v16.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v16.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v16.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v16.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v16.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v16.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v16.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v16.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v16.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v16.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v16.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v16.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v16.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v16.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v16.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v16.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v16.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v16.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v16.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v17.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v17.cpp.o: ../hw23/class23_vectors/v17.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v17.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v17.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v17.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v17.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v17.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v17.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v17.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v17.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v17.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v17.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v17.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v17.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v17.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v17.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v17.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v17.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v17.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v17.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v18.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v18.cpp.o: ../hw23/class23_vectors/v18.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v18.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v18.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v18.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v18.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v18.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v18.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v18.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v18.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v18.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v18.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v18.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v18.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v18.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v18.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v18.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v18.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v18.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v18.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v19.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v19.cpp.o: ../hw23/class23_vectors/v19.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v19.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v19.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v19.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v19.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v19.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v19.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v19.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v19.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v19.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v19.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v19.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v19.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v19.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v19.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v19.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v19.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v19.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v19.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v20.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v20.cpp.o: ../hw23/class23_vectors/v20.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v20.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v20.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v20.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v20.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v20.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v20.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v20.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v20.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v20.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v20.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v20.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v20.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v20.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v20.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v20.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v20.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v20.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v20.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v21.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v21.cpp.o: ../hw23/class23_vectors/v21.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v21.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v21.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v21.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v21.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v21.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v21.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v21.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v21.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v21.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v21.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v21.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v21.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v21.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v21.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v21.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v21.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v21.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v21.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v22.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v22.cpp.o: ../hw23/class23_vectors/v22.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v22.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v22.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v22.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v22.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v22.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v22.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v22.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v22.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v22.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v22.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v22.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v22.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v22.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v22.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v22.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v22.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v22.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v22.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v23.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v23.cpp.o: ../hw23/class23_vectors/v23.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v23.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v23.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v23.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v23.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v23.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v23.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v23.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v23.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v23.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v23.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v23.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v23.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v23.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v23.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v23.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v23.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v23.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v23.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v24.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v24.cpp.o: ../hw23/class23_vectors/v24.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v24.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v24.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v24.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v24.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v24.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v24.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v24.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v24.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v24.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v24.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v24.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v24.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v24.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v24.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v24.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v24.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v24.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v24.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v25.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v25.cpp.o: ../hw23/class23_vectors/v25.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v25.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v25.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v25.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v25.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v25.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v25.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v25.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v25.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v25.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v25.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v25.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v25.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v25.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v25.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v25.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v25.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v25.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v25.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v26.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v26.cpp.o: ../hw23/class23_vectors/v26.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v26.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v26.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v26.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v26.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v26.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v26.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v26.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v26.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v26.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v26.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v26.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v26.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v26.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v26.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v26.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v26.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v26.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v26.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v27.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v27.cpp.o: ../hw23/class23_vectors/v27.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v27.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v27.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v27.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v27.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v27.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v27.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v27.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v27.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v27.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v27.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v27.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v27.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v27.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v27.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v27.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v27.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v27.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v27.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v28.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v28.cpp.o: ../hw23/class23_vectors/v28.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v28.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v28.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v28.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v28.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v28.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v28.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v28.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v28.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v28.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v28.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v28.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v28.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v28.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v28.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v28.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v28.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v28.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v28.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v29.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v29.cpp.o: ../hw23/class23_vectors/v29.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v29.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v29.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v29.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v29.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v29.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v29.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v29.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v29.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v29.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v29.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v29.cpp > CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v29.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v29.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v29.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/class23_vectors/v29.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v29.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/class23_vectors/v29.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/class23_vectors/v29.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw222_main.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw222_main.cpp.o: ../hw23/hw231_testCMP22/hw222_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw222_main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw222_main.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw231_testCMP22/hw222_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw222_main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw222_main.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw231_testCMP22/hw222_main.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw222_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw222_main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw231_testCMP22/hw222_main.cpp > CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw222_main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw231_testCMP22/hw222_main.cpp > CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw222_main.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw222_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw222_main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw231_testCMP22/hw222_main.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw222_main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw231_testCMP22/hw222_main.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw222_main.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw231_testCMP22.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw231_testCMP22.cpp.o: ../hw23/hw231_testCMP22/hw231_testCMP22.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw231_testCMP22.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw231_testCMP22.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw231_testCMP22/hw231_testCMP22.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw231_testCMP22.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw231_testCMP22.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw231_testCMP22/hw231_testCMP22.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw231_testCMP22.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw231_testCMP22.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw231_testCMP22/hw231_testCMP22.cpp > CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw231_testCMP22.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw231_testCMP22/hw231_testCMP22.cpp > CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw231_testCMP22.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw231_testCMP22.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw231_testCMP22.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw231_testCMP22/hw231_testCMP22.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw231_testCMP22.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw231_testCMP22/hw231_testCMP22.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/hw231_testCMP22/hw231_testCMP22.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_gmdrums.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_gmdrums.cpp.o: ../hw23/hw232_gmdrums/hw232_gmdrums.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_gmdrums.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_gmdrums.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw232_gmdrums/hw232_gmdrums.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_gmdrums.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_gmdrums.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw232_gmdrums/hw232_gmdrums.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_gmdrums.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_gmdrums.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw232_gmdrums/hw232_gmdrums.cpp > CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_gmdrums.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw232_gmdrums/hw232_gmdrums.cpp > CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_gmdrums.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_gmdrums.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_gmdrums.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw232_gmdrums/hw232_gmdrums.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_gmdrums.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw232_gmdrums/hw232_gmdrums.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_gmdrums.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_main.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_main.cpp.o: ../hw23/hw232_gmdrums/hw232_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_main.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw232_gmdrums/hw232_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_main.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw232_gmdrums/hw232_main.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw232_gmdrums/hw232_main.cpp > CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw232_gmdrums/hw232_main.cpp > CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_main.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw232_gmdrums/hw232_main.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw232_gmdrums/hw232_main.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/hw232_gmdrums/hw232_main.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw222_CMidiPacket.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw222_CMidiPacket.cpp.o: ../hw23/hw233_playdrums/hw222_CMidiPacket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw222_CMidiPacket.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw222_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw222_CMidiPacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw222_CMidiPacket.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw222_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw233_playdrums/hw222_CMidiPacket.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw222_CMidiPacket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw222_CMidiPacket.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw222_CMidiPacket.cpp > CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw222_CMidiPacket.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw233_playdrums/hw222_CMidiPacket.cpp > CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw222_CMidiPacket.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw222_CMidiPacket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw222_CMidiPacket.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw222_CMidiPacket.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw222_CMidiPacket.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw233_playdrums/hw222_CMidiPacket.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw222_CMidiPacket.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_main.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_main.cpp.o: ../hw23/hw233_playdrums/hw233_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_main.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_main.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw233_playdrums/hw233_main.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_main.cpp > CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw233_playdrums/hw233_main.cpp > CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_main.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_main.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw233_playdrums/hw233_main.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_main.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_playdrums.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_playdrums.cpp.o: ../hw23/hw233_playdrums/hw233_playdrums.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_playdrums.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_playdrums.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_playdrums.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_playdrums.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_playdrums.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw233_playdrums/hw233_playdrums.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_playdrums.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_playdrums.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_playdrums.cpp > CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_playdrums.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw233_playdrums/hw233_playdrums.cpp > CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_playdrums.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_playdrums.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_playdrums.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw233_playdrums/hw233_playdrums.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_playdrums.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw233_playdrums/hw233_playdrums.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/hw233_playdrums/hw233_playdrums.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp.o: ../hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp > CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp > CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw222_CMidiPacket.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_main.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_main.cpp.o: ../hw23/hw234_scifiSounds/hw234_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_main.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/hw234_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_main.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw234_scifiSounds/hw234_main.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/hw234_main.cpp > CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw234_scifiSounds/hw234_main.cpp > CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_main.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/hw234_main.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw234_scifiSounds/hw234_main.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_main.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp.o: ../hw23/hw234_scifiSounds/hw234_scifiSounds.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp > CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp > CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp -o CMakeFiles/cs312_00_w20.dir/hw23/hw234_scifiSounds/hw234_scifiSounds.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/c313_helloMidi_regex.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/c313_helloMidi_regex.cpp.o: ../hw31/c313_regex_example3/c313_helloMidi_regex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/c313_helloMidi_regex.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/c313_helloMidi_regex.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/c313_regex_example3/c313_helloMidi_regex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/c313_helloMidi_regex.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/c313_helloMidi_regex.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw31/c313_regex_example3/c313_helloMidi_regex.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/c313_helloMidi_regex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/c313_helloMidi_regex.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/c313_regex_example3/c313_helloMidi_regex.cpp > CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/c313_helloMidi_regex.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw31/c313_regex_example3/c313_helloMidi_regex.cpp > CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/c313_helloMidi_regex.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/c313_helloMidi_regex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/c313_helloMidi_regex.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/c313_regex_example3/c313_helloMidi_regex.cpp -o CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/c313_helloMidi_regex.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw31/c313_regex_example3/c313_helloMidi_regex.cpp -o CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/c313_helloMidi_regex.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/hw312_CMidiPacket.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/hw312_CMidiPacket.cpp.o: ../hw31/c313_regex_example3/hw312_CMidiPacket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/hw312_CMidiPacket.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/hw312_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/c313_regex_example3/hw312_CMidiPacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/hw312_CMidiPacket.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/hw312_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw31/c313_regex_example3/hw312_CMidiPacket.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/hw312_CMidiPacket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/hw312_CMidiPacket.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/c313_regex_example3/hw312_CMidiPacket.cpp > CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/hw312_CMidiPacket.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw31/c313_regex_example3/hw312_CMidiPacket.cpp > CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/hw312_CMidiPacket.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/hw312_CMidiPacket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/hw312_CMidiPacket.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/c313_regex_example3/hw312_CMidiPacket.cpp -o CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/hw312_CMidiPacket.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw31/c313_regex_example3/hw312_CMidiPacket.cpp -o CMakeFiles/cs312_00_w20.dir/hw31/c313_regex_example3/hw312_CMidiPacket.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp.o: ../hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp > CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp > CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp -o CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp -o CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_CMidiPacket.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_main.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_main.cpp.o: ../hw31/hw312_CMidiPacketFriends/hw312_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_main.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/hw312_CMidiPacketFriends/hw312_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_main.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw31/hw312_CMidiPacketFriends/hw312_main.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/hw312_CMidiPacketFriends/hw312_main.cpp > CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw31/hw312_CMidiPacketFriends/hw312_main.cpp > CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_main.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/hw312_CMidiPacketFriends/hw312_main.cpp -o CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw31/hw312_CMidiPacketFriends/hw312_main.cpp -o CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_main.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp.o: ../hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp
 
 CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp > CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp > CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp -o CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp -o CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_test_CMidiPacket.cpp.s
 
 CMakeFiles/cs312_00_w20.dir/test_directory/tester.cpp.o: CMakeFiles/cs312_00_w20.dir/flags.make
 CMakeFiles/cs312_00_w20.dir/test_directory/tester.cpp.o: ../test_directory/tester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/cs312_00_w20.dir/test_directory/tester.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/test_directory/tester.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/test_directory/tester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/cs312_00_w20.dir/test_directory/tester.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs312_00_w20.dir/test_directory/tester.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/test_directory/tester.cpp
 
 CMakeFiles/cs312_00_w20.dir/test_directory/tester.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs312_00_w20.dir/test_directory/tester.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/test_directory/tester.cpp > CMakeFiles/cs312_00_w20.dir/test_directory/tester.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/test_directory/tester.cpp > CMakeFiles/cs312_00_w20.dir/test_directory/tester.cpp.i
 
 CMakeFiles/cs312_00_w20.dir/test_directory/tester.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs312_00_w20.dir/test_directory/tester.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/test_directory/tester.cpp -o CMakeFiles/cs312_00_w20.dir/test_directory/tester.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/test_directory/tester.cpp -o CMakeFiles/cs312_00_w20.dir/test_directory/tester.cpp.s
 
 # Object files for target cs312_00_w20
 cs312_00_w20_OBJECTS = \
@@ -1850,7 +1850,7 @@ cs312_00_w20: CMakeFiles/cs312_00_w20.dir/hw31/hw312_CMidiPacketFriends/hw312_te
 cs312_00_w20: CMakeFiles/cs312_00_w20.dir/test_directory/tester.cpp.o
 cs312_00_w20: CMakeFiles/cs312_00_w20.dir/build.make
 cs312_00_w20: CMakeFiles/cs312_00_w20.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Linking CXX executable cs312_00_w20"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Linking CXX executable cs312_00_w20"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cs312_00_w20.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1863,6 +1863,6 @@ CMakeFiles/cs312_00_w20.dir/clean:
 .PHONY : CMakeFiles/cs312_00_w20.dir/clean
 
 CMakeFiles/cs312_00_w20.dir/depend:
-	cd /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20 /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20 /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cs312-00-w20/cmake-build-debug/CMakeFiles/cs312_00_w20.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312 /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312 /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/cmake-build-debug/CMakeFiles/cs312_00_w20.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cs312_00_w20.dir/depend
 

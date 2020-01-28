@@ -388,10 +388,10 @@ bool CMP32::operator<(const CMidiPacket &a, const CMidiPacket &b)
       case 0xD0:
       case 0xE0:
         is_a_first = true;
-      case 0x80:
-      case 0x90:
-
-      case 0xC0:
+//      case 0x80:
+//      case 0x90:
+//
+//      case 0xC0:
       }
     }
 
