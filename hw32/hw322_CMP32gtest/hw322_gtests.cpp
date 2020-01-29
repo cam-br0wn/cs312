@@ -1,4 +1,12 @@
-// hw322_gtests.cpp
+/***************************************************************
+ hw322_gtests.cpp
+ Copyright(c) Carleton College CS312 free open source
+ Assignment : hw322
+ Stritzel Matt stritzelm@carleton.edu
+ Brown Cam brownc2@carleton.edu
+ DATE : 2020-01-28
+ TIME: 14:45:47
+ ***************************************************************/
 #ifndef hw322_CMIDIPACKET_H_
 #include "hw322_CMidiPacket.h"
 #endif

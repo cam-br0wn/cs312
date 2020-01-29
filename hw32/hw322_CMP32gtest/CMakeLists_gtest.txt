@@ -1,4 +1,12 @@
-# CMakeLists_gtest.txt
+/***************************************************************
+ CMakeLists_gtest.txt
+ Copyright(c) Carleton College CS312 free open source
+ Assignment : hw322
+ Stritzel Matt stritzelm@carleton.edu
+ Brown Cam brownc2@carleton.edu
+ DATE : 2020-01-28
+ TIME: 14:33:47
+ ***************************************************************/
 
 cmake_minimum_required(VERSION 3.0)
 set(APPNAME "gtestCMP32")

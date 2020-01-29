@@ -1,4 +1,12 @@
-// hw322_CMidiPacket.cpp
+/***************************************************************
+ hw322_CMidiPacket.cpp
+ Copyright(c) Carleton College CS312 free open source
+ Assignment : hw322
+ Stritzel Matt stritzelm@carleton.edu
+ Brown Cam brownc2@carleton.edu
+ DATE : 2020-01-28
+ TIME: 14:45:47
+ ***************************************************************/
 
 #ifndef HW322_CMIDIPACKET_H_
 #include "hw322_CMidiPacket.h"
@@ -362,11 +370,11 @@ bool CMP32::operator<(const CMidiPacket &a, const CMidiPacket &b)
       case 0xB0:
       case 0xD0:
       case 0xE0:
-        is_a_first = true; // means NOF comes before the five above
+        is_a_first = true;
         break;
-      case 0x80: // if a==b, a not < b
+      case 0x80:
       case 0xC0:
-        is_a_first = false; // means NOF comes after the two above
+        is_a_first = false;
         break;
       default:
         break;
@@ -375,23 +383,17 @@ bool CMP32::operator<(const CMidiPacket &a, const CMidiPacket &b)
     // a.status_ == 0x90
     else if (a.is_note_on()) {
       switch (b.status_ & 0xF0) {
-      // use all cases 0x80-0xE0
-      // decide when a comes before
-      // decide when a comes after
-      case 0xA0:
-      case 0xB0:
-      case 0xD0:
-      case 0xE0:
-          is_a_first = true;
-
+          case 0xA0:
+          case 0xB0:
+          case 0xD0:
+          case 0xE0:
+              is_a_first = true;
       }
     }
 
     if (a.is_status_An()) {
       switch (b.status_ & 0xF0){
-        // use all cases 0x80-0xE0
-        // decide when a comes before
-        // decide when a comes after
+      
       }
     }
 
@@ -411,7 +413,7 @@ bool CMP32::operator<(const CMidiPacket &a, const CMidiPacket &b)
             case 0xB0:
             case 0xD0:
             case 0xE0:
-                is_a_first = true; // means NOF comes before the five above
+                is_a_first = true;
                 break;
             case 0x80:
             case 0xC0:
