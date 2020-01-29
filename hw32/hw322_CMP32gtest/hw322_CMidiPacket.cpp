@@ -344,22 +344,19 @@ bool CMP32::operator==(const CMidiPacket &a, const CMidiPacket &b)
 bool CMP32::operator<(const CMidiPacket &a, const CMidiPacket &b)
 {
   bool is_a_first = false;
-
   // Sorting rules when timestamps are equal
   // std::cout << "# A " << a << "# B " << b;
-  if (a.timestamp_ < b.timestamp_)
-  {
+  if (a.timestamp_ < b.timestamp_){ // RULE 1
     // lowest timestamp_ always comes first.
     is_a_first = true;
   }
-  else if (a.timestamp_ == b.timestamp_)
-  {
-    // std::cout << "# (a.timestamp_ == b.timestamp_)\n";
+
+
+  else if (a.timestamp_ == b.timestamp_) { // RULE 2
+    //std::cout << "# (a.timestamp_ == b.timestamp_)\n";
     // NOF comes before anything
-    if (a.is_note_off())
-    {
-      switch (b.status_ & 0xF0)
-      {
+    if (a.is_note_off()) {
+      switch (b.status_ & 0xF0){
       case 0x90:
       case 0xA0:
       case 0xB0:
@@ -376,10 +373,8 @@ bool CMP32::operator<(const CMidiPacket &a, const CMidiPacket &b)
       }
     }
     // a.status_ == 0x90
-    else if (a.is_note_on())
-    {
-      switch (b.status_ & 0xF0)
-      {
+    else if (a.is_note_on()) {
+      switch (b.status_ & 0xF0) {
       // use all cases 0x80-0xE0
       // decide when a comes before
       // decide when a comes after
@@ -387,18 +382,13 @@ bool CMP32::operator<(const CMidiPacket &a, const CMidiPacket &b)
       case 0xB0:
       case 0xD0:
       case 0xE0:
-        is_a_first = true;
-//      case 0x80:
-//      case 0x90:
-//
-//      case 0xC0:
+          is_a_first = true;
+
       }
     }
 
-    if (a.is_status_An())
-    {
-      switch (b.status_ & 0xF0)
-      {
+    if (a.is_status_An()) {
+      switch (b.status_ & 0xF0){
         // use all cases 0x80-0xE0
         // decide when a comes before
         // decide when a comes after
@@ -407,38 +397,41 @@ bool CMP32::operator<(const CMidiPacket &a, const CMidiPacket &b)
 
     if (a.is_status_Bn())
     {
-      switch (b.status_ & 0xF0)
-      {
+      switch (b.status_ & 0xF0) {
+         // use all cases 0x80-0xE0
+        // decide when a comes before
+        // decide when a comes after
+      }
+    }
+
+    if (a.is_status_Cn()){
+        switch (b.status_ & 0xF0){
+            case 0x90:
+            case 0xA0:
+            case 0xB0:
+            case 0xD0:
+            case 0xE0:
+                is_a_first = true; // means NOF comes before the five above
+                break;
+            case 0x80:
+            case 0xC0:
+                is_a_first = false;
+                break;
+            default:
+                break;
+        }
+    }
+
+    if (a.is_status_Dn()) {
+      switch (b.status_ & 0xF0) {
         // use all cases 0x80-0xE0
         // decide when a comes before
         // decide when a comes after
       }
     }
 
-    if (a.is_status_Cn())
-    {
-      switch (b.status_ & 0xF0)
-      {
-        // use all cases 0x80-0xE0
-        // decide when a comes before
-        // decide when a comes after
-      }
-    }
-
-    if (a.is_status_Dn())
-    {
-      switch (b.status_ & 0xF0)
-      {
-        // use all cases 0x80-0xE0
-        // decide when a comes before
-        // decide when a comes after
-      }
-    }
-
-    if (a.is_status_En())
-    {
-      switch (b.status_ & 0xF0)
-      {
+    if (a.is_status_En()) {
+      switch (b.status_ & 0xF0) {
         // use all cases 0x80-0xE0
         // decide when a comes before
         // decide when a comes after

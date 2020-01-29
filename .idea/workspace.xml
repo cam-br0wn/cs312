@@ -12,61 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7c4a89e-0ee3-4bb5-9da3-c5ddd4d2ff87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cs312_00_w20.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cs312_00_w20.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cs312_00_w20.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cs312_00_w20.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cs312_00_w20.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cs312_00_w20.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cs312_00_w20.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cs312_00_w20.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw23.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMP32friends" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/3.16.0-rc4/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/3.16.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/3.16.0-rc4/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/3.16.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/3.16.0-rc4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/3.16.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/3.16.0-rc4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/3.16.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/3.16.0-rc4/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/3.16.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/3.16.0-rc4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/3.16.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/3.16.0-rc4/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/3.16.2/CompilerIdC/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/3.16.0-rc4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/3.16.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/3.16.0-rc4/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/3.16.2/CompilerIdCXX/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/CMP32friends.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/CMP32friends.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/CMP32friends.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/CMP32friends.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/CMP32friends.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/CMP32friends.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/CMP32friends.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/CMP32friends.dir/hw322_CMP32friends.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/CMP32friends.dir/hw322_CMidiPacket.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/CMP32friends.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/CMP32friends.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/gtestCMP32.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/gtestCMP32.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/gtestCMP32.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/gtestCMP32.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/gtestCMP32.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/gtestCMP32.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/gtestCMP32.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/gtestCMP32.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/gtestCMP32.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/gtestCMP32.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/gtestCMP32.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/gtestCMP32.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/gtestCMP32.dir/hw322_CMidiPacket.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/gtestCMP32.dir/hw322_CMidiPacket.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/gtestCMP32.dir/hw322_gtests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/gtestCMP32.dir/hw322_gtests.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/gtestCMP32.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/CMakeFiles/gtestCMP32.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/gtestCMP32" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/build/gtestCMP32" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/hw322_CMidiPacket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hw32/hw322_CMP32gtest/hw322_CMidiPacket.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_directory/tester.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +50,12 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.make" />
@@ -140,7 +95,7 @@
       <workItem from="1579538262474" duration="1594000" />
       <workItem from="1579716131202" duration="2107000" />
       <workItem from="1580097564894" duration="3638000" />
-      <workItem from="1580248370050" duration="2201000" />
+      <workItem from="1580248370050" duration="5161000" />
     </task>
     <task id="LOCAL-00001" summary="modified hw112">
       <created>1578948031808</created>
@@ -161,6 +116,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="modified hw112" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="190" key="#Deployment" timestamp="1580276055292">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#Deployment/0.0.1680.1050@0.0.1680.1050" timestamp="1580276055292" />
     <state x="434" y="127" key="CommitChangelistDialog2" timestamp="1578948031538">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
