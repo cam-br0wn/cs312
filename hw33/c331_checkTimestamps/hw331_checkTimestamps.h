@@ -8,11 +8,11 @@
 
 #include <vector>
 
-using namespace CMP32;
+using namespace CMP33;
 
-extern std::vector<CMidiPacket> vts;
+// extern std::vector<CMidiPacket> vts;
 
 extern void createBadTimestampVector();
-extern void check_timestamps();
+extern void check_timestamps(std::vector<CMidiPacket> vts);
 
 #endif // HW331_CHECKTIMESTAMPS_H_

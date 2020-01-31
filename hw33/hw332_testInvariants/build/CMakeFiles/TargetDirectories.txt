@@ -1,0 +1,3 @@
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/build/CMakeFiles/rebuild_cache.dir
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/build/CMakeFiles/edit_cache.dir
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/build/CMakeFiles/hw332_testInvariants.dir

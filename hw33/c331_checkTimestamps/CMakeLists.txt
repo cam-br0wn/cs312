@@ -17,7 +17,7 @@ endif(${FOR_CLASS})
 set(COMMON "${HOME}/common")
 
 set(SOURCE_FILES
-        ${COMMON}/hw322_CMidiPacket.cpp
+        ${COMMON}/hw332_CMidiPacket.cpp
         hw331_checkTimestamps.cpp
         hw331_main.cpp
         )
