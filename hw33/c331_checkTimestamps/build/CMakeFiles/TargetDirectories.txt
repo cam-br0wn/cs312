@@ -1,3 +1,0 @@
-/Accounts/brownc2/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build/CMakeFiles/edit_cache.dir
-/Accounts/brownc2/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build/CMakeFiles/rebuild_cache.dir
-/Accounts/brownc2/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build/CMakeFiles/checkTimestamps.dir

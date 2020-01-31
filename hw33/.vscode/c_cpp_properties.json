@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "compilerArgs": [
+                "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/**"
+            ]
+        }
+    ],
+    "version": 4
+}

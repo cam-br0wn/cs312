@@ -3,7 +3,7 @@
 #define HW331_CHECKTIMESTAMPS_H_
 
 #ifndef hw322_CMIDIPACKET_H_
-#include "hw322_CMidiPacket.h"
+#include "hw332_CMidiPacket.h"
 #endif
 
 #include <vector>

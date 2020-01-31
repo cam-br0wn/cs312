@@ -36,6 +36,7 @@ void testConstructorTwoDataBytes()
     // Create one CMidiPacket that will fail this test
     // After first successful compile add several more
     // try to find a false positive (bad data gets through)
+    CMidiPacket mp2{1000, 0xA0, 127, 100};
 }
 
 void testStringConstructor()
@@ -44,6 +45,7 @@ void testStringConstructor()
     // Create one CMidiPacket that will fail this test
     // After first successful compile add several more
     // try to find a false positive (bad data gets through)
+    CMidiPacket mp3{"1000\t0xC0\n30\t120"};
 }
 
 // Setters
@@ -53,6 +55,8 @@ void test_set_timestamp()
     CMidiPacket p{1000, 0x80, 100, 0};
     p.set_timestamp(kMAX_TIMESTAMP + 1);
     // make up more bad data
+    CMidiPacket q{0, 0x90, 100, 0};
+    p.set_timestamp(-1000);
 }
 
 void test_set_status()
@@ -60,6 +64,12 @@ void test_set_status()
     print_header("test_set_status");
     // After first successful compile add several more
     // try to find a false positive (bad data gets through)
+    CMidiPacket r{0, 0x80, 100, 0};
+    r.set_status(0x70);
+    CMidiPacket s{0, 0x90, 100, 0};
+    s.set_status(64);
+    CMidiPacket t{0, 0xA0, 100, 0};
+    t.set_status(0b01011110);
 }
 
 void test_set_data1()
@@ -69,6 +79,12 @@ void test_set_data1()
     // Create one CMidiPacket that will fail this test
     // After first successful compile add several more
     // try to find a false positive (bad data gets through)
+    CMidiPacket r{0, 0x80, 100, 0};
+    r.set_data1(0b1000);
+    CMidiPacket s{0, 0x90, 100, 0};
+    s.set_data1(-120);
+    CMidiPacket t{0, 0xA0, 100, 0};
+    t.set_data1(0b1);
 }
 
 void test_set_data2()

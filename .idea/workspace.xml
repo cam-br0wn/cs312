@@ -12,52 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7c4a89e-0ee3-4bb5-9da3-c5ddd4d2ff87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/3.5.1/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/3.5.1/CompilerIdC/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/Progress/1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/Progress/count.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/checkTimestamps.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/checkTimestamps.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/checkTimestamps.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/checkTimestamps.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/checkTimestamps.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/checkTimestamps.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/checkTimestamps.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/checkTimestamps.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/checkTimestamps.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/build/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/hw331_checkTimestamps.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/hw331_checkTimestamps.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/hw331_main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/hw332_test_invariants/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/hw332_test_invariants/hw332_main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/hw332_test_invariants/hw332_testInvariants.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw33/hw332_test_invariants/hw332_testInvariants.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw42/c421_playSoftMidi/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw42/c421_playSoftMidi/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw42/c421_playSoftMidi/c421_playSoftMidi.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw33/c331_checkTimestamps/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw33/c331_checkTimestamps/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw33/hw332_test_invariants/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw33/hw332_test_invariants/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +95,7 @@
       <workItem from="1580097564894" duration="3638000" />
       <workItem from="1580248370050" duration="17851000" />
       <workItem from="1580333750584" duration="1639000" />
-      <workItem from="1580458673102" duration="1695000" />
+      <workItem from="1580458673102" duration="2845000" />
     </task>
     <task id="LOCAL-00001" summary="modified hw112">
       <created>1578948031808</created>
@@ -179,6 +136,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1578950424317" />
+    <state width="562" height="445" key="SwitcherDM" timestamp="1580460918519">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="562" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1580460918519" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1578948035460">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
