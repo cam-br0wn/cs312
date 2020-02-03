@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.h
+iostream
+-
+string
+-
+
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw41/hw413_CScalesTrack/hw413_CMidiTrack.cpp
+hw413_CMidiTrack.h
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw41/hw413_CScalesTrack/hw413_CMidiTrack.h
+iostream
+-
+
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw41/hw413_CScalesTrack/hw413_CMidiTrack.h
+hw332_CMidiPacket.h
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw41/hw413_CScalesTrack/hw332_CMidiPacket.h
+vector
+-
+

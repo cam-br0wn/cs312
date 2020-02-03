@@ -1,0 +1,3 @@
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw41/hw413_CScalesTrack/build/CMakeFiles/rebuild_cache.dir
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw41/hw413_CScalesTrack/build/CMakeFiles/edit_cache.dir
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw41/hw413_CScalesTrack/build/CMakeFiles/hw413_scalesTrack.dir

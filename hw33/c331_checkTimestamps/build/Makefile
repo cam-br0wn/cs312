@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Software/elcapitan-local/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.16.2/bin/cmake
 
 # The command to remove a file.
-RM = /Software/elcapitan-local/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.16.2/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Software/elcapitan-local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.16.2/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
