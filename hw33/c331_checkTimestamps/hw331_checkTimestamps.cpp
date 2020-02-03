@@ -7,18 +7,18 @@
 #include <fstream>
 #include <iterator>
 
-std::vector<CMP33::CMidiPacket> vts;
+std::vector<CMP32::CMidiPacket> vts;
 
 void createBadTimestampVector(std::string fileName)
 {
     std::string line;
     std::ifstream inFile(fileName);
 
-    CMP33::CMidiPacket mp;
+    CMP32::CMidiPacket mp;
 
     while (std::getline(inFile, line))
     {
-        mp = CMP33::CMidiPacket(line);
+        mp = CMP32::CMidiPacket(line);
         vts.push_back(mp);
     }
     //inFile.close();

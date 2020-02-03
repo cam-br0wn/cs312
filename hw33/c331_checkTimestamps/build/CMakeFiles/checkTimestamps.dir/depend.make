@@ -4,11 +4,11 @@
 CMakeFiles/checkTimestamps.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp.o: /Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp
 CMakeFiles/checkTimestamps.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp.o: /Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.h
 
-CMakeFiles/checkTimestamps.dir/hw331_checkTimestamps.cpp.o: /Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.h
+CMakeFiles/checkTimestamps.dir/hw331_checkTimestamps.cpp.o: /Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.h
 CMakeFiles/checkTimestamps.dir/hw331_checkTimestamps.cpp.o: ../hw331_checkTimestamps.cpp
 CMakeFiles/checkTimestamps.dir/hw331_checkTimestamps.cpp.o: ../hw331_checkTimestamps.h
 
-CMakeFiles/checkTimestamps.dir/hw331_main.cpp.o: /Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.h
+CMakeFiles/checkTimestamps.dir/hw331_main.cpp.o: /Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.h
 CMakeFiles/checkTimestamps.dir/hw331_main.cpp.o: ../hw331_checkTimestamps.h
 CMakeFiles/checkTimestamps.dir/hw331_main.cpp.o: ../hw331_main.cpp
 
