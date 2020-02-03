@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.16.2/bin/cmake
+CMAKE_COMMAND = /Software/elcapitan-local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.16.2/bin/cmake -E remove -f
+RM = /Software/elcapitan-local/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/Cellar/cmake/3.16.2/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Software/elcapitan-local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -123,32 +123,32 @@ checkTimestamps/fast:
 	$(MAKE) -f CMakeFiles/checkTimestamps.dir/build.make CMakeFiles/checkTimestamps.dir/build
 .PHONY : checkTimestamps/fast
 
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.o: Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.o: Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp.o
 
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.o
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.o
 
 # target to build an object file
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o:
-	$(MAKE) -f CMakeFiles/checkTimestamps.dir/build.make CMakeFiles/checkTimestamps.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp.o:
+	$(MAKE) -f CMakeFiles/checkTimestamps.dir/build.make CMakeFiles/checkTimestamps.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp.o
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp.o
 
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.i: Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.i: Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp.i
 
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.i
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.i
 
 # target to preprocess a source file
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i:
-	$(MAKE) -f CMakeFiles/checkTimestamps.dir/build.make CMakeFiles/checkTimestamps.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp.i:
+	$(MAKE) -f CMakeFiles/checkTimestamps.dir/build.make CMakeFiles/checkTimestamps.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp.i
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp.i
 
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.s: Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.s: Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp.s
 
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.s
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.s
 
 # target to generate assembly for a file
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s:
-	$(MAKE) -f CMakeFiles/checkTimestamps.dir/build.make CMakeFiles/checkTimestamps.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp.s:
+	$(MAKE) -f CMakeFiles/checkTimestamps.dir/build.make CMakeFiles/checkTimestamps.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp.s
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp.s
 
 hw331_checkTimestamps.o: hw331_checkTimestamps.cpp.o
 
@@ -213,9 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... checkTimestamps"
-	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.o"
-	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.i"
-	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.s"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.o"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.i"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.s"
 	@echo "... hw331_checkTimestamps.o"
 	@echo "... hw331_checkTimestamps.i"
 	@echo "... hw331_checkTimestamps.s"

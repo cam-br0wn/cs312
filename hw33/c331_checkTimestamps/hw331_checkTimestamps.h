@@ -3,16 +3,16 @@
 #define HW331_CHECKTIMESTAMPS_H_
 
 #ifndef hw322_CMIDIPACKET_H_
-#include "hw332_CMidiPacket.h"
+#include "hw322_CMidiPacket.h"
 #endif
 
 #include <vector>
 
-using namespace CMP33;
+using namespace CMP32;
 
-// extern std::vector<CMidiPacket> vts;
+extern std::vector<CMidiPacket> vts;
 
-extern void createBadTimestampVector();
-extern void check_timestamps(std::vector<CMidiPacket> vts);
+extern void createBadTimestampVector(std::string fileName);
+extern void check_timestamps();
 
 #endif // HW331_CHECKTIMESTAMPS_H_
