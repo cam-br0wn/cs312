@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Software/elcapitan-local/bin/cmake
+CMAKE_COMMAND = /Applications/CMake.app/Contents/bin/cmake
 
 # The command to remove a file.
-RM = /Software/elcapitan-local/bin/cmake -E remove -f
+RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps
+CMAKE_SOURCE_DIR = /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build
+CMAKE_BINARY_DIR = /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/checkTimestamps.dir/depend.make
@@ -59,7 +59,7 @@ include CMakeFiles/checkTimestamps.dir/flags.make
 
 CMakeFiles/checkTimestamps.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp.o: CMakeFiles/checkTimestamps.dir/flags.make
 CMakeFiles/checkTimestamps.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp.o: /Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/checkTimestamps.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/checkTimestamps.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/checkTimestamps.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp.o -c /Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp
 
 CMakeFiles/checkTimestamps.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw322_CMidiPacket.cpp.i: cmake_force
@@ -72,29 +72,29 @@ CMakeFiles/checkTimestamps.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw322
 
 CMakeFiles/checkTimestamps.dir/hw331_checkTimestamps.cpp.o: CMakeFiles/checkTimestamps.dir/flags.make
 CMakeFiles/checkTimestamps.dir/hw331_checkTimestamps.cpp.o: ../hw331_checkTimestamps.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/checkTimestamps.dir/hw331_checkTimestamps.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/checkTimestamps.dir/hw331_checkTimestamps.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/hw331_checkTimestamps.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/checkTimestamps.dir/hw331_checkTimestamps.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/checkTimestamps.dir/hw331_checkTimestamps.cpp.o -c /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/hw331_checkTimestamps.cpp
 
 CMakeFiles/checkTimestamps.dir/hw331_checkTimestamps.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/checkTimestamps.dir/hw331_checkTimestamps.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/hw331_checkTimestamps.cpp > CMakeFiles/checkTimestamps.dir/hw331_checkTimestamps.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/hw331_checkTimestamps.cpp > CMakeFiles/checkTimestamps.dir/hw331_checkTimestamps.cpp.i
 
 CMakeFiles/checkTimestamps.dir/hw331_checkTimestamps.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/checkTimestamps.dir/hw331_checkTimestamps.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/hw331_checkTimestamps.cpp -o CMakeFiles/checkTimestamps.dir/hw331_checkTimestamps.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/hw331_checkTimestamps.cpp -o CMakeFiles/checkTimestamps.dir/hw331_checkTimestamps.cpp.s
 
 CMakeFiles/checkTimestamps.dir/hw331_main.cpp.o: CMakeFiles/checkTimestamps.dir/flags.make
 CMakeFiles/checkTimestamps.dir/hw331_main.cpp.o: ../hw331_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/checkTimestamps.dir/hw331_main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/checkTimestamps.dir/hw331_main.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/hw331_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/checkTimestamps.dir/hw331_main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/checkTimestamps.dir/hw331_main.cpp.o -c /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/hw331_main.cpp
 
 CMakeFiles/checkTimestamps.dir/hw331_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/checkTimestamps.dir/hw331_main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/hw331_main.cpp > CMakeFiles/checkTimestamps.dir/hw331_main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/hw331_main.cpp > CMakeFiles/checkTimestamps.dir/hw331_main.cpp.i
 
 CMakeFiles/checkTimestamps.dir/hw331_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/checkTimestamps.dir/hw331_main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/hw331_main.cpp -o CMakeFiles/checkTimestamps.dir/hw331_main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/hw331_main.cpp -o CMakeFiles/checkTimestamps.dir/hw331_main.cpp.s
 
 # Object files for target checkTimestamps
 checkTimestamps_OBJECTS = \
@@ -110,7 +110,7 @@ checkTimestamps: CMakeFiles/checkTimestamps.dir/hw331_checkTimestamps.cpp.o
 checkTimestamps: CMakeFiles/checkTimestamps.dir/hw331_main.cpp.o
 checkTimestamps: CMakeFiles/checkTimestamps.dir/build.make
 checkTimestamps: CMakeFiles/checkTimestamps.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable checkTimestamps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable checkTimestamps"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/checkTimestamps.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/checkTimestamps.dir/clean:
 .PHONY : CMakeFiles/checkTimestamps.dir/clean
 
 CMakeFiles/checkTimestamps.dir/depend:
-	cd /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build/CMakeFiles/checkTimestamps.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/c331_checkTimestamps/build/CMakeFiles/checkTimestamps.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/checkTimestamps.dir/depend
 

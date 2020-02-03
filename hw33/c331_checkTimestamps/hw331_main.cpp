@@ -8,7 +8,7 @@ using namespace std;
 #include "hw331_checkTimestamps.h"
 #endif
 
-int main( int argc, char *argv[] )
+int main(int argc, char *argv[])
 {
   string fileName_input = argv[1];
   createBadTimestampVector(fileName_input);
