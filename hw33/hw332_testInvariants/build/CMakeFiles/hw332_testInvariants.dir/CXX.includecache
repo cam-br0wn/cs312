@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.h
+/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.h
 iostream
 -
 string
 -
 
-/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/hw332_testInvariants.cpp
+/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/hw332_testInvariants.cpp
 hw332_CMidiPacket.h
-/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/hw332_CMidiPacket.h
+/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/hw332_CMidiPacket.h
 hw332_testInvariants.h
-/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/hw332_testInvariants.h
+/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/hw332_testInvariants.h
 iostream
 -
 sstream
 -
 
-/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/hw332_testInvariants.h
+/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/hw332_testInvariants.h
 

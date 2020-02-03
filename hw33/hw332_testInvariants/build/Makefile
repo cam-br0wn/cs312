@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Software/elcapitan-local/bin/cmake
+CMAKE_COMMAND = /Applications/CMake.app/Contents/bin/cmake
 
 # The command to remove a file.
-RM = /Software/elcapitan-local/bin/cmake -E remove -f
+RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants
+CMAKE_SOURCE_DIR = /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/build
+CMAKE_BINARY_DIR = /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw33
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Software/elcapitan-local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CMake.app/Contents/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/Software/elcapitan-local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CMake.app/Contents/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/build/CMakeFiles /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/build/CMakeFiles /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ hw332_testInvariants/fast:
 	$(MAKE) -f CMakeFiles/hw332_testInvariants.dir/build.make CMakeFiles/hw332_testInvariants.dir/build
 .PHONY : hw332_testInvariants/fast
 
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.o: Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.o: Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o
 
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.o
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.o
 
 # target to build an object file
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o:
-	$(MAKE) -f CMakeFiles/hw332_testInvariants.dir/build.make CMakeFiles/hw332_testInvariants.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o:
+	$(MAKE) -f CMakeFiles/hw332_testInvariants.dir/build.make CMakeFiles/hw332_testInvariants.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o
 
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.i: Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.i: Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i
 
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.i
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.i
 
 # target to preprocess a source file
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i:
-	$(MAKE) -f CMakeFiles/hw332_testInvariants.dir/build.make CMakeFiles/hw332_testInvariants.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i:
+	$(MAKE) -f CMakeFiles/hw332_testInvariants.dir/build.make CMakeFiles/hw332_testInvariants.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i
 
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.s: Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.s: Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s
 
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.s
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.s
 
 # target to generate assembly for a file
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s:
-	$(MAKE) -f CMakeFiles/hw332_testInvariants.dir/build.make CMakeFiles/hw332_testInvariants.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s:
+	$(MAKE) -f CMakeFiles/hw332_testInvariants.dir/build.make CMakeFiles/hw332_testInvariants.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s
 
 hw332_main.o: hw332_main.cpp.o
 
@@ -213,9 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... hw332_testInvariants"
-	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.o"
-	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.i"
-	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.s"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.o"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.i"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.s"
 	@echo "... hw332_main.o"
 	@echo "... hw332_main.i"
 	@echo "... hw332_main.s"

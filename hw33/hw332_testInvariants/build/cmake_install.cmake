@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants
+# Install script for directory: /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw33/hw332_testInvariants/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

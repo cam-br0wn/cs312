@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hw332_testInvariants.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o"
+  "CMakeFiles/hw332_testInvariants.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o"
   "CMakeFiles/hw332_testInvariants.dir/hw332_main.cpp.o"
   "CMakeFiles/hw332_testInvariants.dir/hw332_testInvariants.cpp.o"
   "hw332_testInvariants"
