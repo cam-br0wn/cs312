@@ -7,7 +7,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -Wall ")
 # YOU set FOR_CLASS to 1
 set(FOR_CLASS 1)
 if(${FOR_CLASS})
-  set( HOME "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2" )
+  set( HOME "/Volumes/cs312-00-w20/StuWork/brownc2" )
 elseif(NOT ${FOR_CLASS})
   set( HOME "/Users/je/cs312/_cs312")
 endif(${FOR_CLASS})

@@ -80,6 +80,7 @@ int main(int argc, char const *argv[])
      exit if tempo is too low or too high
   */
 
+
   // stuff packets
   std::vector<CMidiPacket> vplay;
   stuffPackets(vplay);
