@@ -80,8 +80,17 @@ int main(int argc, char const *argv[])
      exit if tempo is too low or too high
   */
 
+  // const char* ch;
+  // ch = argv[1];
 
-  // stuff packets
+  // u_int32_t tempo = reinterpret_cast<uint32_t>(ch);
+
+  // if (tempo < 20 || tempo > 300) {
+  //   std::cout << "Tempo is outside range: 20-300" << std::endl;
+  //   exit(0);
+  // }
+
+  //CDelayMs::s_tempo = tempo;
   std::vector<CMidiPacket> vplay;
   stuffPackets(vplay);
 

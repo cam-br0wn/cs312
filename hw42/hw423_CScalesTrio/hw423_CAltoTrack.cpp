@@ -15,6 +15,10 @@ CAltoTrack::CAltoTrack(uint32_t beginTime, uint32_t endTime, uint8_t noteoffset,
 
 void CAltoTrack::write_track()
 {
+  // uint8_t patch = get_patch();
+  // uint8_t volume = get_volume();
+  // uint8_t pan = get_pan();
+
   // set the patch, volume, and pan
   // Note that it's calling the write_track() function in the parent class
   CScalesTrack::write_track();

@@ -20,12 +20,6 @@ chrono
 thread
 -
 
-/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw422_CAppleMidiSynth/hw422_CAppleMidiSynth.cpp
-hw422_CAppleMidiSynth.h
-/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw422_CAppleMidiSynth/hw422_CAppleMidiSynth.h
-hw421_CDelayMs.h
-/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw422_CAppleMidiSynth/hw421_CDelayMs.h
-
 /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw422_CAppleMidiSynth/hw422_CAppleMidiSynth.h
 CoreServices/CoreServices.h
 -
@@ -35,6 +29,16 @@ AudioToolbox/AudioToolbox.h
 -
 hw332_CMidiPacket.h
 /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw422_CAppleMidiSynth/hw332_CMidiPacket.h
+vector
+-
+
+/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw422_CAppleMidiSynth/hw422_main.cpp
+hw422_CAppleMidiSynth.h
+/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw422_CAppleMidiSynth/hw422_CAppleMidiSynth.h
+hw332_CMidiPacket.h
+/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw422_CAppleMidiSynth/hw332_CMidiPacket.h
+hw421_CDelayMs.h
+/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw422_CAppleMidiSynth/hw421_CDelayMs.h
 vector
 -
 
