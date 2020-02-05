@@ -10,7 +10,7 @@ if(${FOR_CLASS})
     # used if testing on mirage
     #    set( HOME "/Accounts/brownc2/COURSES/cs312-00-w20/StuWork/brownc2" )
     # used if testing locally
-    set ( HOME "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2" )
+    set ( HOME "/Volumes/cs312-00-w20/StuWork/brownc2" )
 elseif(NOT ${FOR_CLASS})
     set( HOME "/Users/je/cs312/_cs312")
 endif(${FOR_CLASS})

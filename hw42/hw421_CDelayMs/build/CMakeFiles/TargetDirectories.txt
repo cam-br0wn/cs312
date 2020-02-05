@@ -1,0 +1,3 @@
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw421_CDelayMs/build/CMakeFiles/rebuild_cache.dir
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw421_CDelayMs/build/CMakeFiles/edit_cache.dir
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw421_CDelayMs/build/CMakeFiles/c421_playMIDI.dir

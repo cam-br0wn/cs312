@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw42/c421_playSoftMidi/c421_playSoftMidi.cpp
+CoreServices/CoreServices.h
+-
+AudioUnit/AudioUnit.h
+-
+AudioToolbox/AudioToolbox.h
+-
+unistd.h
+-
+iostream
+-
+
