@@ -1,6 +1,6 @@
 // hw421_CDelayMs.cpp
 #ifndef HW421_CDELAY_MS_H_
-#include "CDelayMs.h"
+#include "hw421_CDelayMs.h"
 #endif
 
 uint32_t CDelayMs::s_tempo = 60;

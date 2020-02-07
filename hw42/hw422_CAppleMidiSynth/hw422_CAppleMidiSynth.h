@@ -28,7 +28,7 @@ public:
 
   // three overridden send methods
   void send(uint32_t waitTm, uint8_t st, uint8_t d1, uint8_t d2);
-  void send(const CMidiPacket &mp, uint32_t prev_time);
+  void send(const CMidiPacket &mp);
   void send(const std::vector<CMidiPacket> &vmp);
 
 private:

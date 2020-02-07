@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.16.2/bin/cmake
+CMAKE_COMMAND = /Software/elcapitan-local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.16.2/bin/cmake -E remove -f
+RM = /Software/elcapitan-local/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScale
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/Cellar/cmake/3.16.2/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Software/elcapitan-local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/Cellar/cmake/3.16.2/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Software/elcapitan-local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,59 +123,140 @@ hw423_CScalesTrio/fast:
 	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/build
 .PHONY : hw423_CScalesTrio/fast
 
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.o: Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.o: Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o
 
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.o
-
-# target to build an object file
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o:
-	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o
-
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.i: Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i
-
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.i
-
-# target to preprocess a source file
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i:
-	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i
-
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.s: Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s
-
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.s
-
-# target to generate assembly for a file
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s:
-	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s
-
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.o: Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.o
-
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.o
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.o
 
 # target to build an object file
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.o:
-	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.o
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.o
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o:
+	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o
 
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.i: Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.i
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.i: Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i
 
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.i
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.i
 
 # target to preprocess a source file
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.i:
-	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.i
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.i
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i:
+	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i
 
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.s: Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.s
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.s: Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s
 
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.s
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.s
 
 # target to generate assembly for a file
-Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.s:
-	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.s
-.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.s
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s:
+	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s
+
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.o: Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.o
+
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.o
+
+# target to build an object file
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.o:
+	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.o
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.o
+
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.i: Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.i
+
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.i
+
+# target to preprocess a source file
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.i:
+	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.i
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.i
+
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.s: Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.s
+
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.s
+
+# target to generate assembly for a file
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.s:
+	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.s
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.s
+
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.o: Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.o
+
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.o
+
+# target to build an object file
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.o:
+	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.o
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.o
+
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.i: Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.i
+
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.i
+
+# target to preprocess a source file
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.i:
+	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.i
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.i
+
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.s: Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.s
+
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.s
+
+# target to generate assembly for a file
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.s:
+	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.s
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.s
+
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.o: Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.o
+
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.o
+
+# target to build an object file
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.o:
+	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.o
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.o
+
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.i: Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.i
+
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.i
+
+# target to preprocess a source file
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.i:
+	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.i
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.i
+
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.s: Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.s
+
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.s
+
+# target to generate assembly for a file
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.s:
+	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.s
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.s
+
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.o: Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.o
+
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.o
+
+# target to build an object file
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.o:
+	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.o
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.o
+
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.i: Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.i
+
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.i
+
+# target to preprocess a source file
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.i:
+	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.i
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.i
+
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.s: Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.s
+
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.s
+
+# target to generate assembly for a file
+Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.s:
+	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.s
+.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.s
 
 hw423_CAltoTrack.o: hw423_CAltoTrack.cpp.o
 
@@ -230,6 +311,33 @@ hw423_CBassTrack.s: hw423_CBassTrack.cpp.s
 hw423_CBassTrack.cpp.s:
 	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/hw423_CBassTrack.cpp.s
 .PHONY : hw423_CBassTrack.cpp.s
+
+hw423_CScalesTrack.o: hw423_CScalesTrack.cpp.o
+
+.PHONY : hw423_CScalesTrack.o
+
+# target to build an object file
+hw423_CScalesTrack.cpp.o:
+	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/hw423_CScalesTrack.cpp.o
+.PHONY : hw423_CScalesTrack.cpp.o
+
+hw423_CScalesTrack.i: hw423_CScalesTrack.cpp.i
+
+.PHONY : hw423_CScalesTrack.i
+
+# target to preprocess a source file
+hw423_CScalesTrack.cpp.i:
+	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/hw423_CScalesTrack.cpp.i
+.PHONY : hw423_CScalesTrack.cpp.i
+
+hw423_CScalesTrack.s: hw423_CScalesTrack.cpp.s
+
+.PHONY : hw423_CScalesTrack.s
+
+# target to generate assembly for a file
+hw423_CScalesTrack.cpp.s:
+	$(MAKE) -f CMakeFiles/hw423_CScalesTrio.dir/build.make CMakeFiles/hw423_CScalesTrio.dir/hw423_CScalesTrack.cpp.s
+.PHONY : hw423_CScalesTrack.cpp.s
 
 hw423_CSopranoTrack.o: hw423_CSopranoTrack.cpp.o
 
@@ -294,18 +402,30 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... hw423_CScalesTrio"
-	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.o"
-	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.i"
-	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.s"
-	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.o"
-	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.i"
-	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.s"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.o"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.i"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.s"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.o"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.i"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.s"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.o"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.i"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.s"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.o"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.i"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.s"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.o"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.i"
+	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.s"
 	@echo "... hw423_CAltoTrack.o"
 	@echo "... hw423_CAltoTrack.i"
 	@echo "... hw423_CAltoTrack.s"
 	@echo "... hw423_CBassTrack.o"
 	@echo "... hw423_CBassTrack.i"
 	@echo "... hw423_CBassTrack.s"
+	@echo "... hw423_CScalesTrack.o"
+	@echo "... hw423_CScalesTrack.i"
+	@echo "... hw423_CScalesTrack.s"
 	@echo "... hw423_CSopranoTrack.o"
 	@echo "... hw423_CSopranoTrack.i"
 	@echo "... hw423_CSopranoTrack.s"

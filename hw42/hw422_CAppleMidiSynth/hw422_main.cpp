@@ -12,6 +12,7 @@
 #endif
 
 #include <vector>
+#include <iostream>
 
 // Do not modify stuffPackets
 void stuffPackets(std::vector<CMidiPacket> &v)
@@ -95,6 +96,8 @@ int main(int argc, char const *argv[])
   stuffPackets(vplay);
 
   // play using CAppleMidiSynth
+  CDelayMs::s_tempo = std::stoi(argv[1]);
+  std::cout << CDelayMs::s_tempo << std::endl;
   CAppleMidiSynth ams;
   ams.send(vplay);
 

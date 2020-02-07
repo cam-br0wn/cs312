@@ -10,8 +10,8 @@
 #ifndef HW423_CSCALESTRACK_H_
 #define HW423_CSCALESTRACK_H_
 
-#ifndef HW413_CMIDITRACK_H_
-#include "hw413_CMidiTrack.h"
+#ifndef HW423_CMIDITRACK_H_
+#include "hw423_CMidiTrack.h"
 #endif
 
 // DO NOT MODIFY THIS CODE
@@ -48,5 +48,20 @@ const std::vector<int> vwholetone{0, 2, 4, 6, 8, 10, 12};           // Whole ton
 const std::vector<int> vflamenco{0, 1, 4, 5, 7, 8, 11, 12};          // Flamenco
 const std::vector<int> vphrygian_dominant{0, 1, 4, 5, 7, 8, 10, 12}; // Phrygian dominant
 // clang-format ON
+
+////// JE ADDED for hw423
+/* DURATION VALUES
+duration values are expressed in milliseconds with a
+quarter note = 1000 at a tempo of 60 beats per minute.
+*/
+const std::vector<int> vrhythm0 = {500, 250, 250, 500}; // the original hw423_CScalesTrack pattern
+// je additional patterns
+const std::vector<int> vrhythm1 = {250, 250, 500};
+const std::vector<int> vrhythm2 = {500, 500};
+const std::vector<int> vrhythm3 = {250, 500, 1000};
+const std::vector<int> vrhythm4 = {125, 250, 500, 1000};
+const std::vector<int> vrhythm5 = {333, 667, 1000};
+const std::vector<int> vrhythm6 = {333, 333, 334, 667};
+const std::vector<int> vrhythm7 = {333, 333, 333, 333, 667, 667, 1000};
 
 #endif // HW411_CSCALESTRACK_H_

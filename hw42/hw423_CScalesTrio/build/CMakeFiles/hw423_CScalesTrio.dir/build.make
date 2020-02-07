@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.16.2/bin/cmake
+CMAKE_COMMAND = /Software/elcapitan-local/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.16.2/bin/cmake -E remove -f
+RM = /Software/elcapitan-local/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -57,105 +57,165 @@ include CMakeFiles/hw423_CScalesTrio.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hw423_CScalesTrio.dir/flags.make
 
-CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o: CMakeFiles/hw423_CScalesTrio.dir/flags.make
-CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o: /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp
+CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o: CMakeFiles/hw423_CScalesTrio.dir/flags.make
+CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o: /Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o -c /Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp
 
-CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp > CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i
+CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp > CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.i
 
-CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp -o CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s
+CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp -o CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.s
 
-CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.o: CMakeFiles/hw423_CScalesTrio.dir/flags.make
-CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.o: /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp
+CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.o: CMakeFiles/hw423_CScalesTrio.dir/flags.make
+CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.o: /Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.o -c /Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp
 
-CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp > CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.i
+CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp > CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.i
 
-CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp -o CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.s
+CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp -o CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.s
+
+CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.o: CMakeFiles/hw423_CScalesTrio.dir/flags.make
+CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.o: /Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.o -c /Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp
+
+CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp > CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.i
+
+CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp -o CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.s
+
+CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.o: CMakeFiles/hw423_CScalesTrio.dir/flags.make
+CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.o: /Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.o -c /Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp
+
+CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp > CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.i
+
+CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp -o CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.s
+
+CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.o: CMakeFiles/hw423_CScalesTrio.dir/flags.make
+CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.o: /Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.o -c /Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp
+
+CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp > CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.i
+
+CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp -o CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.s
 
 CMakeFiles/hw423_CScalesTrio.dir/hw423_CAltoTrack.cpp.o: CMakeFiles/hw423_CScalesTrio.dir/flags.make
 CMakeFiles/hw423_CScalesTrio.dir/hw423_CAltoTrack.cpp.o: ../hw423_CAltoTrack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hw423_CScalesTrio.dir/hw423_CAltoTrack.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw423_CScalesTrio.dir/hw423_CAltoTrack.cpp.o -c /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CAltoTrack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hw423_CScalesTrio.dir/hw423_CAltoTrack.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw423_CScalesTrio.dir/hw423_CAltoTrack.cpp.o -c /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CAltoTrack.cpp
 
 CMakeFiles/hw423_CScalesTrio.dir/hw423_CAltoTrack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw423_CScalesTrio.dir/hw423_CAltoTrack.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CAltoTrack.cpp > CMakeFiles/hw423_CScalesTrio.dir/hw423_CAltoTrack.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CAltoTrack.cpp > CMakeFiles/hw423_CScalesTrio.dir/hw423_CAltoTrack.cpp.i
 
 CMakeFiles/hw423_CScalesTrio.dir/hw423_CAltoTrack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw423_CScalesTrio.dir/hw423_CAltoTrack.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CAltoTrack.cpp -o CMakeFiles/hw423_CScalesTrio.dir/hw423_CAltoTrack.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CAltoTrack.cpp -o CMakeFiles/hw423_CScalesTrio.dir/hw423_CAltoTrack.cpp.s
 
 CMakeFiles/hw423_CScalesTrio.dir/hw423_CBassTrack.cpp.o: CMakeFiles/hw423_CScalesTrio.dir/flags.make
 CMakeFiles/hw423_CScalesTrio.dir/hw423_CBassTrack.cpp.o: ../hw423_CBassTrack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hw423_CScalesTrio.dir/hw423_CBassTrack.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw423_CScalesTrio.dir/hw423_CBassTrack.cpp.o -c /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CBassTrack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/hw423_CScalesTrio.dir/hw423_CBassTrack.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw423_CScalesTrio.dir/hw423_CBassTrack.cpp.o -c /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CBassTrack.cpp
 
 CMakeFiles/hw423_CScalesTrio.dir/hw423_CBassTrack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw423_CScalesTrio.dir/hw423_CBassTrack.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CBassTrack.cpp > CMakeFiles/hw423_CScalesTrio.dir/hw423_CBassTrack.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CBassTrack.cpp > CMakeFiles/hw423_CScalesTrio.dir/hw423_CBassTrack.cpp.i
 
 CMakeFiles/hw423_CScalesTrio.dir/hw423_CBassTrack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw423_CScalesTrio.dir/hw423_CBassTrack.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CBassTrack.cpp -o CMakeFiles/hw423_CScalesTrio.dir/hw423_CBassTrack.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CBassTrack.cpp -o CMakeFiles/hw423_CScalesTrio.dir/hw423_CBassTrack.cpp.s
 
 CMakeFiles/hw423_CScalesTrio.dir/hw423_CSopranoTrack.cpp.o: CMakeFiles/hw423_CScalesTrio.dir/flags.make
 CMakeFiles/hw423_CScalesTrio.dir/hw423_CSopranoTrack.cpp.o: ../hw423_CSopranoTrack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hw423_CScalesTrio.dir/hw423_CSopranoTrack.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw423_CScalesTrio.dir/hw423_CSopranoTrack.cpp.o -c /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CSopranoTrack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/hw423_CScalesTrio.dir/hw423_CSopranoTrack.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw423_CScalesTrio.dir/hw423_CSopranoTrack.cpp.o -c /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CSopranoTrack.cpp
 
 CMakeFiles/hw423_CScalesTrio.dir/hw423_CSopranoTrack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw423_CScalesTrio.dir/hw423_CSopranoTrack.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CSopranoTrack.cpp > CMakeFiles/hw423_CScalesTrio.dir/hw423_CSopranoTrack.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CSopranoTrack.cpp > CMakeFiles/hw423_CScalesTrio.dir/hw423_CSopranoTrack.cpp.i
 
 CMakeFiles/hw423_CScalesTrio.dir/hw423_CSopranoTrack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw423_CScalesTrio.dir/hw423_CSopranoTrack.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CSopranoTrack.cpp -o CMakeFiles/hw423_CScalesTrio.dir/hw423_CSopranoTrack.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CSopranoTrack.cpp -o CMakeFiles/hw423_CScalesTrio.dir/hw423_CSopranoTrack.cpp.s
+
+CMakeFiles/hw423_CScalesTrio.dir/hw423_CScalesTrack.cpp.o: CMakeFiles/hw423_CScalesTrio.dir/flags.make
+CMakeFiles/hw423_CScalesTrio.dir/hw423_CScalesTrack.cpp.o: ../hw423_CScalesTrack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/hw423_CScalesTrio.dir/hw423_CScalesTrack.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw423_CScalesTrio.dir/hw423_CScalesTrack.cpp.o -c /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CScalesTrack.cpp
+
+CMakeFiles/hw423_CScalesTrio.dir/hw423_CScalesTrack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw423_CScalesTrio.dir/hw423_CScalesTrack.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CScalesTrack.cpp > CMakeFiles/hw423_CScalesTrio.dir/hw423_CScalesTrack.cpp.i
+
+CMakeFiles/hw423_CScalesTrio.dir/hw423_CScalesTrack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw423_CScalesTrio.dir/hw423_CScalesTrack.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_CScalesTrack.cpp -o CMakeFiles/hw423_CScalesTrio.dir/hw423_CScalesTrack.cpp.s
 
 CMakeFiles/hw423_CScalesTrio.dir/hw423_main.cpp.o: CMakeFiles/hw423_CScalesTrio.dir/flags.make
 CMakeFiles/hw423_CScalesTrio.dir/hw423_main.cpp.o: ../hw423_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hw423_CScalesTrio.dir/hw423_main.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw423_CScalesTrio.dir/hw423_main.cpp.o -c /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/hw423_CScalesTrio.dir/hw423_main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw423_CScalesTrio.dir/hw423_main.cpp.o -c /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_main.cpp
 
 CMakeFiles/hw423_CScalesTrio.dir/hw423_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw423_CScalesTrio.dir/hw423_main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_main.cpp > CMakeFiles/hw423_CScalesTrio.dir/hw423_main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_main.cpp > CMakeFiles/hw423_CScalesTrio.dir/hw423_main.cpp.i
 
 CMakeFiles/hw423_CScalesTrio.dir/hw423_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw423_CScalesTrio.dir/hw423_main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_main.cpp -o CMakeFiles/hw423_CScalesTrio.dir/hw423_main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/hw423_main.cpp -o CMakeFiles/hw423_CScalesTrio.dir/hw423_main.cpp.s
 
 # Object files for target hw423_CScalesTrio
 hw423_CScalesTrio_OBJECTS = \
-"CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o" \
-"CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.o" \
+"CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o" \
+"CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.o" \
+"CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.o" \
+"CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.o" \
+"CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.o" \
 "CMakeFiles/hw423_CScalesTrio.dir/hw423_CAltoTrack.cpp.o" \
 "CMakeFiles/hw423_CScalesTrio.dir/hw423_CBassTrack.cpp.o" \
 "CMakeFiles/hw423_CScalesTrio.dir/hw423_CSopranoTrack.cpp.o" \
+"CMakeFiles/hw423_CScalesTrio.dir/hw423_CScalesTrack.cpp.o" \
 "CMakeFiles/hw423_CScalesTrio.dir/hw423_main.cpp.o"
 
 # External object files for target hw423_CScalesTrio
 hw423_CScalesTrio_EXTERNAL_OBJECTS =
 
-hw423_CScalesTrio: CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o
-hw423_CScalesTrio: CMakeFiles/hw423_CScalesTrio.dir/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.o
+hw423_CScalesTrio: CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp.o
+hw423_CScalesTrio: CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp.o
+hw423_CScalesTrio: CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.cpp.o
+hw423_CScalesTrio: CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp.o
+hw423_CScalesTrio: CMakeFiles/hw423_CScalesTrio.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp.o
 hw423_CScalesTrio: CMakeFiles/hw423_CScalesTrio.dir/hw423_CAltoTrack.cpp.o
 hw423_CScalesTrio: CMakeFiles/hw423_CScalesTrio.dir/hw423_CBassTrack.cpp.o
 hw423_CScalesTrio: CMakeFiles/hw423_CScalesTrio.dir/hw423_CSopranoTrack.cpp.o
+hw423_CScalesTrio: CMakeFiles/hw423_CScalesTrio.dir/hw423_CScalesTrack.cpp.o
 hw423_CScalesTrio: CMakeFiles/hw423_CScalesTrio.dir/hw423_main.cpp.o
 hw423_CScalesTrio: CMakeFiles/hw423_CScalesTrio.dir/build.make
 hw423_CScalesTrio: CMakeFiles/hw423_CScalesTrio.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable hw423_CScalesTrio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw42/hw423_CScalesTrio/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable hw423_CScalesTrio"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hw423_CScalesTrio.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

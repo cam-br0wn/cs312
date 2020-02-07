@@ -37,11 +37,8 @@ CScalesTrack::CScalesTrack(uint32_t beginTime, uint32_t endTime, uint8_t noteoff
     : CMidiTrack(beginTime, endTime, noteoffset, channel,
                  patch, volume, pan)
 {
-  // assign vscale to one of the above scales
-  // assign rhythm pattern
-  // we'll use the long, short-short, long described on the class 4.1 web page
-  vrhythm = {500, 250, 250, 500};
-  vscale = vrock_blues;
+  std::vector<int> vscale;
+  std::vector<int> vrhythm;
 }
 
 int CScalesTrack::get_note()
@@ -57,37 +54,31 @@ int CScalesTrack::get_note()
 */
 void CScalesTrack::write_scales_track()
 {
-  uint32_t tm = 0;
-  uint8_t channel = 1;
-  uint8_t random_patch = get_rand_int(0, 127);
-  uint8_t volume = get_rand_int(50, 100);
-  uint8_t pan = 63;
   int rhythm_index = 0;
-  send_patch(tm, channel, random_patch);
-  send_volume(tm, channel, volume);
-  send_pan(tm, channel, pan);
+  uint32_t time_stamp = get_beginTimestamp();
+  uint8_t channel = get_channel();
   do {
       int note = get_note();
       uint8_t vel;
-      if(tm % 1500 == 0){
+      if(time_stamp % 1500 == 0){
         vel = 127;
       }
       else{
           vel = 80;
       }
-      send_non(tm, channel, note, vel);
-      send_nof(tm + vrhythm[rhythm_index] - 1, channel, note);
+      push_non(time_stamp, channel, note, vel);
+      push_nof(time_stamp + vrhythm[rhythm_index] - 1, channel, note);
 
-      tm += vrhythm[rhythm_index];
+      time_stamp += vrhythm[rhythm_index];
 
-      if(rhythm_index == 3){
+      if(rhythm_index == vrhythm.size()-1){
           rhythm_index = 0;
       }
       else{
           rhythm_index++;
       }
   }
-  while(tm < get_endTimestamp());
+  while(time_stamp < get_endTimestamp());
   /*
   CScalesTrack declares a private variable tm for keeping track
   I used a do..while loop because we set the endTime in the constructor
@@ -109,9 +100,7 @@ void CScalesTrack::write_track()
 {
   vtrk.clear();
   // these items should be set at the beginning of the track
-//   send_patch(0, get_channel(), get_patch());
-//   send_volume(0, get_channel(), get_volume());
-//   send_pan(0, get_channel(), get_pan());
-
-  write_scales_track();
+  push_patch(0, get_channel(), get_patch());
+  push_volume(0, get_channel(), get_volume());
+  push_pan(0, get_channel(), get_pan());
 }
