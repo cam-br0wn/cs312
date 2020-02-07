@@ -1,4 +1,12 @@
-// hw421_main.cpp
+/***************************************************************
+ hw421_main.cpp
+ Copyright(c) Carleton College CS312 free open source
+ Assignment : hw421
+ Stritzel Matt stritzelm@carleton.edu
+ Brown Cam brownc2@carleton.edu
+ DATE : 2020-02-06
+ TIME: 19:19:19
+ ***************************************************************/
 #ifndef HW421_CDELAY_MS_H_
 #include "hw421_CDelayMs.h"
 #endif

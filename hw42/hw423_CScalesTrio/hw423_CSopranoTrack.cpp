@@ -16,18 +16,37 @@ CSopranoTrack::CSopranoTrack(uint32_t beginTime, uint32_t endTime, uint8_t noteo
 void CSopranoTrack::write_soprano_track()
 {
   int rhythm_index = 0;
-  int tm = get_beginTimestamp();
+  int time_stamp = get_beginTimestamp();
   uint8_t channel = get_channel();
   do {
+      // int note = get_note();
+      // uint8_t vel = 100;
+      // if(!(rhythm_index % (vrhythm.size() - 1))) vel = 127; // makes velocity 127 if it's the first note in the rhythm
+      // push_non(tm, channel, note, vel);
+      // push_nof(tm + (vrhythm[rhythm_index % vrhythm.size())] - 1, channel, note);
+      // tm += vrhythm[rhythm_index];
+      // rhythm_index++;
       int note = get_note();
-      uint8_t vel = 100;
-      if(!(rhythm_index % (vrhythm.size() - 1))) vel = 127; // makes velocity 127 if it's the first note in the rhythm
-      push_non(tm, channel, note, vel);
-      push_nof(tm + vrhythm[rhythm_index % vrhythm.size()] - 1, channel, note);
-      tm += vrhythm[rhythm_index];
-      rhythm_index++;
+      uint8_t vel;
+      if(time_stamp % 1500 == 0){
+        vel = 127;
+      }
+      else{
+          vel = 80;
+      }
+      push_non(time_stamp, channel, note, vel);
+      push_nof(time_stamp + vrhythm[rhythm_index] - 1, channel, note);
+
+      time_stamp += vrhythm[rhythm_index];
+
+      if(rhythm_index == vrhythm.size()-1){
+          rhythm_index = 0;
+      }
+      else{
+          rhythm_index++;
+      }
   }
-  while(tm < get_endTimestamp());
+  while(time_stamp < get_endTimestamp());
   /*
   CScalesTrack declares a private variable tm for keeping track
   I used a do..while loop because we set the endTime in the constructor

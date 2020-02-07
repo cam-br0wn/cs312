@@ -100,10 +100,13 @@ int main(int argc, char const *argv[])
   // This is the variable you use
   // The number (120) is passed in from the command line
 //  CDelayMs::s_tempo = std::atoi(argv[1]);
-CDelayMs::s_tempo = 120;
+  CDelayMs::s_tempo = 120;
   // create the CAppleMidiSynth object
   CAppleMidiSynth ams;
-    for (auto itr:vplay)
-        ams.send(itr);
-//  ams.send(vplay);
+    for (auto itr:vplay){
+      std::cout << itr;
+      ams.send(itr);
+    }
+        
+
 }
