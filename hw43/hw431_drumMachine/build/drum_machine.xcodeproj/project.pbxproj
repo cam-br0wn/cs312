@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		988744022ED2422E96BD61CE /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BAFE2FCEEE0245DE9FA91BEE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				CEA2781EE25B47A988B961B2 /* CMake Rules */,
+			);
+			dependencies = (
+				291D973EAD4F49B09118C66E /* PBXTargetDependency */,
+				C3209EA559494472ADAEB886 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		9B065EB2E871489F9844DDD4 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A158C0D523AD428DAC80B543 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				92AAADA7975148C98EC16C14 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		11664CC6AEAB4DEB9EE2C759 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp */ = {isa = PBXBuildFile; fileRef = E920ED8C97D1499AAEFB0A8D /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp */; };
+		4F1B354B672C4BACB740372B /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/hw431_CDrumMachine.cpp */ = {isa = PBXBuildFile; fileRef = 03ACD6BAE5BB4AB49879D9B3 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/hw431_CDrumMachine.cpp */; };
+		599D13F2E26F4B3CA0EBF9B7 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp */ = {isa = PBXBuildFile; fileRef = 0B0231ECC5C44642A0009956 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp */; };
+		937F1D7E4828457A9BB7FD4A /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/hw431_main.cpp */ = {isa = PBXBuildFile; fileRef = CC93CE756EAB435799573E3D /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/hw431_main.cpp */; };
+		A6997D2BDC234FF092AA45FB /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/hw431_CDrumTrack.cpp */ = {isa = PBXBuildFile; fileRef = 8591D2EBEC1B406195181EA7 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/hw431_CDrumTrack.cpp */; };
+		C95B86F46E9C4E168DEDC8F8 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp */ = {isa = PBXBuildFile; fileRef = B510BE2B6B9E4B4EAB90F3E3 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp */; };
+		D3477C814A8149889F914C65 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp */ = {isa = PBXBuildFile; fileRef = 3B5BFB678854468BBC2651C8 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp */; };
+		FF3975B19EDE453DAABAA3B1 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 61659CAA15D04A0A81602DEA /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4408A3B782A144CB96D8E41D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		AA0B5D4C4A8E435FBB34148D /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		AB35EE0D012E4F1CA24C52D1 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		B104765B8F0C4321A4852365 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		3B8A9102689449C3BAFDE781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF0960F63270475683C14AEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B065EB2E871489F9844DDD4;
+			remoteInfo = ZERO_CHECK;
+		};
+		95297994A9D64A4D88D56341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF0960F63270475683C14AEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFC37590AECF406DA9676750;
+			remoteInfo = drum_machine;
+		};
+		A49E0D4819774A99970A461D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF0960F63270475683C14AEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B065EB2E871489F9844DDD4;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03ACD6BAE5BB4AB49879D9B3 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/hw431_CDrumMachine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hw431_CDrumMachine.cpp; path = hw431_CDrumMachine.cpp; sourceTree = SOURCE_ROOT; };
+		0B0231ECC5C44642A0009956 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hw332_CMidiPacket.cpp; path = ../../../common/hw332_CMidiPacket.cpp; sourceTree = SOURCE_ROOT; };
+		3B5BFB678854468BBC2651C8 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hw421_CDelayMs.cpp; path = ../../../common/hw421_CDelayMs.cpp; sourceTree = SOURCE_ROOT; };
+		61659CAA15D04A0A81602DEA /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8591D2EBEC1B406195181EA7 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/hw431_CDrumTrack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hw431_CDrumTrack.cpp; path = hw431_CDrumTrack.cpp; sourceTree = SOURCE_ROOT; };
+		ABBC7B559233445EA84144EA /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B510BE2B6B9E4B4EAB90F3E3 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hw422_CAppleMidiSynth.cpp; path = ../../../common/hw422_CAppleMidiSynth.cpp; sourceTree = SOURCE_ROOT; };
+		CAA607B9BCBE406B91526983 /* drum_machine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = drum_machine; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC93CE756EAB435799573E3D /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/hw431_main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hw431_main.cpp; path = hw431_main.cpp; sourceTree = SOURCE_ROOT; };
+		E920ED8C97D1499AAEFB0A8D /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hw423_CMidiTrack.cpp; path = ../../../common/hw423_CMidiTrack.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		26BA84F72B5D4F898A3E8BD2 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				E852AFB9941742F29442F070 /* CMake Rules */,
+				ABBC7B559233445EA84144EA /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		27AFC70A2AA741EE9EFB25C8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B0231ECC5C44642A0009956 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp */,
+				3B5BFB678854468BBC2651C8 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp */,
+				B510BE2B6B9E4B4EAB90F3E3 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp */,
+				E920ED8C97D1499AAEFB0A8D /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp */,
+				03ACD6BAE5BB4AB49879D9B3 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/hw431_CDrumMachine.cpp */,
+				8591D2EBEC1B406195181EA7 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/hw431_CDrumTrack.cpp */,
+				CC93CE756EAB435799573E3D /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/hw431_main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4995A355AE644CCBB4B50E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAA607B9BCBE406B91526983 /* drum_machine */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D5C1605286248608CD95406 = {
+			isa = PBXGroup;
+			children = (
+				FDCE2D66B9BB4AB39485286F /* drum_machine */,
+				26BA84F72B5D4F898A3E8BD2 /* ALL_BUILD */,
+				4995A355AE644CCBB4B50E10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E852AFB9941742F29442F070 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FDCE2D66B9BB4AB39485286F /* drum_machine */ = {
+			isa = PBXGroup;
+			children = (
+				27AFC70A2AA741EE9EFB25C8 /* Source Files */,
+				61659CAA15D04A0A81602DEA /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/CMakeLists.txt */,
+			);
+			name = drum_machine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFC37590AECF406DA9676750 /* drum_machine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F184D3F4E74D4F9CB0DBE450 /* Build configuration list for PBXNativeTarget "drum_machine" */;
+			buildPhases = (
+				37605B4EE78A4D3BBB017886 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				551443C34B0C404DA44CC18A /* PBXTargetDependency */,
+			);
+			name = drum_machine;
+			productName = drum_machine;
+			productReference = CAA607B9BCBE406B91526983 /* drum_machine */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF0960F63270475683C14AEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 7E4D52E264F04E0BB74CBD97 /* Build configuration list for PBXProject "drum_machine" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				AB35EE0D012E4F1CA24C52D1 /* Debug */,
+				4408A3B782A144CB96D8E41D /* Release */,
+				AA0B5D4C4A8E435FBB34148D /* MinSizeRel */,
+				B104765B8F0C4321A4852365 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 4D5C1605286248608CD95406;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				988744022ED2422E96BD61CE /* ALL_BUILD */,
+				9B065EB2E871489F9844DDD4 /* ZERO_CHECK */,
+				DFC37590AECF406DA9676750 /* drum_machine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92AAADA7975148C98EC16C14 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/build -f /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		ABEA9B7A1508474B8CCB598F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C7B246BEE82341C8AEDB299E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CEA2781EE25B47A988B961B2 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/build -f /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37605B4EE78A4D3BBB017886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599D13F2E26F4B3CA0EBF9B7 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.cpp */,
+				D3477C814A8149889F914C65 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.cpp */,
+				C95B86F46E9C4E168DEDC8F8 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw422_CAppleMidiSynth.cpp */,
+				11664CC6AEAB4DEB9EE2C759 /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.cpp */,
+				4F1B354B672C4BACB740372B /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/hw431_CDrumMachine.cpp */,
+				A6997D2BDC234FF092AA45FB /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/hw431_CDrumTrack.cpp */,
+				937F1D7E4828457A9BB7FD4A /* /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/hw431_main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		291D973EAD4F49B09118C66E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFC37590AECF406DA9676750 /* drum_machine */;
+			targetProxy = 95297994A9D64A4D88D56341 /* PBXContainerItemProxy */;
+		};
+		551443C34B0C404DA44CC18A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B065EB2E871489F9844DDD4 /* ZERO_CHECK */;
+			targetProxy = A49E0D4819774A99970A461D /* PBXContainerItemProxy */;
+		};
+		C3209EA559494472ADAEB886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B065EB2E871489F9844DDD4 /* ZERO_CHECK */;
+			targetProxy = 3B8A9102689449C3BAFDE781 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E2E80D55E7D4A2E932C1801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++17 -Wall  -std=c++17 -Wall      -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework CoreServices -framework AudioUnit -framework AudioToolbox";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = drum_machine;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		11ACFA1E32184B4DA636ADF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/build/build";
+			};
+			name = Release;
+		};
+		28D52EE351214DC4B70B1122 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		5A80EB1BD2654C75ACF04336 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6E1CD70E79534B9FA681D8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		770175F24A7B405291C53934 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++17 -Wall  -std=c++17 -Wall         -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework CoreServices -framework AudioUnit -framework AudioToolbox";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = drum_machine;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		830379607F9A490C98CC445A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++17 -Wall  -std=c++17 -Wall      ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework CoreServices -framework AudioUnit -framework AudioToolbox";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = drum_machine;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		88680887ABF84821828CD95D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++17 -Wall  -std=c++17 -Wall      -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework CoreServices -framework AudioUnit -framework AudioToolbox";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = drum_machine;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9B05D1AD0A424BD5A6808998 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9C47076D1335436CADE1F6F3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/build/build";
+			};
+			name = MinSizeRel;
+		};
+		A15390B85DA94DE590EBF226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B37058F2A7774723A6D2D6BB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C919B4F6CE86407F84E5FD8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D2682FCE26274F8FBF5FD2EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D59242CAF4ED4172BD44E9EB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DB2C283055C54827AD614660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw43/hw431_drumMachine_xcode/build/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E4D52E264F04E0BB74CBD97 /* Build configuration list for PBXProject "drum_machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2C283055C54827AD614660 /* Debug */,
+				11ACFA1E32184B4DA636ADF1 /* Release */,
+				9C47076D1335436CADE1F6F3 /* MinSizeRel */,
+				28D52EE351214DC4B70B1122 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A158C0D523AD428DAC80B543 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E1CD70E79534B9FA681D8F7 /* Debug */,
+				A15390B85DA94DE590EBF226 /* Release */,
+				B37058F2A7774723A6D2D6BB /* MinSizeRel */,
+				9B05D1AD0A424BD5A6808998 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BAFE2FCEEE0245DE9FA91BEE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C919B4F6CE86407F84E5FD8E /* Debug */,
+				D2682FCE26274F8FBF5FD2EF /* Release */,
+				5A80EB1BD2654C75ACF04336 /* MinSizeRel */,
+				D59242CAF4ED4172BD44E9EB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F184D3F4E74D4F9CB0DBE450 /* Build configuration list for PBXNativeTarget "drum_machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830379607F9A490C98CC445A /* Debug */,
+				0E2E80D55E7D4A2E932C1801 /* Release */,
+				88680887ABF84821828CD95D /* MinSizeRel */,
+				770175F24A7B405291C53934 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF0960F63270475683C14AEB /* Project object */;
+}

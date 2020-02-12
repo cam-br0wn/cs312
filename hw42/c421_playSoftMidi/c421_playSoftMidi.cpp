@@ -153,6 +153,9 @@ int main(int argc, const char *argv[])
 	__Require_noErr(result = AUGraphStart(graph), home);
 
 	// we're going to play an octave of MIDI notes: one a second
+
+	//	__Require_noErr(result = MusicDeviceMIDIEvent(synthUnit, 0xC0, 11, 0, 0), home);
+
 	for (int i = 0; i < 13; i++)
 	{
 		uint32_t noteNum = i + 60;
