@@ -1,4 +1,12 @@
-// c513_CMarkovBlues.h
+/***************************************************************
+c513_CMarkovBlues.h
+Copyright (c) Carleton College CS312 free open source
+Assignment: c513
+Brown Cam brownc2@carleton.edu
+Stritzel Matt stritzelm@carleton.du
+DATE: 2020-02-12
+TIME: 12:38:21
+****************************************************************/
 #ifndef C513_CMARKOVBLUES_H_
 #define C513_CMARKOVBLUES_H_
 

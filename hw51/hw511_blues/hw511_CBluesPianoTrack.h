@@ -1,4 +1,12 @@
-// hw511_CBluesPianoTrack.h
+/***************************************************************
+hw511_CBluesPianoTrack.h
+Copyright (c) Carleton College CS312 free open source
+Assignment: hw511
+Brown Cam brownc2@carleton.edu
+Stritzel Matt stritzelm@carleton.du
+DATE: 2020-02-12
+TIME: 12:38:21
+****************************************************************/
 #ifndef HW511_CBLUESPIANOTRACK_H_
 #define HW511_CBLUESPIANOTRACK_H_
 

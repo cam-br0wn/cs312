@@ -1,4 +1,12 @@
-// hw511_CBluesMelodyTrack
+/***************************************************************
+hw511_CBluesMelodyTrack.cpp
+Copyright (c) Carleton College CS312 free open source
+Assignment: hw511
+Brown Cam brownc2@carleton.edu
+Stritzel Matt stritzelm@carleton.du
+DATE: 2020-02-12
+TIME: 12:38:21
+****************************************************************/
 #ifndef HW511_CBLUESMELODYTRACK_H_
 #include "hw511_CBluesMelodyTrack.h"
 #endif

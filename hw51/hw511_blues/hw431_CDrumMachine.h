@@ -1,4 +1,12 @@
-// hw431_CDrumMachine.h
+/***************************************************************
+hw431_CDrumMachine.h
+Copyright (c) Carleton College CS312 free open source
+Assignment: hw431
+Brown Cam brownc2@carleton.edu
+Stritzel Matt stritzelm@carleton.du
+DATE: 2020-02-12
+TIME: 12:38:21
+****************************************************************/
 #ifndef hw431_CDRUMMACHINE_H_
 #define hw431_CDRUMMACHINE_H_
 

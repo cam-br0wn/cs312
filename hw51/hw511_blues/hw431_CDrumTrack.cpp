@@ -1,4 +1,12 @@
-// hw431_CDrumTrack.cpp
+/***************************************************************
+hw431_CDrumTrack.cpp
+Copyright (c) Carleton College CS312 free open source
+Assignment: hw431
+Brown Cam brownc2@carleton.edu
+Stritzel Matt stritzelm@carleton.du
+DATE: 2020-02-12
+TIME: 12:38:21
+****************************************************************/
 #ifndef hw431_CDRUMTRACK_H_
 #include "hw431_CDrumTrack.h"
 #endif
