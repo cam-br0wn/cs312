@@ -1,0 +1,3 @@
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/build/CMakeFiles/rebuild_cache.dir
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/build/CMakeFiles/edit_cache.dir
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/build/CMakeFiles/blues51.dir
