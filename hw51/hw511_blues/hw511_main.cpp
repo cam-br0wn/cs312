@@ -47,7 +47,7 @@ void write_melody()
   uint32_t startTm = 0;
   int scaleOffset = 0;
   int chan = 0;
-  int patch = 114; // steel drums
+  int patch = 12; // marimba
   // Other atches I tried
   // Tenor Sax
   // Electric Guitar (jazz)
@@ -75,7 +75,7 @@ void write_piano()
   uint32_t startTm = 0;
   int scaleOffset = 0;
   int chan = 1;
-  int patch = 14; // tubular bells
+  int patch = 22; // harmonica
   int vol = 127;
   int pan = 64; // pan center
   int startNote = 48;
@@ -95,7 +95,7 @@ void write_bass()
   uint32_t startTm = 0;
   int scaleOffset = 0;
   int chan = 2;
-  int patch = 39; // acoustic bass
+  int patch = 38; // acoustic bass
   int vol = 127;
   int pan = 92; // pan right +32 from center 64
   int startNote = 36;

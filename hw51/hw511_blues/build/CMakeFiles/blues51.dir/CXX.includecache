@@ -12,6 +12,8 @@ iostream
 string
 -
 
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw411_rand_int.h
+
 /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw421_CDelayMs.h
 iostream
 -
@@ -42,6 +44,28 @@ vector
 hw423_CMidiTrack.h
 /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/hw423_CMidiTrack.h
 
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/c513_CMarkovBlues.cpp
+c513_CMarkovBlues.h
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/c513_CMarkovBlues.h
+iostream
+-
+vector
+-
+random
+-
+
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/c513_CMarkovBlues.h
+iostream
+-
+vector
+-
+random
+-
+
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/hw431_CDrumMachine.cpp
+hw431_CDrumMachine.h
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/hw431_CDrumMachine.h
+
 /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/hw431_CDrumMachine.h
 hw431_CDrumTrack.h
 /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/hw431_CDrumTrack.h
@@ -49,6 +73,10 @@ cstdint
 -
 vector
 -
+
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/hw431_CDrumTrack.cpp
+hw431_CDrumTrack.h
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/hw431_CDrumTrack.h
 
 /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/hw431_CDrumTrack.h
 hw423_CMidiTrack.h
@@ -60,13 +88,33 @@ string
 cstdint
 -
 
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/hw511_CBluesBassTrack.cpp
+hw511_CBluesBassTrack.h
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/hw511_CBluesBassTrack.h
+
 /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/hw511_CBluesBassTrack.h
 hw511_CInstrument.h
 /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/hw511_CInstrument.h
 
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/hw511_CBluesMelodyTrack.cpp
+hw511_CBluesMelodyTrack.h
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/hw511_CBluesMelodyTrack.h
+hw411_rand_int.h
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/hw411_rand_int.h
+cstdint
+-
+vector
+-
+c513_CMarkovBlues.h
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/c513_CMarkovBlues.h
+
 /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/hw511_CBluesMelodyTrack.h
 hw511_CInstrument.h
 /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/hw511_CInstrument.h
+
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/hw511_CBluesPianoTrack.cpp
+hw511_CBluesPianoTrack.h
+/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/hw511_CBluesPianoTrack.h
 
 /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw51/hw511_blues/hw511_CBluesPianoTrack.h
 hw511_CInstrument.h

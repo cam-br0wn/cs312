@@ -11,6 +11,8 @@
 
 #include <iostream>
 #include <cstdlib>
+#include <unistd.h>
+#define SLEEP( milliseconds ) usleep( (unsigned long) (milliseconds * 1000.0) )
 
 #ifndef RTMIDI_H
 #include "RtMidi.h"
@@ -45,17 +47,24 @@ void sendCMidiPacket(const CMidiPacket &mp)
 	// input is CMidiPacket
 	// transform to RtMidi message format
 	// send using midiout->sendMessage(&message);
-	std::cout << "sendCMidiPacket(const CMidiPacket &mp)\n";
-	std::cout << "\ttransform to RtMidi message format\n";
-	std::cout << "\tsend using midiout->sendMessage(&message)\n";
-	std::vector<unsigned char> *message;
-	double deltatime;
-	// MidiMessage msg;
 
-	message->at(0) = mp.get_status();
-	message->at(1) = mp.get_data1();
-	message->at(2) = mp.get_data2();
-	midiout->sendMessage(msg);
+	std::vector<unsigned char> message;
+
+	static uint32_t prevTm = 0;
+	uint32_t nowTm = mp.get_timestamp;
+	double deltatime = (nowTm - prevTm) / 1000;
+	SLEEP( deltatime );
+	
+	message.push_back(mp.get_status());
+	message.push_back(mp.get_data1());
+	if(mp.get_length() == 3){
+		message.push_back(mp.get_data2());
+	}
+	midiout->sendMessage(&message);
+	prevTm = nowTm;
+	// std::cout << "sendCMidiPacket(const CMidiPacket &mp)\n";
+	// std::cout << "\ttransform to RtMidi message format\n";
+	// std::cout << "\tsend using midiout->sendMessage(&message)\n";
 }
 
 void stuffPackets()
