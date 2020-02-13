@@ -1,0 +1,3 @@
+/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/c622_rt_cmidiin/build/CMakeFiles/rebuild_cache.dir
+/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/c622_rt_cmidiin/build/CMakeFiles/edit_cache.dir
+/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/c622_rt_cmidiin/build/CMakeFiles/cmidiin.dir

@@ -1,0 +1,3 @@
+/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/c623_rt_midiout/build/CMakeFiles/rebuild_cache.dir
+/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/c623_rt_midiout/build/CMakeFiles/edit_cache.dir
+/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/c623_rt_midiout/build/CMakeFiles/midiout.dir

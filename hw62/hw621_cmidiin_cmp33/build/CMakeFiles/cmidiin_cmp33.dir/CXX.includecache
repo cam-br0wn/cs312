@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.h
+exception
+-
+iostream
+-
+string
+-
+vector
+-
+
+/Volumes/cs312-00-w20/StuWork/brownc2/common/hw332_CMidiPacket.h
+iostream
+-
+string
+-
+
+/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw621_cmidiin_cmp33/hw621_cmidiin_cmp33.cpp
+hw332_CMidiPacket.h
+/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw621_cmidiin_cmp33/hw332_CMidiPacket.h
+iostream
+-
+cstdlib
+-
+RtMidi.h
+/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw621_cmidiin_cmp33/RtMidi.h
+

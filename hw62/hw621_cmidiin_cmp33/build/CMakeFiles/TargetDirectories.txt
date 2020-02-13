@@ -1,0 +1,3 @@
+/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw621_cmidiin_cmp33/build/CMakeFiles/rebuild_cache.dir
+/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw621_cmidiin_cmp33/build/CMakeFiles/edit_cache.dir
+/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw621_cmidiin_cmp33/build/CMakeFiles/cmidiin_cmp33.dir
