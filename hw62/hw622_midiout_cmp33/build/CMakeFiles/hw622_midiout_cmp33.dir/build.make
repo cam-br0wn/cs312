@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CMake.app/Contents/bin/cmake
+CMAKE_COMMAND = /Software/elcapitan-local/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
+RM = /Software/elcapitan-local/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33
+CMAKE_SOURCE_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33/build
+CMAKE_BINARY_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hw622_midiout_cmp33.dir/depend.make
@@ -57,45 +57,75 @@ include CMakeFiles/hw622_midiout_cmp33.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hw622_midiout_cmp33.dir/flags.make
 
-CMakeFiles/hw622_midiout_cmp33.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.o: CMakeFiles/hw622_midiout_cmp33.dir/flags.make
-CMakeFiles/hw622_midiout_cmp33.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.o: /Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hw622_midiout_cmp33.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw622_midiout_cmp33.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.o -c /Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp
+CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.o: CMakeFiles/hw622_midiout_cmp33.dir/flags.make
+CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.o: /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp
 
-CMakeFiles/hw622_midiout_cmp33.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw622_midiout_cmp33.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp > CMakeFiles/hw622_midiout_cmp33.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.i
+CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp > CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.i
 
-CMakeFiles/hw622_midiout_cmp33.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw622_midiout_cmp33.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp -o CMakeFiles/hw622_midiout_cmp33.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.s
+CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp -o CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.s
+
+CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.o: CMakeFiles/hw622_midiout_cmp33.dir/flags.make
+CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.o: /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp
+
+CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp > CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.i
+
+CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp -o CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.s
+
+CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.o: CMakeFiles/hw622_midiout_cmp33.dir/flags.make
+CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.o: /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp
+
+CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp > CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.i
+
+CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp -o CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.s
 
 CMakeFiles/hw622_midiout_cmp33.dir/hw622_midiout_cmp33.cpp.o: CMakeFiles/hw622_midiout_cmp33.dir/flags.make
 CMakeFiles/hw622_midiout_cmp33.dir/hw622_midiout_cmp33.cpp.o: ../hw622_midiout_cmp33.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hw622_midiout_cmp33.dir/hw622_midiout_cmp33.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw622_midiout_cmp33.dir/hw622_midiout_cmp33.cpp.o -c /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33/hw622_midiout_cmp33.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hw622_midiout_cmp33.dir/hw622_midiout_cmp33.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hw622_midiout_cmp33.dir/hw622_midiout_cmp33.cpp.o -c /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/hw622_midiout_cmp33.cpp
 
 CMakeFiles/hw622_midiout_cmp33.dir/hw622_midiout_cmp33.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw622_midiout_cmp33.dir/hw622_midiout_cmp33.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33/hw622_midiout_cmp33.cpp > CMakeFiles/hw622_midiout_cmp33.dir/hw622_midiout_cmp33.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/hw622_midiout_cmp33.cpp > CMakeFiles/hw622_midiout_cmp33.dir/hw622_midiout_cmp33.cpp.i
 
 CMakeFiles/hw622_midiout_cmp33.dir/hw622_midiout_cmp33.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw622_midiout_cmp33.dir/hw622_midiout_cmp33.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33/hw622_midiout_cmp33.cpp -o CMakeFiles/hw622_midiout_cmp33.dir/hw622_midiout_cmp33.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/hw622_midiout_cmp33.cpp -o CMakeFiles/hw622_midiout_cmp33.dir/hw622_midiout_cmp33.cpp.s
 
 # Object files for target hw622_midiout_cmp33
 hw622_midiout_cmp33_OBJECTS = \
-"CMakeFiles/hw622_midiout_cmp33.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.o" \
+"CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.o" \
+"CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.o" \
+"CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.o" \
 "CMakeFiles/hw622_midiout_cmp33.dir/hw622_midiout_cmp33.cpp.o"
 
 # External object files for target hw622_midiout_cmp33
 hw622_midiout_cmp33_EXTERNAL_OBJECTS =
 
-hw622_midiout_cmp33: CMakeFiles/hw622_midiout_cmp33.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.o
+hw622_midiout_cmp33: CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.o
+hw622_midiout_cmp33: CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.o
+hw622_midiout_cmp33: CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.o
 hw622_midiout_cmp33: CMakeFiles/hw622_midiout_cmp33.dir/hw622_midiout_cmp33.cpp.o
 hw622_midiout_cmp33: CMakeFiles/hw622_midiout_cmp33.dir/build.make
 hw622_midiout_cmp33: CMakeFiles/hw622_midiout_cmp33.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable hw622_midiout_cmp33"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable hw622_midiout_cmp33"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hw622_midiout_cmp33.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +138,6 @@ CMakeFiles/hw622_midiout_cmp33.dir/clean:
 .PHONY : CMakeFiles/hw622_midiout_cmp33.dir/clean
 
 CMakeFiles/hw622_midiout_cmp33.dir/depend:
-	cd /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33 /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33 /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33/build /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33/build /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles/hw622_midiout_cmp33.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33 /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33 /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/build /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/build /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles/hw622_midiout_cmp33.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hw622_midiout_cmp33.dir/depend
 

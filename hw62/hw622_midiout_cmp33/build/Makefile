@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CMake.app/Contents/bin/cmake
+CMAKE_COMMAND = /Software/elcapitan-local/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
+RM = /Software/elcapitan-local/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33
+CMAKE_SOURCE_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33/build
+CMAKE_BINARY_DIR = /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiou
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CMake.app/Contents/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Software/elcapitan-local/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/Applications/CMake.app/Contents/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Software/elcapitan-local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,86 @@ hw622_midiout_cmp33/fast:
 	$(MAKE) -f CMakeFiles/hw622_midiout_cmp33.dir/build.make CMakeFiles/hw622_midiout_cmp33.dir/build
 .PHONY : hw622_midiout_cmp33/fast
 
-Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.o: Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.o
+Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.o: Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.o
 
-.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.o
+.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.o
 
 # target to build an object file
-Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.o:
-	$(MAKE) -f CMakeFiles/hw622_midiout_cmp33.dir/build.make CMakeFiles/hw622_midiout_cmp33.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.o
-.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.o
+Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.o:
+	$(MAKE) -f CMakeFiles/hw622_midiout_cmp33.dir/build.make CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.o
+.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.o
 
-Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.i: Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.i
+Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.i: Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.i
 
-.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.i
+.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.i
 
 # target to preprocess a source file
-Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.i:
-	$(MAKE) -f CMakeFiles/hw622_midiout_cmp33.dir/build.make CMakeFiles/hw622_midiout_cmp33.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.i
-.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.i
+Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.i:
+	$(MAKE) -f CMakeFiles/hw622_midiout_cmp33.dir/build.make CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.i
+.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.i
 
-Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.s: Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.s
+Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.s: Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.s
 
-.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.s
+.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.s
 
 # target to generate assembly for a file
-Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.s:
-	$(MAKE) -f CMakeFiles/hw622_midiout_cmp33.dir/build.make CMakeFiles/hw622_midiout_cmp33.dir/Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.s
-.PHONY : Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.cpp.s
+Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.s:
+	$(MAKE) -f CMakeFiles/hw622_midiout_cmp33.dir/build.make CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.s
+.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.cpp.s
+
+Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.o: Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.o
+
+.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.o
+
+# target to build an object file
+Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.o:
+	$(MAKE) -f CMakeFiles/hw622_midiout_cmp33.dir/build.make CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.o
+.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.o
+
+Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.i: Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.i
+
+.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.i
+
+# target to preprocess a source file
+Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.i:
+	$(MAKE) -f CMakeFiles/hw622_midiout_cmp33.dir/build.make CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.i
+.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.i
+
+Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.s: Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.s
+
+.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.s
+
+# target to generate assembly for a file
+Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.s:
+	$(MAKE) -f CMakeFiles/hw622_midiout_cmp33.dir/build.make CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.s
+.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.cpp.s
+
+Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.o: Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.o
+
+.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.o
+
+# target to build an object file
+Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.o:
+	$(MAKE) -f CMakeFiles/hw622_midiout_cmp33.dir/build.make CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.o
+.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.o
+
+Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.i: Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.i
+
+.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.i
+
+# target to preprocess a source file
+Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.i:
+	$(MAKE) -f CMakeFiles/hw622_midiout_cmp33.dir/build.make CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.i
+.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.i
+
+Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.s: Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.s
+
+.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.s
+
+# target to generate assembly for a file
+Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.s:
+	$(MAKE) -f CMakeFiles/hw622_midiout_cmp33.dir/build.make CMakeFiles/hw622_midiout_cmp33.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.s
+.PHONY : Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.cpp.s
 
 hw622_midiout_cmp33.o: hw622_midiout_cmp33.cpp.o
 
@@ -186,9 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... hw622_midiout_cmp33"
-	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.o"
-	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.i"
-	@echo "... Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi/RtMidi.s"
+	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.o"
+	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.i"
+	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi/RtMidi.s"
+	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.o"
+	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.i"
+	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw332_CMidiPacket.s"
+	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.o"
+	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.i"
+	@echo "... Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/hw421_CDelayMs.s"
 	@echo "... hw622_midiout_cmp33.o"
 	@echo "... hw622_midiout_cmp33.i"
 	@echo "... hw622_midiout_cmp33.s"

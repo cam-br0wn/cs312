@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++17 -Wall -D __MACOSX_CORE__  -isysroot /Applications/Xcode.
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Volumes/cs312-00-w20/StuWork/brownc2/common -I/Volumes/cs312-00-w20/StuWork/brownc2/common/RtMidi 
+CXX_INCLUDES = -I/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common -I/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtMidi 
 

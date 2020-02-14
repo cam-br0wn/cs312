@@ -50,21 +50,20 @@ void sendCMidiPacket(const CMidiPacket &mp)
 
 	std::vector<unsigned char> message;
 
-	static uint32_t prevTm = 0;
-	uint32_t nowTm = mp.get_timestamp;
-	double deltatime = (nowTm - prevTm) / 1000;
-	SLEEP( deltatime );
-	
+  	static uint32_t prevTm{0};
+	uint32_t nowTm = mp.get_timestamp();
+
+	// uint32_t ms_delay = mp.get_timestamp() - prevTm;
+	// uint32_t ms_delay = mp.get_timestamp() - prevTm;
+	uint32_t deltatime = (nowTm - prevTm);
+  	CDelayMs d(deltatime, true); 
+
 	message.push_back(mp.get_status());
 	message.push_back(mp.get_data1());
 	if(mp.get_length() == 3){
 		message.push_back(mp.get_data2());
 	}
 	midiout->sendMessage(&message);
-	prevTm = nowTm;
-	// std::cout << "sendCMidiPacket(const CMidiPacket &mp)\n";
-	// std::cout << "\ttransform to RtMidi message format\n";
-	// std::cout << "\tsend using midiout->sendMessage(&message)\n";
 }
 
 void stuffPackets()
@@ -88,15 +87,37 @@ bool openMidiOutPort()
 	// and use them here
 	// return true if port opened
 	// return false on any error
-	std::cout << "openMidiOutPort()\n";
-	std::cout << "\tcopy all relevent try_catch blocks out of hw622_rt_midiout main()\n";
-	std::cout << "\tcalls chooseMidiPort(0\n";
-	return true;
+	// RtMidiOut constructor
+  try {
+    midiout = new RtMidiOut();
+  }
+  catch ( RtMidiError &error ) {
+    error.printMessage();
+    exit( EXIT_FAILURE );
+  }
+
+  // Call function to select port.
+  try {
+    if ( chooseMidiPort( midiout ) == false ) goto cleanup;
+  }
+  catch ( RtMidiError &error ) {
+    error.printMessage();
+    goto cleanup;
+  }
+
+  cleanup:
+  	delete midiout;
+
+  chooseMidiPort(0);
+  return true;
 }
 
 void closeMidiOutPort()
 {
 	// delete midiout if it exists
+	
+  	// ~(&midiout)();
+
 	std::cout << "closeMidiOutPort()\n";
 	std::cout << "\tdelete midiout if it exists\n";
 }
@@ -109,15 +130,17 @@ int main()
 	// OPEN RtMidiOut port
 	if (!openMidiOutPort())
 		return 0;
-
+	
 	// create vplay vector
 	stuffPackets();
+
 	// set tempo
 	CDelayMs::s_tempo = 180;
 	// play
-	for (auto itr : vplay)
+	for (auto itr : vplay) {
 		sendCMidiPacket(itr);
-
+	}
+	
 	// CLOSE RtMidiOut port
 	closeMidiOutPort();
 

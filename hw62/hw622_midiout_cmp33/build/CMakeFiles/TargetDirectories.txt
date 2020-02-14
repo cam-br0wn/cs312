@@ -1,3 +1,3 @@
-/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles/rebuild_cache.dir
-/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles/edit_cache.dir
-/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles/hw622_midiout_cmp33.dir
+/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles/rebuild_cache.dir
+/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles/edit_cache.dir
+/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/build/CMakeFiles/hw622_midiout_cmp33.dir

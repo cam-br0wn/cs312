@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33
+# Install script for directory: /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Volumes/cs312-00-w20/StuWork/brownc2/cs312/hw62/hw622_midiout_cmp33/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw62/hw622_midiout_cmp33/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
