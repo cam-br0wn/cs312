@@ -12,7 +12,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <unistd.h>
-#define SLEEP( milliseconds ) usleep( (unsigned long) (milliseconds * 1000.0) )
+#define SLEEP(milliseconds) usleep((unsigned long)(milliseconds * 1000.0))
 
 #ifndef RTMIDI_H
 #include "RtMidi.h"
@@ -38,7 +38,9 @@ Output Port #1: DLSMusicDevice
 */
 bool chooseMidiPort(RtMidiOut *rtmidi)
 {
-	rtmidi->openPort(1); // DLSMusicDevice
+
+	rtmidi->openPort(1); // DLSMusicDevice   -- is false rn
+
 	return true;
 }
 
@@ -50,20 +52,22 @@ void sendCMidiPacket(const CMidiPacket &mp)
 
 	std::vector<unsigned char> message;
 
-  	static uint32_t prevTm{0};
+	static uint32_t prevTm{0};
 	uint32_t nowTm = mp.get_timestamp();
-
 	// uint32_t ms_delay = mp.get_timestamp() - prevTm;
 	// uint32_t ms_delay = mp.get_timestamp() - prevTm;
 	uint32_t deltatime = (nowTm - prevTm);
-  	CDelayMs d(deltatime, true); 
+	CDelayMs d(deltatime, false);
 
 	message.push_back(mp.get_status());
 	message.push_back(mp.get_data1());
-	if(mp.get_length() == 3){
+	if (mp.get_length() == 3)
+	{
 		message.push_back(mp.get_data2());
 	}
-	midiout->sendMessage(&message);
+
+	midiout->sendMessage(&message); // ERROR CAUSING SEGFAULT OF PROGRAM
+	prevTm = nowTm;
 }
 
 void stuffPackets()
@@ -74,11 +78,17 @@ void stuffPackets()
 	// use all MIDI note numbers 60-72
 	// NON timestamps are 0, 1000, 2000, ...
 	// NOF timestamps are (NON+900)
-	std::cout << "stuffPackets()\n";
-	std::cout << "\tstuff CMidiPacket messages into std::vector<CMidiPacket> vplay\n";
 	// dummy CMidiPacket
-	CMidiPacket mp;
+
+	CMidiPacket mp{0, 0xC0, 0};
 	vplay.push_back(mp);
+	for (int i = 0; i < 13; i++)
+	{
+		mp = {static_cast<uint32_t>((1000 * i)), 0x90, static_cast<uint8_t>(60 + i), 100};
+		vplay.push_back(mp);
+		mp = {static_cast<uint32_t>((1000 * i) + 900), 0x80, static_cast<uint8_t>(60 + i), 0};
+		vplay.push_back(mp);
+	}
 }
 
 bool openMidiOutPort()
@@ -88,38 +98,39 @@ bool openMidiOutPort()
 	// return true if port opened
 	// return false on any error
 	// RtMidiOut constructor
-  try {
-    midiout = new RtMidiOut();
-  }
-  catch ( RtMidiError &error ) {
-    error.printMessage();
-    exit( EXIT_FAILURE );
-  }
+	try
+	{
+		midiout = new RtMidiOut();
+	}
+	catch (RtMidiError &error)
+	{
+		error.printMessage();
+		exit(EXIT_FAILURE);
+	}
 
-  // Call function to select port.
-  try {
-    if ( chooseMidiPort( midiout ) == false ) goto cleanup;
-  }
-  catch ( RtMidiError &error ) {
-    error.printMessage();
-    goto cleanup;
-  }
+	// Call function to select port.
+	try
+	{
+		if (chooseMidiPort(midiout) == false)
+			goto cleanup;
+	}
+	catch (RtMidiError &error)
+	{
+		error.printMessage();
+		std::cout << "Hitting clean up -- doesnt like 'chooseMidiPort() -- sendPort(1) is returning false" << std::endl;
+		goto cleanup;
+	}
 
-  cleanup:
-  	delete midiout;
-
-  chooseMidiPort(0);
-  return true;
+	
+cleanup:
+	delete midiout;
+	return false;
 }
 
 void closeMidiOutPort()
 {
 	// delete midiout if it exists
-	
-  	// ~(&midiout)();
-
-	std::cout << "closeMidiOutPort()\n";
-	std::cout << "\tdelete midiout if it exists\n";
+	midiout->closePort();
 }
 
 /*========================
@@ -127,20 +138,23 @@ void closeMidiOutPort()
 ========================*/
 int main()
 {
+
+
 	// OPEN RtMidiOut port
 	if (!openMidiOutPort())
 		return 0;
-	
+
 	// create vplay vector
 	stuffPackets();
 
 	// set tempo
 	CDelayMs::s_tempo = 180;
 	// play
-	for (auto itr : vplay) {
+	for (auto itr : vplay)
+	{
 		sendCMidiPacket(itr);
 	}
-	
+
 	// CLOSE RtMidiOut port
 	closeMidiOutPort();
 
