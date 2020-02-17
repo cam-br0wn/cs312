@@ -38,9 +38,8 @@ Output Port #1: DLSMusicDevice
 */
 bool chooseMidiPort(RtMidiOut *rtmidi)
 {
-
-	rtmidi->openPort(1); // DLSMusicDevice   -- is false rn
-
+	unsigned int nPorts = rtmidi->getPortCount();
+	rtmidi->openPort(1); // DLSMusicDevice  
 	return true;
 }
 
@@ -66,7 +65,7 @@ void sendCMidiPacket(const CMidiPacket &mp)
 		message.push_back(mp.get_data2());
 	}
 
-	midiout->sendMessage(&message); // ERROR CAUSING SEGFAULT OF PROGRAM
+	midiout->sendMessage(&message); 
 	prevTm = nowTm;
 }
 
@@ -101,6 +100,7 @@ bool openMidiOutPort()
 	try
 	{
 		midiout = new RtMidiOut();
+		std::cout << "Created midiout successfully" << std::endl;
 	}
 	catch (RtMidiError &error)
 	{
@@ -109,20 +109,24 @@ bool openMidiOutPort()
 	}
 
 	// Call function to select port.
+
 	try
 	{
-		if (chooseMidiPort(midiout) == false)
+		if (chooseMidiPort(midiout) == false) 
+
 			goto cleanup;
 	}
 	catch (RtMidiError &error)
 	{
 		error.printMessage();
-		std::cout << "Hitting clean up -- doesnt like 'chooseMidiPort() -- sendPort(1) is returning false" << std::endl;
 		goto cleanup;
 	}
 
+	return true;
+
 	
 cleanup:
+
 	delete midiout;
 	return false;
 }
@@ -138,7 +142,6 @@ void closeMidiOutPort()
 ========================*/
 int main()
 {
-
 
 	// OPEN RtMidiOut port
 	if (!openMidiOutPort())
