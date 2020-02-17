@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../common/hw332_CMidiPacket.h
+iostream
+-
+string
+-
+
+../common/hw411_rand_int.h
+
+../common/hw423_CMidiTrack.h
+hw332_CMidiPacket.h
+../common/hw332_CMidiPacket.h
+vector
+-
+
+../common/hw423_CScalesTrack.h
+hw423_CMidiTrack.h
+../common/hw423_CMidiTrack.h
+
+/Volumes/COURSES-1/cs312-00-w20/StuWork/brownc2/cs312/project1/arpeggio_track.cpp
+arpeggio_track.h
+/Volumes/COURSES-1/cs312-00-w20/StuWork/brownc2/cs312/project1/arpeggio_track.h
+hw411_rand_int.h
+/Volumes/COURSES-1/cs312-00-w20/StuWork/brownc2/cs312/project1/hw411_rand_int.h
+
+/Volumes/COURSES-1/cs312-00-w20/StuWork/brownc2/cs312/project1/arpeggio_track.h
+hw423_CMidiTrack.h
+/Volumes/COURSES-1/cs312-00-w20/StuWork/brownc2/cs312/project1/hw423_CMidiTrack.h
+hw423_CScalesTrack.h
+/Volumes/COURSES-1/cs312-00-w20/StuWork/brownc2/cs312/project1/hw423_CScalesTrack.h
+
