@@ -7,6 +7,16 @@
 //
 //*****************************************//
 
+/***************************************************************
+ hw621_midout_cmp33.cpp
+ Copyright (c) Carleton College CS312 free open source
+ Assignment: hw621
+ Stritzel Matt stritzelm@carleton.edu
+ Brown Cam brownc@carleton.edu
+ DATE: 2019-2-17
+ TIME: 14:46:25
+ ****************************************************************/
+
 #ifndef HW332_CMIDIPACKET_H_
 #include "hw332_CMidiPacket.h"
 #endif
