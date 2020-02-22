@@ -34,19 +34,13 @@ int main(int argc, char const *argv[])
     std::string line;
     std::ifstream inFile("chordChanges.txt");
 
-    // uint16_t beginTime = 0;
-    // uint16_t endTime = 60000;
-    // uint16_t startNote = 72;
-    // uint16_t chan = 0;
-    // uint16_t patch = 15;
-    // uint16_t vol = 90;
-    // uint16_t pan = 63;
-
+    // read in the chord change file
     while (std::getline(inFile, line))
     {
         std::string added_line = std::string(line);
         songInfo.push_back(added_line);
     }
+    // by default, use the up pattern, but check the arg for different
     ArpeggioTrack arptrack(0,0,0,1,1,127,63,1,"up",songInfo);
     if(strcmp("down", argv[2]) == 0){
       arptrack = {0,0,0,1,1,127,63,1,"down",songInfo};
@@ -58,31 +52,24 @@ int main(int argc, char const *argv[])
       arptrack = {0,0,0,1,1,127,63,1,"random",songInfo};
     }
 
-  // Write the three tracks
+  // Write the arpeggio track
   arptrack.write_track();
   // create the playback vector vplay
-  // use std::copy for sop_trk, alto_trk, bass_trk with std::back_inserter(vplay)
+  // use std::copy for arptrack with std::back_inserter(vplay)
   std::vector<CMP33::CMidiPacket> vplay;
-  // for(auto itr : arptrack.vtrk){
-  //   std::cout << itr;
-  // }
   std::copy(arptrack.vtrk.begin(), arptrack.vtrk.end(), std::back_inserter(vplay));
 
-  // vector vplay now holds all elements of sop, alto, bass vectors
+  // vector vplay now holds all elements of arpeggio vector
   // sort vplay vector
   // it will use your operator< (less) routine
   std::sort(vplay.begin(), vplay.end());
 
-  // Set the playback tempo
-  // This is the variable you use
-  // The number (120) is passed in from the command line
-//  CDelayMs::s_tempo = std::atoi(argv[1]);
-  int tempo = std::stoi(songInfo.at(0));
-  CDelayMs::s_tempo = tempo;
+  // Set the playback tempo using the previously read in song info from the text file
+  CDelayMs::s_tempo = std::stoi(songInfo.at(0));;
+
   // create the CAppleMidiSynth object
   CAppleMidiSynth ams;
     for (auto itr:vplay){
-      std::cout << itr;
       ams.send(itr);
     }
 }
