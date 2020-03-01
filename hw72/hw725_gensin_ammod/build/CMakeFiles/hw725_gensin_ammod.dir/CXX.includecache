@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+//Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/libsndfile/sndfile.h
+stdio.h
+-
+stdint.h
+-
+sys/types.h
+-
+
+//Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/libsndfile/sndfile.hh
+sndfile.h
+-
+string
+-
+new
+-
+
+//Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw72/hw725_gensin_ammod/hw725_gensin_ammod.cpp
+sndfile.hh
+//Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw72/hw725_gensin_ammod/sndfile.hh
+iostream
+-
+vector
+-
+cmath
+-
+
