@@ -14,87 +14,26 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label_freq">
+   <widget class="QLabel" name="label_amp">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>40</y>
-      <width>91</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Frequency Hz</string>
-    </property>
-   </widget>
-   <widget class="QScrollBar" name="horizontalSlider_freq">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>80</y>
-      <width>621</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="minimum">
-     <number>20</number>
-    </property>
-    <property name="maximum">
-     <number>4000</number>
-    </property>
-    <property name="value">
-     <number>220</number>
-    </property>
-    <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_stop">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>430</y>
-      <width>113</width>
-      <height>32</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Stop</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_play">
-    <property name="geometry">
-     <rect>
-      <x>610</x>
-      <y>430</y>
-      <width>113</width>
-      <height>32</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Play</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_freqValue">
-    <property name="geometry">
-     <rect>
-      <x>670</x>
-      <y>80</y>
+      <x>30</x>
+      <y>10</y>
       <width>81</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>Amplitude</string>
     </property>
    </widget>
-   <widget class="QScrollBar" name="horizontalSlider_amp">
+   <widget class="QSlider" name="verticalSlider_amp">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>250</y>
-      <width>621</width>
-      <height>16</height>
+      <x>50</x>
+      <y>30</y>
+      <width>22</width>
+      <height>202</height>
      </rect>
     </property>
     <property name="maximum">
@@ -104,33 +43,150 @@
      <number>50</number>
     </property>
     <property name="orientation">
-     <enum>Qt::Horizontal</enum>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_amp">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>210</y>
-      <width>71</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Amplitude</string>
+     <enum>Qt::Vertical</enum>
     </property>
    </widget>
    <widget class="QLabel" name="label_ampValue">
     <property name="geometry">
      <rect>
-      <x>670</x>
+      <x>30</x>
       <y>250</y>
-      <width>81</width>
+      <width>59</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
      <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_CMajor">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>10</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C Major Scale</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_quit">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>270</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Quit</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_C4">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>40</y>
+      <width>41</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_D4">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>40</y>
+      <width>41</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>D</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_E4">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>40</y>
+      <width>41</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>E</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_F4">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>40</y>
+      <width>41</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>F</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_G4">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>40</y>
+      <width>41</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>G</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_A4">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>40</y>
+      <width>41</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_B4">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>40</y>
+      <width>41</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>B</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_C5">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>40</y>
+      <width>41</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>C</string>
     </property>
    </widget>
   </widget>

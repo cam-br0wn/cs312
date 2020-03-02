@@ -30,11 +30,13 @@ sstream
 CoreAudio/AudioHardware.h
 -
 
-/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw73/hw733_playsine_rta/hw733_playsine_rta.cpp
+/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw73/hw733_playsine_rta/rtaudioutils.cpp
+rtaudioutils.h
+/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw73/hw733_playsine_rta/rtaudioutils.h
+
+/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw73/hw733_playsine_rta/rtaudioutils.h
 RtAudio.h
 /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw73/hw733_playsine_rta/RtAudio.h
-iostream
--
 cmath
 -
 

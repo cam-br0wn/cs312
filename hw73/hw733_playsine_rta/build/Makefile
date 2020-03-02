@@ -177,6 +177,33 @@ hw733_playsine_rta.cpp.s:
 	$(MAKE) -f CMakeFiles/hw733_playsine_rta.dir/build.make CMakeFiles/hw733_playsine_rta.dir/hw733_playsine_rta.cpp.s
 .PHONY : hw733_playsine_rta.cpp.s
 
+rtaudioutils.o: rtaudioutils.cpp.o
+
+.PHONY : rtaudioutils.o
+
+# target to build an object file
+rtaudioutils.cpp.o:
+	$(MAKE) -f CMakeFiles/hw733_playsine_rta.dir/build.make CMakeFiles/hw733_playsine_rta.dir/rtaudioutils.cpp.o
+.PHONY : rtaudioutils.cpp.o
+
+rtaudioutils.i: rtaudioutils.cpp.i
+
+.PHONY : rtaudioutils.i
+
+# target to preprocess a source file
+rtaudioutils.cpp.i:
+	$(MAKE) -f CMakeFiles/hw733_playsine_rta.dir/build.make CMakeFiles/hw733_playsine_rta.dir/rtaudioutils.cpp.i
+.PHONY : rtaudioutils.cpp.i
+
+rtaudioutils.s: rtaudioutils.cpp.s
+
+.PHONY : rtaudioutils.s
+
+# target to generate assembly for a file
+rtaudioutils.cpp.s:
+	$(MAKE) -f CMakeFiles/hw733_playsine_rta.dir/build.make CMakeFiles/hw733_playsine_rta.dir/rtaudioutils.cpp.s
+.PHONY : rtaudioutils.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... hw733_playsine_rta.o"
 	@echo "... hw733_playsine_rta.i"
 	@echo "... hw733_playsine_rta.s"
+	@echo "... rtaudioutils.o"
+	@echo "... rtaudioutils.i"
+	@echo "... rtaudioutils.s"
 .PHONY : help
 
 

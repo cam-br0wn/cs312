@@ -1,15 +1,9 @@
-QT       += core gui
+    QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
+QT += multimedia
 CONFIG += c++17
-
-
-# JE testing Modify for your common folder
-COMMON = /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common
-RTA = $${COMMON}/RtAudio
-ULL = /usr/local/lib
-
 
 # The following define makes your compiler emit warnings if you use
 # any Qt feature that has been marked deprecated (the exact warnings
@@ -22,38 +16,48 @@ DEFINES += QT_DEPRECATED_WARNINGS
 # You can also select to disable deprecated APIs only up to a certain version of Qt.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
-SOURCES += \
-    main.cpp \
-    mainwindow.cpp \
-    $${RTA}/RtAudio.cpp
 
-HEADERS += \
-    mainwindow.h \
-    rtaudioutils.h \
-    $${RTA}/RtAudio.h
-
-FORMS += \
-    mainwindow.ui
-
-
-# JE adds
+# Use your full pathname to common and common/libsndfile folder
+COMMON = /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common
+LSF = $${COMMON}/libsndfile
+ULL = /usr/local/lib
+## JE adds BEGIN
 macx {
-# Mac OS specific qmake options
-TARGET = hw734_qtplaysine
+## Mac OS specific qmake options
+TARGET = hw812_qtwavio_stats.pro
 TEMPLATE = app
  CONFIG += app_bundle
- INCLUDEPATH += $${COMMON}
- INCLUDEPATH += $${COMMON}/RtAudio
+ INCLUDEPATH +=$${COMMON}
+ INCLUDEPATH += $${COMMON}/libsndfile
  INCLUDEPATH += /Library/Frameworks/
  QMAKE_LFLAGS += -F/Library/Frameworks
  QMAKE_CXXFLAGS += -D__MACOSX_CORE__
  LIBS += -framework CoreFoundation \
  -framework CoreMIDI \
  -framework CoreAudio \
- $${ULL}/librtaudio.6.1.0.dylib
+ $${ULL}/libsndfile.1.dylib
  QMAKE_CXXFLAGS_WARN_ON += -Wno-unknown-pragmas
  QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.14
 }
+
+
+
+
+
+SOURCES += \
+    main.cpp \
+    mainwindow.cpp \
+    wavio.cpp \
+    wavstats.cpp
+
+HEADERS += \
+    mainwindow.h \
+    $${LSF}/sndfile.hh \
+    wavio.h \
+    wavstats.h
+
+FORMS += \
+    mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

@@ -23,7 +23,39 @@ class MainWindow : public QMainWindow
     ~MainWindow();
 
 private slots:
-    void on_pushButton_stop_clicked();
+    void on_verticalSlider_amp_valueChanged( int value );
+    void on_toolButton_C4_pressed();
+    void on_toolButton_C4_released();
+
+    void on_toolButton_D4_pressed();
+
+    void on_toolButton_D4_released();
+
+    void on_toolButton_E4_pressed();
+
+    void on_toolButton_E4_released();
+
+    void on_toolButton_F4_pressed();
+
+    void on_toolButton_F4_released();
+
+    void on_toolButton_G4_pressed();
+
+    void on_toolButton_G4_released();
+
+    void on_toolButton_A4_pressed();
+
+    void on_toolButton_A4_released();
+
+    void on_toolButton_B4_pressed();
+
+    void on_toolButton_B4_released();
+
+    void on_toolButton_C5_pressed();
+
+    void on_toolButton_C5_released();
+
+    void on_pushButton_quit_clicked();
 
 private:
     Ui::MainWindow* ui;
@@ -31,5 +63,6 @@ private:
     RtAudio dac;
     void init_controls();
     void open_dac_stream();
+    void close_dac_stream();
 };
 #endif // MAINWINDOW_H

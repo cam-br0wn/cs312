@@ -107,7 +107,7 @@
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3_amp">
+   <widget class="QLabel" name="label_amp">
     <property name="geometry">
      <rect>
       <x>40</x>

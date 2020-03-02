@@ -17,7 +17,7 @@ CXX           = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefau
 DEFINES       = -DQT_DEPRECATED_WARNINGS -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB
 CFLAGS        = -pipe -g $(EXPORT_ARCH_ARGS) -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.14 -Wall -W -fPIC $(DEFINES)
 CXXFLAGS      = -pipe -stdlib=libc++ -D__MACOSX_CORE__ -g -std=gnu++1z $(EXPORT_ARCH_ARGS) -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.14 -Wall -W -Wno-unknown-pragmas -fPIC $(DEFINES)
-INCPATH       = -I../../hw734_qtplaysine -I. -I/usr/include/c++/4.3 -I../../../../common -I../../../../common/RtAudio -I/Library/Frameworks -I/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtGui.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtCore.framework/Headers -I. -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers -I. -I/Applications/Qt/5.12.5/clang_64/mkspecs/macx-clang -F/Applications/Qt/5.12.5/clang_64/lib
+INCPATH       = -I../../hw734_qtplaysine -I. -I../../../../common -I../../../../common/RtAudio -I/Library/Frameworks -I/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtGui.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtCore.framework/Headers -I. -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers -I. -I/Applications/Qt/5.12.5/clang_64/mkspecs/macx-clang -F/Applications/Qt/5.12.5/clang_64/lib
 QMAKE         = /Applications/Qt/5.12.5/clang_64/bin/qmake
 DEL_FILE      = rm -f
 CHK_DIR_EXISTS= test -d
@@ -53,9 +53,13 @@ OBJECTS_DIR   = ./
 ####### Files
 
 SOURCES       = ../main.cpp \
-		../mainwindow.cpp moc_mainwindow.cpp
+		../mainwindow.cpp \
+		../rtaudioutils.cpp \
+		../../../../common/RtAudio/RtAudio.cpp moc_mainwindow.cpp
 OBJECTS       = main.o \
 		mainwindow.o \
+		rtaudioutils.o \
+		RtAudio.o \
 		moc_mainwindow.o
 DIST          = /Applications/Qt/5.12.5/clang_64/mkspecs/features/spec_pre.prf \
 		/Applications/Qt/5.12.5/clang_64/mkspecs/qdevice.pri \
@@ -250,8 +254,12 @@ DIST          = /Applications/Qt/5.12.5/clang_64/mkspecs/features/spec_pre.prf \
 		/Applications/Qt/5.12.5/clang_64/mkspecs/features/exceptions.prf \
 		/Applications/Qt/5.12.5/clang_64/mkspecs/features/yacc.prf \
 		/Applications/Qt/5.12.5/clang_64/mkspecs/features/lex.prf \
-		../../hw734_qtplaysine.pro ../mainwindow.h ../main.cpp \
-		../mainwindow.cpp
+		../../hw734_qtplaysine.pro ../mainwindow.h \
+		../rtaudioutils.h \
+		../../../../common/RtAudio/RtAudio.h ../main.cpp \
+		../mainwindow.cpp \
+		../rtaudioutils.cpp \
+		../../../../common/RtAudio/RtAudio.cpp
 QMAKE_TARGET  = hw734_qtplaysine
 DESTDIR       = 
 TARGET        = hw734_qtplaysine.app/Contents/MacOS/hw734_qtplaysine
@@ -699,8 +707,8 @@ distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents /Applications/Qt/5.12.5/clang_64/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents ../mainwindow.h $(DISTDIR)/
-	$(COPY_FILE) --parents ../main.cpp ../mainwindow.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents ../mainwindow.h ../rtaudioutils.h ../../../../common/RtAudio/RtAudio.h $(DISTDIR)/
+	$(COPY_FILE) --parents ../main.cpp ../mainwindow.cpp ../rtaudioutils.cpp ../../../../common/RtAudio/RtAudio.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../mainwindow.ui $(DISTDIR)/
 
 
@@ -742,9 +750,11 @@ compiler_moc_header_clean:
 moc_mainwindow.cpp: ../mainwindow.h \
 		/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h \
+		../rtaudioutils.h \
+		../../../../common/RtAudio/RtAudio.h \
 		moc_predefs.h \
 		/Applications/Qt/5.12.5/clang_64/bin/moc
-	/Applications/Qt/5.12.5/clang_64/bin/moc $(DEFINES) --include /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw73/hw734_qtplaysine/build-debug/moc_predefs.h -I/Applications/Qt/5.12.5/clang_64/mkspecs/macx-clang -I/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw73/hw734_qtplaysine -I/usr/include/c++/4.3 -I/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common -I/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtAudio -I/Library/Frameworks -I/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtGui.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtCore.framework/Headers -I. -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1 -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include -F/Applications/Qt/5.12.5/clang_64/lib ../mainwindow.h -o moc_mainwindow.cpp
+	/Applications/Qt/5.12.5/clang_64/bin/moc $(DEFINES) --include /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw73/hw734_qtplaysine/build-debug/moc_predefs.h -I/Applications/Qt/5.12.5/clang_64/mkspecs/macx-clang -I/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw73/hw734_qtplaysine -I/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common -I/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtAudio -I/Library/Frameworks -I/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtGui.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtCore.framework/Headers -I. -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1 -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include -F/Applications/Qt/5.12.5/clang_64/lib ../mainwindow.h -o moc_mainwindow.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -772,6 +782,8 @@ compiler_clean: compiler_moc_predefs_clean compiler_moc_header_clean compiler_ui
 main.o: ../main.cpp ../mainwindow.h \
 		/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h \
+		../rtaudioutils.h \
+		../../../../common/RtAudio/RtAudio.h \
 		/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers/QApplication \
 		/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers/qapplication.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../main.cpp
@@ -779,10 +791,17 @@ main.o: ../main.cpp ../mainwindow.h \
 mainwindow.o: ../mainwindow.cpp ../mainwindow.h \
 		/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h \
-		ui_mainwindow.h \
 		../rtaudioutils.h \
-		../../../../common/RtAudio/RtAudio.h
+		../../../../common/RtAudio/RtAudio.h \
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o ../mainwindow.cpp
+
+rtaudioutils.o: ../rtaudioutils.cpp ../rtaudioutils.h \
+		../../../../common/RtAudio/RtAudio.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o rtaudioutils.o ../rtaudioutils.cpp
+
+RtAudio.o: ../../../../common/RtAudio/RtAudio.cpp ../../../../common/RtAudio/RtAudio.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o RtAudio.o ../../../../common/RtAudio/RtAudio.cpp
 
 moc_mainwindow.o: moc_mainwindow.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_mainwindow.o moc_mainwindow.cpp

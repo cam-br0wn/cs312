@@ -19,6 +19,7 @@ set(SOURCE_FILES
   ${LSF}/sndfile.hh
   ${COMMON}/RtAudio/RtAudio.cpp
   ${PROJECT_NAME}.cpp
+  rtaudioutils.cpp
   )
 
 add_executable( ${PROJECT_NAME} ${SOURCE_FILES})

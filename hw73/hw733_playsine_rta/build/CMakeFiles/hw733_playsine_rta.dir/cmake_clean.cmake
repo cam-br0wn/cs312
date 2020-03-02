@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hw733_playsine_rta.dir/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtAudio/RtAudio.cpp.o"
   "CMakeFiles/hw733_playsine_rta.dir/hw733_playsine_rta.cpp.o"
+  "CMakeFiles/hw733_playsine_rta.dir/rtaudioutils.cpp.o"
   "hw733_playsine_rta"
   "hw733_playsine_rta.pdb"
 )
