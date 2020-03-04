@@ -43,6 +43,7 @@ void MainWindow::on_actionOpen_triggered()
     vsamps = readWav( qOpenFileName.toStdString() );
 
     displaySF_INFO( ui->plainText_sinfo );
+    displayStats( ui->plainTextEdit_stats );
 }
 
 void MainWindow::on_actionSave_as_triggered()

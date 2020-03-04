@@ -50,23 +50,6 @@ void displaySF_INFO( QPlainTextEdit* pte )
     oss4 << "SF_INFO samplerate "<< mysfinfo.samplerate;
     QString s4(oss4.str().c_str());
     pte->appendPlainText( s4 );
-
-//    int samplerate = 44100;
-//    QString s4 = QString( "s4 samplerate = %1" ).arg( samplerate );
-//    pte->appendPlainText( s4 );
-
-//    double k2PI = 6.2831853;
-//    QString s5 = QString( "s5 k2PI = %1" ).arg( k2PI, 0, 'f', 6 );
-//    pte->appendPlainText( s5 );
-
-//    int num = 65536;
-//    QString s6 = QString( "s5 65536 is %1 hex " ).arg( num, 0, 16 );
-//    pte->appendPlainText( s6 );
-
-//    std::ostringstream oss;
-//    oss << "s7\tnRead = " << nRead << "\n\tvsize = " << vsize << "\n\tsamplerate = " << samplerate;
-//    QString s7( oss.str().c_str() );
-//    pte->appendPlainText( s7 );
 }
 
 // Utility calculations
@@ -74,21 +57,28 @@ MY_TYPE calc_dB( MY_TYPE f1, MY_TYPE f2 )
 {
     // you write
     // see class web page
+    return 10 * log10(f1 / f2);
 }
 
 MY_TYPE getMinSample( const std::vector<MY_TYPE>& v )
 {
-    MY_TYPE x{0};
-    // you write
-    // see class web page
+    MY_TYPE x = v.at(0);
+    for(MY_TYPE i = 0; i < v.size(); i++){
+        if(v.at(i) < x){
+            x = v.at(i);
+        }
+    }
     return x;
 }
 
 MY_TYPE getMaxSample( const std::vector<MY_TYPE>& v )
 {
-    MY_TYPE x{0};
-    // you write
-    // see class web page
+    MY_TYPE x = v.at(0);
+    for(MY_TYPE i = 0; i < v.size(); i++){
+        if(v.at(i) > x){
+            x = v.at(i);
+        }
+    }
     return x;
 }
 
@@ -97,6 +87,10 @@ MY_TYPE getRMSamplitude( const std::vector<MY_TYPE>& v )
     MY_TYPE mn{0};
     // you write
     // see class web page
+    for(MY_TYPE item : v){
+        mn += pow(item, 2);
+    }
+    mn = sqrt((1/v.size()) * mn);
     return mn;
 }
 
@@ -105,30 +99,50 @@ void doCalcNumSamples( QPlainTextEdit* pte )
 {
     // you write
     // see class web page
+    QString size;
+    size = QString::number(vsamps.size());
+    pte->appendPlainText(size);
 }
 
 void doCalcLengthSeconds( QPlainTextEdit* pte )
 {
     // you write
     // see class web page
+    QString len;
+    len = QString::number((vsamps.size() / mysfinfo.channels)  / mysfinfo.samplerate);
+    pte->appendPlainText(len);
 }
 
 void doCalcDCOffset( QPlainTextEdit* pte )
 {
     // you write
     // see class web page
+    MY_TYPE one_over_sample_num = 1 / mysfinfo.frames;
+    MY_TYPE n = 0;
+    for(int i = 0; i < mysfinfo.frames; i++){
+        n += vsamps.at(i);
+    }
+    QString DCOffset;
+    DCOffset = QString::number(one_over_sample_num * n);
+    pte->appendPlainText(DCOffset);
 }
 
 void doCalcMinSample( QPlainTextEdit* pte )
 {
     // you write
     // see class web page
+    QString min_samp;
+    min_samp = QString::number(getMinSample(vsamps));
+    pte->appendPlainText(min_samp);
 }
 
 void doCalcMaxSample( QPlainTextEdit* pte )
 {
     // you write
     // see class web page
+    QString max_samp;
+    max_samp = QString::number(getMaxSample(vsamps));
+    pte->appendPlainText(max_samp);
 }
 
 void doCalcMaxSample_dB( QPlainTextEdit* pte )
