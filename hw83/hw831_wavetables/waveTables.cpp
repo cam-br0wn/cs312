@@ -5,6 +5,7 @@
 #include <QMessageBox>
 
 #include <cmath> // for M_PI
+#include <QDebug>
 
 static MY_TYPE phaseIndx{0};
 
@@ -127,11 +128,29 @@ std::vector<MY_TYPE> interpolateWavetable( std::vector<MY_TYPE> wvTbl, MY_TYPE a
     size_t table_length = wvTbl.size();
     MY_TYPE T = 1.0/sampleRate;
     MY_TYPE phaseIncr = 2 * M_PI * freq * T;
-    int tableIndx;
+    int x;
+    int x0;
+    int x1;
+    MY_TYPE y;
+    MY_TYPE y0;
+    MY_TYPE y1;
     MY_TYPE samp;
-    vout.push_back(amp * wvTbl.at(0));
-    for(MY_TYPE i = 1.0; i < numSamples - 1.0; ++i){
-        vout.push_back(amp * (wvTbl.at(i-1) + ((i - (i-1))*((wvTbl.at(i+1) - wvTbl.at(i-1))/((i + 1) - (i - 1))))));
+
+    for(MY_TYPE i = 0; i < numSamples; ++i){
+
+        x = phaseIndx;
+        x0 = floor(phaseIndx);
+        x1 = x0 + 1;
+        y0 = wvTbl.at(x0 % wvTbl.size());
+        y1 = wvTbl.at(x1 % wvTbl.size());
+        y = y0 + (x - x0)*( (y1 - y0) / (x1 - x0) );
+
+        while(phaseIndx >= table_length){
+            phaseIndx -= table_length;
+        }
+        samp = amp * y;
+        vout.push_back(samp);
+        phaseIndx += phaseIncr;
     }
     return vout;
 }

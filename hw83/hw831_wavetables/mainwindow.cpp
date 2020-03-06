@@ -75,7 +75,7 @@ void MainWindow::on_pushButton_generate_clicked()
             call truncateWavetable( vtable, amplitude, frequency, 1.0 ) and return variable v
             call plot(v)
             set vector vFileSamples = v
-        */
+      */
     isTruncate = true;
     isRound = false;
     isInterpolate = false;

@@ -18,7 +18,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 # CHANGE THESE PATHNAMES
-COMMON = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common
+COMMON = /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common
 LSF = $${COMMON}/libsndfile
 QPLOT = $${COMMON}/qcustomplot
 ULL = /usr/local/lib
