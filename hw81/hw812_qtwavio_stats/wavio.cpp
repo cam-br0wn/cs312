@@ -4,6 +4,7 @@
 
 #include <QDebug>
 
+std::vector<double> vsamps;
 
 void doMessageBox( const QString& qs )
 {
@@ -24,7 +25,7 @@ std::vector<MY_TYPE> readWav( std::string path )
     unsigned long long int numSamples = file.frames();
 
     // get the number of samples in the file and create a vector of that size
-    std::vector<double> v(numSamples);
+    std::vector<double> v(numSamples, numSamples);
 
     // read samples into v and report the number read in nRead
     // a valid read would report frames == nRead
@@ -84,5 +85,6 @@ void writeWav( std::string fname, const std::vector<MY_TYPE>& v )
     SndfileHandle outfile = SndfileHandle(fname, mode, format, channels, samplerate);
     unsigned long sz = v.size();
     nWritten = outfile.write( &v[0], sz);
+   // vsamps = v;
 
 }

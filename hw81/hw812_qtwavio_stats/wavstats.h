@@ -19,8 +19,6 @@ typedef double MY_TYPE;
 
 const int FS = 44100;
 
-extern std::vector<double> vsamps;
-
 extern void displaySF_INFO( QPlainTextEdit* pte );
 extern void displayStats( QPlainTextEdit* pte );
 
