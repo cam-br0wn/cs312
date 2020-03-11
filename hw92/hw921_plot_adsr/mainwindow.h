@@ -32,7 +32,7 @@ extern bool isNoteOver;
 
 // initial startup values
 // amplitude level for steady state Sustain
-extern MY_TYPE lvlS;
+extern MY_TYPE sustain_amplitude;
 // frequency of first piano key button (Middle C)
 extern MY_TYPE freq;
 // value is calculated for every sample in each ADSR state
@@ -44,18 +44,18 @@ extern int count;
 
 // Time in milliseconds for the Attack, Decay, and Release
 // ADSR segments based on their slider values
-extern int msA;
-extern int msD;
-extern int msR;
+extern int atk_in_ms;
+extern int decay_in_ms;
+extern int release_in_ms;
 
 // Calculations where each ADSR segment begins and ends
 // in sample indices based on ms time of slider settings
-extern int sampStartA;
-extern int sampEndA;
-extern int sampStartD;
-extern int sampEndD;
+extern int atk_start_samp;
+extern int atk_end_samp;
+extern int decay_start_samp;
+extern int decay_end_samp;
 extern int sampStartS;
-extern int sampLenR;
+extern int release_samps;
 extern int sampStartR;
 extern int sampEndR;
 

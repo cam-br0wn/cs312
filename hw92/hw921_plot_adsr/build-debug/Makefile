@@ -230,6 +230,7 @@ DIST          = /Users/labuser/Qt/5.12.4/clang_64/mkspecs/features/spec_pre.prf 
 		/Users/labuser/Qt/5.12.4/clang_64/mkspecs/features/qt_config.prf \
 		/Users/labuser/Qt/5.12.4/clang_64/mkspecs/macx-clang/qmake.conf \
 		/Users/labuser/Qt/5.12.4/clang_64/mkspecs/features/spec_post.prf \
+		../.qmake.stash \
 		/Users/labuser/Qt/5.12.4/clang_64/mkspecs/features/exclusive_builds.prf \
 		/Users/labuser/Qt/5.12.4/clang_64/mkspecs/features/mac/sdk.prf \
 		/Users/labuser/Qt/5.12.4/clang_64/mkspecs/features/toolchain.prf \
@@ -453,6 +454,7 @@ Makefile: ../hw921_plot_adsr.pro /Users/labuser/Qt/5.12.4/clang_64/mkspecs/macx-
 		/Users/labuser/Qt/5.12.4/clang_64/mkspecs/features/qt_config.prf \
 		/Users/labuser/Qt/5.12.4/clang_64/mkspecs/macx-clang/qmake.conf \
 		/Users/labuser/Qt/5.12.4/clang_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		/Users/labuser/Qt/5.12.4/clang_64/mkspecs/features/exclusive_builds.prf \
 		/Users/labuser/Qt/5.12.4/clang_64/mkspecs/features/mac/sdk.prf \
 		/Users/labuser/Qt/5.12.4/clang_64/mkspecs/features/toolchain.prf \
@@ -651,6 +653,7 @@ Makefile: ../hw921_plot_adsr.pro /Users/labuser/Qt/5.12.4/clang_64/mkspecs/macx-
 /Users/labuser/Qt/5.12.4/clang_64/mkspecs/features/qt_config.prf:
 /Users/labuser/Qt/5.12.4/clang_64/mkspecs/macx-clang/qmake.conf:
 /Users/labuser/Qt/5.12.4/clang_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 /Users/labuser/Qt/5.12.4/clang_64/mkspecs/features/exclusive_builds.prf:
 /Users/labuser/Qt/5.12.4/clang_64/mkspecs/features/mac/sdk.prf:
 /Users/labuser/Qt/5.12.4/clang_64/mkspecs/features/toolchain.prf:
@@ -725,6 +728,7 @@ clean: compiler_clean
 
 distclean: clean 
 	-$(DEL_FILE) -r hw921_ADSR.pro.app
+	-$(DEL_FILE) .qmake.stash
 	-$(DEL_FILE) Makefile
 
 
