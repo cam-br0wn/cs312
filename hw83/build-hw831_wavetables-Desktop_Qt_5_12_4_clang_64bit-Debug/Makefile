@@ -826,6 +826,10 @@ mainwindow.o: ../hw831_wavetables/mainwindow.cpp ../hw831_wavetables/mainwindow.
 		/Users/labuser/Qt/5.12.4/clang_64/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Users/labuser/Qt/5.12.4/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h \
 		ui_mainwindow.h \
+		../../../common/qcustomplot/qcustomplot.h \
+		/Users/labuser/Qt/5.12.4/clang_64/lib/QtCore.framework/Headers/qmath.h \
+		/Users/labuser/Qt/5.12.4/clang_64/lib/QtCore.framework/Headers/qnumeric.h \
+		/Users/labuser/Qt/5.12.4/clang_64/lib/QtCore.framework/Headers/QtNumeric \
 		/Users/labuser/Qt/5.12.4/clang_64/lib/QtCore.framework/Headers/QDebug \
 		/Users/labuser/Qt/5.12.4/clang_64/lib/QtCore.framework/Headers/qdebug.h \
 		/Users/labuser/Qt/5.12.4/clang_64/lib/QtWidgets.framework/Headers/QMessageBox \

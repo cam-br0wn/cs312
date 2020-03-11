@@ -7,6 +7,9 @@
 
 int adsrState;
 
+bool isPlaying = true;
+
+
 bool isKeyDown{false};
 bool isKeyUp{true};
 bool isNoteOver{false};
@@ -65,6 +68,11 @@ int MainWindow::sineADSRCallback( void* outputBuffer, void* /*inputBuffer*/, uns
             // if envAmp >= 1.0
             //      set envAmp to 1.0
             //      and set adsrState to kDcyState
+            envAmp += attackInc;
+            if (envAmp >= 1.0) {
+                envAmp = 1.0;
+                adsrState = kDcyState;
+            }
         }
         // Decay phase
         else if ( adsrState == kDcyState )
@@ -73,6 +81,11 @@ int MainWindow::sineADSRCallback( void* outputBuffer, void* /*inputBuffer*/, uns
             // if envAmp < sustain level (lvlS)
             //      set envAmp to lvlS
             //      and set adsrState to kSusState
+            envAmp -= decayInc;
+            if (envAmp < lvlS) {
+                envAmp = lvlS;
+                adsrState = kSusState;
+            }
         }
         // Sustain phase
         else if ( adsrState == kSusState )
@@ -80,6 +93,11 @@ int MainWindow::sineADSRCallback( void* outputBuffer, void* /*inputBuffer*/, uns
             // set envAmp to lvlS
             //      check for isKeyUp
             //      if true set adsrState to kRlsState
+            envAmp = lvlS;
+            if (isKeyUp) {
+                adsrState = kRlsState;
+        }
+
         }
         // Release
         else if ( adsrState == kRlsState )
@@ -90,6 +108,13 @@ int MainWindow::sineADSRCallback( void* outputBuffer, void* /*inputBuffer*/, uns
             // if envAmp < 0
             //      set envAmp = 0
             //      and set isNoteOver to true
+            sampStartR = count;
+            sampEndR = sampStartR + sampLenR;
+            envAmp -= releaseInc;
+            if (envAmp < 0) {
+                envAmp = 0;
+                isNoteOver = true;
+            }
         }
 
         *buffer++ = sliderVolume * envAmp * sin( phz );
@@ -116,6 +141,7 @@ MainWindow::MainWindow( QWidget* parent )
     ampSlider = 0.5;
     envAmp = 0;
     MIDIstartNote = 60;
+
     ui->setupUi( this );
     init_controls();
 #if USECALLBACK
@@ -134,6 +160,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::init_controls()
 {
+
     ui->verticalSlider_A->setValue( 50 );
     ui->verticalSlider_D->setValue( 50 );
     ui->verticalSlider_SL->setValue( static_cast<int>( ( lvlS * 100 ) ) );
@@ -150,32 +177,33 @@ void MainWindow::init_controls()
 
 void MainWindow::calcADSR_start_end_points()
 {
-    /*
-        calculate sustain level from slider value
+
+   //     calculate sustain level from slider value
         lvlS = ui->verticalSlider_SL->value() * .01;
 
-        calculate millisecond A D R times from slider value * 10
+      //  calculate millisecond A D R times from slider value * 10
         msA = ui->verticalSlider_A->value() * 10;
 
-        If you know ms duration there are 44100/1000 samples per millisecond
-        calcualate attackInc = 1.0/(msA * kSamplesPerMs)
+       // If you know ms duration there are 44100/1000 samples per millisecond
+        MY_TYPE attackInc = 1.0/(msA * kSamplesPerMs);
 
+       //  calcualate decayInc = (1.0 - lvlS)/(msD * kSamplesPerMs)
+       // calcualate releasekInc = (lvlS - 0)/(msR * kSamplesPerMs)
+        MY_TYPE decayInc = (1.0 - lvlS)/(msD * kSamplesPerMs);
+        MY_TYPE releasekInc = (lvlS - 0)/(msR * kSamplesPerMs);
 
-        calcualate decayInc = (1.0 - lvlS)/(msD * kSamplesPerMs)
-        calcualate releasekInc = (lvlS - 0)/(msR * kSamplesPerMs)
-
-        calculate start/end values for A D in samples
+       // calculate start/end values for A D in samples
         sampStartA = 0;
-        sampEndA =  msA * kSamplesPerMs
-        sampStartD = end A + 1
-        sampEndD = start D + number samples in D
-        sampStartS = end D + 1
-        NOTE: sampEndS is calculated elsewhere
-            for plot it's totalPlotSamples - (A length + D length + R length)
-            for sine callback its when key button is released.
-        sampLenR = msR * kSamplesPerMs
+        sampEndA =  msA * kSamplesPerMs;
+        sampStartD = sampEndA + 1;
+      //  sampEndD = start D + number samples in D
+        sampStartS = sampEndD + 1;
+      //  NOTE: sampEndS is calculated elsewhere
+          //  for plot it's totalPlotSamples - (A length + D length + R length)
+           // for sine callback its when key button is released.
+       sampLenR = msR * kSamplesPerMs;
 
-*/
+
     // Useful for debugging
     qDebug() << "A start end" << sampStartA << " " << sampEndA;
     qDebug() << "D start end" << sampStartD << " " << sampEndD;
@@ -190,6 +218,8 @@ std::vector<MY_TYPE> MainWindow::stuffEnvelopeVector()
     calcADSR_start_end_points();
 
     // Calculate Slength as Slength = kEnvLength - ( sampEndD + sampLenR )
+    int Slength = kEnvLength - (sampEndD + sampLenR);
+
 
     MY_TYPE samp{0};
     int count{0};
@@ -211,10 +241,17 @@ std::vector<MY_TYPE> MainWindow::stuffEnvelopeVector()
         else if ( adsrState == kDcyState )
         {
             // decrement samp by decayInc
+            samp -= decayInc;
             // if samp < lvlS
             // set samp = lvlS
             // and set adsrState to kDcyState
             // venv.push_back( samp );
+            if (samp < lvlS) {
+                samp=lvlS;
+                adsrState = kDcyState;
+                venv.push_back(samp);
+            }
+
         }
         // Sustain phase
         else if ( adsrState == kSusState )
@@ -223,6 +260,12 @@ std::vector<MY_TYPE> MainWindow::stuffEnvelopeVector()
             // Slength--
             // venv.push_back( samp );
             // and set adsrState to kRlsState
+            while (Slength > 0) {
+                Slength--;
+                venv.push_back(samp);
+                adsrState = kRlsState;
+            }
+
         }
         // Release
         else if ( adsrState == kRlsState )
@@ -232,6 +275,12 @@ std::vector<MY_TYPE> MainWindow::stuffEnvelopeVector()
             // set samp = 0
             // and set adsrState to kDcyState
             // venv.push_back( samp );
+            samp -= releaseInc;
+            if (samp < 0) {
+                samp = 0;
+                adsrState = kDcyState;
+                venv.push_back(samp);
+            }
         }
         count++;
     }
@@ -255,18 +304,71 @@ void MainWindow::plotEnvelope()
             replot
         reset adsrState to kAtkState becuase it was changed in stuffEnvelopeVector()
       */
+
+    venv.clear();
+    std::vector<MY_TYPE> envVec = stuffEnvelopeVector();
+
+    QVector<MY_TYPE> x(kEnvLength);
+    QVector<MY_TYPE> y(kEnvLength);
+
+    for (int i = 0; i < kEnvLength; i++) {
+        x[i] = i;
+        y[i] = venv[i];
+    }
+
+
+    // create graph and assign data to it
+    ui->customPlot->addGraph();
+    ui->customPlot->graph( 0 )->setData( x, y );
+    ui->customPlot->xAxis->setRange( 0, kEnvLength - 1 );
+    ui->customPlot->yAxis->setRange( 0, 1 );
+    ui->customPlot->replot();
+
+    adsrState = kAtkState;
 }
 
 void MainWindow::open_dac_stream()
 {
-    // You've done this before
-    // Copy/paste from previous homework
+       if ( dac.isStreamOpen() )
+           return;
+
+       if ( dac.getDeviceCount() < 1 )
+       {
+           std::cout << "\nNo audio devices found!\n";
+           exit( 1 );
+       }
+
+       MY_TYPE* data = static_cast<MY_TYPE*>( calloc( rta.channels, sizeof( MY_TYPE ) ) );
+
+       // Let RtAudio print messages to stderr.
+       dac.showWarnings( true );
+
+       const bool USE_DEFAULT_OUTPUT{true};
+       if ( USE_DEFAULT_OUTPUT )
+       { // Set our stream parameters for output only.
+           if ( rta.device == 0 )
+               rta.device = dac.getDefaultOutputDevice();
+       }
+       else
+       {
+           // I used the commented code at the start of open_dac_stream()
+           // to find my external audio interface
+           // I used the debugger to view dac.GetDeviceInfo() to find the id number
+           rta.device = 3;
+       }
+
+       oParams.deviceId = rta.device;
+       dac.openStream( &oParams, nullptr, FORMAT, rta.fs, &rta.bufferFrames, sineADSRCallback, static_cast<void*>( data ), &options, &errorCallback );
+
+
+       QApplication::processEvents();
+
 }
 
 MY_TYPE MainWindow::midi2frequency( const int midiNote )
 {
-    // implement the formula from week 7.3 web page
-    MY_TYPE frq{0}; // avoid compile error
+
+    MY_TYPE frq = 440 * pow(2, midiNote-69/12);
     return frq;
 }
 
@@ -278,8 +380,11 @@ void MainWindow::playNote( const int note )
     isKeyDown = true;
     isNoteOver = false;
     calcADSR_start_end_points();
+
     freq = midi2frequency( note );
     plotEnvelope();
+
+
 #if USECALLBACK
     dac.startStream();
 #endif
@@ -354,7 +459,11 @@ void MainWindow::on_comboBox_currentIndexChanged( int index )
 
 void MainWindow::on_toolButton_loC_pressed()
 {
-    // Copy/paste/modify examples on web page
+    envAmp = 0;
+    isKeyDown = true;
+    isKeyUp = false;
+    count = 0;
+    playNote( MIDIstartNote - 12 );
 }
 
 void MainWindow::on_toolButton_loC_released()
@@ -366,7 +475,11 @@ void MainWindow::on_toolButton_loC_released()
 
 void MainWindow::on_toolButton_Db_pressed()
 {
-    // Copy/paste/modify examples on web page
+    envAmp = 0;
+    isKeyDown = true;
+    isKeyUp = false;
+    count = 0;
+    playNote( MIDIstartNote + 1 );
 }
 
 void MainWindow::on_toolButton_Db_released()
@@ -378,7 +491,11 @@ void MainWindow::on_toolButton_Db_released()
 
 void MainWindow::on_toolButton_D_pressed()
 {
-    // Copy/paste/modify examples on web page
+    envAmp = 0;
+    isKeyDown = true;
+    isKeyUp = false;
+    count = 0;
+    playNote( MIDIstartNote + 2 );
 }
 
 void MainWindow::on_toolButton_D_released()
@@ -406,7 +523,11 @@ void MainWindow::on_toolButton_Eb_released()
 
 void MainWindow::on_toolButton_E_pressed()
 {
-    // Copy/paste/modify examples on web page
+    envAmp = 0;
+    isKeyDown = true;
+    isKeyUp = false;
+    count = 0;
+    playNote( MIDIstartNote + 4 );
 }
 
 void MainWindow::on_toolButton_E_released()
@@ -418,7 +539,11 @@ void MainWindow::on_toolButton_E_released()
 
 void MainWindow::on_toolButton_F_pressed()
 {
-    // Copy/paste/modify examples on web page
+    envAmp = 0;
+    isKeyDown = true;
+    isKeyUp = false;
+    count = 0;
+    playNote( MIDIstartNote + 5 );
 }
 
 void MainWindow::on_toolButton_F_released()
@@ -430,7 +555,11 @@ void MainWindow::on_toolButton_F_released()
 
 void MainWindow::on_toolButton_Gb_pressed()
 {
-    // Copy/paste/modify examples on web page
+    envAmp = 0;
+    isKeyDown = true;
+    isKeyUp = false;
+    count = 0;
+    playNote( MIDIstartNote + 6 );
 }
 
 void MainWindow::on_toolButton_Gb_released()
@@ -442,7 +571,11 @@ void MainWindow::on_toolButton_Gb_released()
 
 void MainWindow::on_toolButton_G_pressed()
 {
-    // Copy/paste/modify examples on web page
+    envAmp = 0;
+    isKeyDown = true;
+    isKeyUp = false;
+    count = 0;
+    playNote( MIDIstartNote + 7 );
 }
 
 void MainWindow::on_toolButton_G_released()
@@ -454,7 +587,11 @@ void MainWindow::on_toolButton_G_released()
 
 void MainWindow::on_toolButton_Ab_pressed()
 {
-    // Copy/paste/modify examples on web page
+    envAmp = 0;
+    isKeyDown = true;
+    isKeyUp = false;
+    count = 0;
+    playNote( MIDIstartNote + 8 );
 }
 
 void MainWindow::on_toolButton_Ab_released()
@@ -466,7 +603,11 @@ void MainWindow::on_toolButton_Ab_released()
 
 void MainWindow::on_toolButton_A_pressed()
 {
-    // Copy/paste/modify examples on web page
+    envAmp = 0;
+    isKeyDown = true;
+    isKeyUp = false;
+    count = 0;
+    playNote( MIDIstartNote + 9 );
 }
 
 void MainWindow::on_toolButton_A_released()
@@ -478,7 +619,11 @@ void MainWindow::on_toolButton_A_released()
 
 void MainWindow::on_toolButton_Bb_pressed()
 {
-    // Copy/paste/modify examples on web page
+    envAmp = 0;
+    isKeyDown = true;
+    isKeyUp = false;
+    count = 0;
+    playNote( MIDIstartNote + 10 );
 }
 
 void MainWindow::on_toolButton_Bb_released()
@@ -490,7 +635,11 @@ void MainWindow::on_toolButton_Bb_released()
 
 void MainWindow::on_toolButton_B_pressed()
 {
-    // Copy/paste/modify examples on web page
+    envAmp = 0;
+    isKeyDown = true;
+    isKeyUp = false;
+    count = 0;
+    playNote( MIDIstartNote + 11 );
 }
 
 void MainWindow::on_toolButton_B_released()
@@ -502,7 +651,11 @@ void MainWindow::on_toolButton_B_released()
 
 void MainWindow::on_toolButton_hiC_pressed()
 {
-    // Copy/paste/modify examples on web page
+    envAmp = 0;
+    isKeyDown = true;
+    isKeyUp = false;
+    count = 0;
+    playNote( MIDIstartNote + 12 );
 }
 
 void MainWindow::on_toolButton_hiC_released()

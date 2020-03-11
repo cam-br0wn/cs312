@@ -97,26 +97,53 @@ std::vector<MY_TYPE> truncateWavetable( std::vector<MY_TYPE> wvTbl, MY_TYPE amp,
 
 std::vector<MY_TYPE> roundWavetable( std::vector<MY_TYPE> wvTbl, MY_TYPE amp, MY_TYPE freq, MY_TYPE secs )
 {
-    phaseIndx = 0;
-    MY_TYPE sampleRate = 44100;
     std::vector<MY_TYPE> vout;
-    MY_TYPE numSamples = sampleRate * secs;
-    size_t table_length = wvTbl.size();
-    MY_TYPE T = 1.0/sampleRate;
-    MY_TYPE phaseIncr = 2 * M_PI * freq * T;
-    int tableIndx;
-    MY_TYPE samp;
+    int numSamples = 0;
+     size_t L = 0;
+     MY_TYPE increment = 0;
+     MY_TYPE previous_phase = 0;
+     MY_TYPE phaseNow = 0;
+     MY_TYPE outsamp = 0;
+     MY_TYPE decimalPart = 0;
+     unsigned int indxLeft = 0;
+     unsigned int indxRight = 0;
 
-    for(MY_TYPE i = 0; i < numSamples; ++i){
-        tableIndx = round(phaseIndx);
-        while(tableIndx >= table_length){
-            tableIndx -= table_length;
+     numSamples = std::floor(FS * secs);
+
+//    phaseIndx = 0;
+//    MY_TYPE sampleRate = 44100;
+//    std::vector<MY_TYPE> vout;
+//    MY_TYPE numSamples = sampleRate * secs;
+    size_t table_length = wvTbl.size();
+//    MY_TYPE T = 1.0/sampleRate;
+    MY_TYPE phaseIncr = 1.0* table_length * (freq/FS);
+
+
+     for(MY_TYPE i = 0; i < numSamples; ++i){
+        phaseNow =  std::fmod( indxLeft, L );
+
+        indxLeft = std::floor(phaseNow);
+
+        while (indxLeft >= L) {
+            std::fmod( indxLeft, L );
         }
-        samp = amp * wvTbl.at(tableIndx);
-        vout.push_back(samp);
-        phaseIndx += phaseIncr;
-    }
-    return vout;
+
+        indxRight = indxLeft + 1;
+
+        while (indxRight >= L) {
+            std::fmod( indxLeft, L );
+        }
+
+        decimalPart = std::fmod(phaseNow, 1.0);
+
+        outsamp = wvTbl[indxLeft] + (decimalPart * (wvTbl[indxRight] - wvTbl[indxLeft]));
+        outsamp = outsamp * amp;
+
+        vout.push_back(outsamp);
+        previous_phase = phaseNow;
+     }
+
+     return vout;
 }
 
 std::vector<MY_TYPE> interpolateWavetable( std::vector<MY_TYPE> wvTbl, MY_TYPE amp, MY_TYPE freq, MY_TYPE secs )
@@ -152,6 +179,7 @@ std::vector<MY_TYPE> interpolateWavetable( std::vector<MY_TYPE> wvTbl, MY_TYPE a
         vout.push_back(samp);
         phaseIndx += phaseIncr;
     }
+
     return vout;
 }
 

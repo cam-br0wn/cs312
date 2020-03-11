@@ -826,10 +826,6 @@ mainwindow.o: ../mainwindow.cpp ../mainwindow.h \
 		/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers/QMainWindow \
 		/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h \
 		ui_mainwindow.h \
-		../../../../common/qcustomplot/qcustomplot.h \
-		/Applications/Qt/5.12.5/clang_64/lib/QtCore.framework/Headers/qmath.h \
-		/Applications/Qt/5.12.5/clang_64/lib/QtCore.framework/Headers/qnumeric.h \
-		/Applications/Qt/5.12.5/clang_64/lib/QtCore.framework/Headers/QtNumeric \
 		/Applications/Qt/5.12.5/clang_64/lib/QtCore.framework/Headers/QDebug \
 		/Applications/Qt/5.12.5/clang_64/lib/QtCore.framework/Headers/qdebug.h \
 		/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers/QMessageBox \

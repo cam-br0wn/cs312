@@ -55,6 +55,7 @@ void MainWindow::initControls()
 
     horizontalScrollBar_zoom to 100
 */
+
     ui->verticalSlider_wavetable->setValue(3);
     ui->label_tablesizeValue->setNum(tableSize);
 
@@ -173,6 +174,7 @@ void MainWindow::on_pushButton_round_clicked()
 {
     // similar to on_pushButton_truncate_clicked using std::round instead of std::floor
 //    doMessageBox( "You clicked pushButton_round" );
+
     isTruncate = false;
     isRound = true;
     isInterpolate = false;
@@ -189,6 +191,7 @@ void MainWindow::on_pushButton_round_clicked()
     std::vector<MY_TYPE> v = roundWavetable(vtable, amplitude, freq, 1.0);
     plot(v);
     vFileSamples = v;
+
 }
 
 void MainWindow::on_pushButton_interpolate_clicked()
@@ -196,6 +199,7 @@ void MainWindow::on_pushButton_interpolate_clicked()
     // similar to on_pushButton_truncate_clicked but using the linear interpolation
     // formula from the web page
 //    doMessageBox( "You clicked pushButton_interpolate" );
+
     isTruncate = false;
     isRound = false;
     isInterpolate = true;
@@ -216,6 +220,7 @@ void MainWindow::on_pushButton_interpolate_clicked()
 
 void MainWindow::on_verticalSlider_wavetable_valueChanged( int value )
 {
+
     /*
             slider range is 1-12
 
@@ -227,7 +232,7 @@ void MainWindow::on_verticalSlider_wavetable_valueChanged( int value )
                 on_pushButton_interpolate_clicked();
                 on_pushButton_generate_clicked();
         */
-    tableSize = std::pow(2, value);
+    //ui->tableSize = std::pow(2, value);
     ui->label_tablesizeValue->setNum(tableSize);
     if(isTruncate){
         on_pushButton_truncate_clicked();
