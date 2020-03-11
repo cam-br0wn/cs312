@@ -88,104 +88,112 @@ void doReverse()
 
 void doEchos()
 {
-//    int echo_num{4};
-//    MY_TYPE echo_delay{300};
-//    MY_TYPE echo_damp{.5};
 
 //  calculate the number samples needed for the GUI delay of Delay milliseconds
 //  multiply that number by the GUI number of echos
+
     MY_TYPE offset = floor(44100 * (echo_delay / 1000)); // the increment between every echo in ms
     MY_TYPE total_samps = vsamps.size() + (echo_num * offset); // size of the final vector
-    std::vector<std::vector<MY_TYPE>> echo_vecs;
-    for(int i = 0; i < echo_num; i++){
-        std::vector<MY_TYPE> echo;
-        for(int j = 0; j < total_samps; j++){
-            if(j >= offset * i && j < (offset * i) + vsamps.size()){
-                echo.push_back(((i + 1) * echo_damp) * vsamps.at(j - (offset * i)));
+    std::vector<std::vector<MY_TYPE>> echo_vecs; // vector containing each of the echo tracks (vectors displaced by some multiple of the offset)
+
+    for(int i = 0; i < echo_num; i++){ // for every echo there is (including the original track)
+        std::vector<MY_TYPE> echo; // initialize a new empty vector that is one echo
+        for(int j = 0; j < total_samps; j++){ // for the length of the full echo track
+            if(j >= offset * i && j < (offset * i) + vsamps.size()){ // if the index is in the range of the start of the offset to the end of the offset
+                echo.push_back(pow(echo_damp,i) * vsamps.at(j - (offset * i))); // push back the corresponding vsamps packet, amplified w.r.t. to the echo number, to the echo vector
             }
             else{
-                echo.push_back(0);
+                echo.push_back(0); // otherwise, push back silence
             }
         }
-        echo_vecs.push_back(echo);
+        echo_vecs.push_back(echo); // add the echo to the vector with the echo vectors
     }
-    std::vector<MY_TYPE> echo_track;
-    for(int s = 0; s < total_samps; s++){
-        for(std::vector<MY_TYPE> echo_vector : echo_vecs){
-            echo_track.push_back(echo_vector.at(s));
+
+    std::vector<MY_TYPE> echo_track; // initialize a master echo track
+
+    for(int sample_index = 0; sample_index < total_samps; sample_index++){ // for every sample in each echo vector
+        MY_TYPE sample = 0;
+        for(int echo_vector = 0; echo_vector < echo_num; echo_vector++){
+            sample += echo_vecs.at(echo_vector).at(sample_index);
         }
+        echo_track.push_back(sample);
     }
-    veffect = echo_track;
-//    MY_TYPE num_samples = echo_delay * 44.1;
-//    MY_TYPE total = num_samples * echo_num;
+
+    veffect.clear();
+    veffect = echo_track; // set veffect to this master track for playback
+
+    /*
+    MY_TYPE num_samples = echo_delay * 44.1;
+    MY_TYPE total = num_samples * echo_num;
 
 
-//  create GUI number of echo vectors of length vsamps.size() + the samples needed for GUI number of echos
-//    std::vector<MY_TYPE> vec1(vsamps.size() + total);
-//    std::vector<MY_TYPE> vec2(vsamps.size() + total);
-//    std::vector<MY_TYPE> vec3(vsamps.size() + total);
-//    std::vector<MY_TYPE> vec4(vsamps.size() + total);
+  create GUI number of echo vectors of length vsamps.size() + the samples needed for GUI number of echos
+    std::vector<MY_TYPE> vec1(vsamps.size() + total);
+    std::vector<MY_TYPE> vec2(vsamps.size() + total);
+    std::vector<MY_TYPE> vec3(vsamps.size() + total);
+    std::vector<MY_TYPE> vec4(vsamps.size() + total);
 
-    // set all samples in each of the vector 1 to zero
-
-
-    //  set the other vectors = vector 1 (all zeros)
-
-//    MY_TYPE v1amp = 1.0;
-//    MY_TYPE v2amp = v1amp * echo_damp;
-//    MY_TYPE v3amp = v2amp * echo_damp;
-//    MY_TYPE v4amp = v3amp * echo_damp;
-
-//  copy vsamps into new vector 1 beginning at sample[0]
-//    for (int i = 0; i < vsamps.size(); i++) {
-//        vec1.at(i) = vsamps.at(i) * v1amp;
-//    }
-
-//    for (int i = vsamps.size(); i < vec1.size(); i++) {
-//        vec1.at(i) = 0;
-//    }
+     set all samples in each of the vector 1 to zero
 
 
-    // Copy vsamps into vector 2 from vec2[22050- 22050 + vsamps.size()]
-//    for (int i = 0; i < 22050; i++) {
-//        vec2.at(i) = 0;
-//    }
-//    int startPos = 22050;
-//    for (int i = 0; i < vsamps.size(); i++) {
-//        vec2.at(startPos) = vsamps.at(i) * v2amp;
-//        startPos++;
-//    }
-//    for (int i = 22050 + vsamps.size(); i < vec2.size(); i++) {
-//        vec2.at(i) = 0;
-//    }
+      set the other vectors = vector 1 (all zeros)
 
-//    // Copy vsamps into vector 3 from vec3[44100- 44100 + vsamps.size()]
-//    for (int i = 0; i < 22050; i++) {
-//        vec3.at(i) = 0;
-//    }
-//    int startPos2 = 44100;
-//    for (int i = 0; i < vsamps.size(); i++) {
-//        vec3.at(startPos2) = vsamps.at(i) * v3amp;
-//        startPos++;
-//    }
-//    for (int i = 44100 + vsamps.size(); i < vec3.size(); i++) {
-//        vec3.at(i) = 0;
-//    }
+    MY_TYPE v1amp = 1.0;
+    MY_TYPE v2amp = v1amp * echo_damp;
+    MY_TYPE v3amp = v2amp * echo_damp;
+    MY_TYPE v4amp = v3amp * echo_damp;
 
-//    // Copy vsamps into vector4 from vec4[66150- 66150 + vsamps.size()]
-//    for (int i = 0; i < 66150; i++) {
-//        vec4.at(i) = 0;
-//    }
-//    int startPos3 = 66150;
-//    for (int i = 0; i < vsamps.size(); i++) {
-//        vec3.at(startPos3) = vsamps.at(i) * v4amp;
-//        startPos++;
-//    }
+  copy vsamps into new vector 1 beginning at sample[0]
+    for (int i = 0; i < vsamps.size(); i++) {
+        vec1.at(i) = vsamps.at(i) * v1amp;
+    }
 
-//   check veffect for clipping
-//    for (int i = 0; i < vec1.size(); i++) {
-//        veffect.at(i) = vec1.at(i) + vec2.at(i) + vec3.at(i) + vec4.at(i);
-//    }
+    for (int i = vsamps.size(); i < vec1.size(); i++) {
+        vec1.at(i) = 0;
+    }
+
+
+     Copy vsamps into vector 2 from vec2[22050- 22050 + vsamps.size()]
+    for (int i = 0; i < 22050; i++) {
+        vec2.at(i) = 0;
+    }
+    int startPos = 22050;
+    for (int i = 0; i < vsamps.size(); i++) {
+        vec2.at(startPos) = vsamps.at(i) * v2amp;
+        startPos++;
+    }
+    for (int i = 22050 + vsamps.size(); i < vec2.size(); i++) {
+        vec2.at(i) = 0;
+    }
+
+    // Copy vsamps into vector 3 from vec3[44100- 44100 + vsamps.size()]
+    for (int i = 0; i < 22050; i++) {
+        vec3.at(i) = 0;
+    }
+    int startPos2 = 44100;
+    for (int i = 0; i < vsamps.size(); i++) {
+        vec3.at(startPos2) = vsamps.at(i) * v3amp;
+        startPos++;
+    }
+    for (int i = 44100 + vsamps.size(); i < vec3.size(); i++) {
+        vec3.at(i) = 0;
+    }
+
+    // Copy vsamps into vector4 from vec4[66150- 66150 + vsamps.size()]
+    for (int i = 0; i < 66150; i++) {
+        vec4.at(i) = 0;
+    }
+    int startPos3 = 66150;
+    for (int i = 0; i < vsamps.size(); i++) {
+        vec3.at(startPos3) = vsamps.at(i) * v4amp;
+        startPos++;
+    }
+
+   check veffect for clipping
+    for (int i = 0; i < vec1.size(); i++) {
+        veffect.at(i) = vec1.at(i) + vec2.at(i) + vec3.at(i) + vec4.at(i);
+    }
+*/
 
 }
 

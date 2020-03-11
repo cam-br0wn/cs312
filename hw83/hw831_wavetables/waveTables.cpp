@@ -72,19 +72,17 @@ std::vector<MY_TYPE> truncateWavetable( std::vector<MY_TYPE> wvTbl, MY_TYPE amp,
 
     return vout
 */
-    //    doMessageBox( "You need to implement truncateWavetable()" );
     phaseIndx = 0;
     MY_TYPE sampleRate = 44100;
     std::vector<MY_TYPE> vout;
     MY_TYPE numSamples = sampleRate * secs;
     size_t table_length = wvTbl.size();
-    MY_TYPE T = 1.0/sampleRate;
-    MY_TYPE phaseIncr = 2 * M_PI * freq * T;
+    MY_TYPE phaseIncr = table_length * freq * (1.0 / sampleRate);
     int tableIndx;
     MY_TYPE samp;
 
     for(MY_TYPE i = 0; i < numSamples; ++i){
-        tableIndx = floor(phaseIndx);
+        tableIndx = std::floor(phaseIndx);
         while(tableIndx >= table_length){
             tableIndx -= table_length;
         }
@@ -97,89 +95,155 @@ std::vector<MY_TYPE> truncateWavetable( std::vector<MY_TYPE> wvTbl, MY_TYPE amp,
 
 std::vector<MY_TYPE> roundWavetable( std::vector<MY_TYPE> wvTbl, MY_TYPE amp, MY_TYPE freq, MY_TYPE secs )
 {
-    std::vector<MY_TYPE> vout;
-    int numSamples = 0;
-     size_t L = 0;
-     MY_TYPE increment = 0;
-     MY_TYPE previous_phase = 0;
-     MY_TYPE phaseNow = 0;
-     MY_TYPE outsamp = 0;
-     MY_TYPE decimalPart = 0;
-     unsigned int indxLeft = 0;
-     unsigned int indxRight = 0;
-
-     numSamples = std::floor(FS * secs);
-
-//    phaseIndx = 0;
-//    MY_TYPE sampleRate = 44100;
-//    std::vector<MY_TYPE> vout;
-//    MY_TYPE numSamples = sampleRate * secs;
-    size_t table_length = wvTbl.size();
-//    MY_TYPE T = 1.0/sampleRate;
-    MY_TYPE phaseIncr = 1.0* table_length * (freq/FS);
-
-
-     for(MY_TYPE i = 0; i < numSamples; ++i){
-        phaseNow =  std::fmod( indxLeft, L );
-
-        indxLeft = std::floor(phaseNow);
-
-        while (indxLeft >= L) {
-            std::fmod( indxLeft, L );
-        }
-
-        indxRight = indxLeft + 1;
-
-        while (indxRight >= L) {
-            std::fmod( indxLeft, L );
-        }
-
-        decimalPart = std::fmod(phaseNow, 1.0);
-
-        outsamp = wvTbl[indxLeft] + (decimalPart * (wvTbl[indxRight] - wvTbl[indxLeft]));
-        outsamp = outsamp * amp;
-
-        vout.push_back(outsamp);
-        previous_phase = phaseNow;
-     }
-
-     return vout;
-}
-
-std::vector<MY_TYPE> interpolateWavetable( std::vector<MY_TYPE> wvTbl, MY_TYPE amp, MY_TYPE freq, MY_TYPE secs )
-{
     phaseIndx = 0;
     MY_TYPE sampleRate = 44100;
     std::vector<MY_TYPE> vout;
     MY_TYPE numSamples = sampleRate * secs;
     size_t table_length = wvTbl.size();
-    MY_TYPE T = 1.0/sampleRate;
-    MY_TYPE phaseIncr = 2 * M_PI * freq * T;
-    int x;
-    int x0;
-    int x1;
-    MY_TYPE y;
-    MY_TYPE y0;
-    MY_TYPE y1;
+    MY_TYPE phaseIncr = table_length * freq * (1.0 / sampleRate);
+    int tableIndx;
     MY_TYPE samp;
 
     for(MY_TYPE i = 0; i < numSamples; ++i){
-
-        x = phaseIndx;
-        x0 = floor(phaseIndx);
-        x1 = x0 + 1;
-        y0 = wvTbl.at(x0 % wvTbl.size());
-        y1 = wvTbl.at(x1 % wvTbl.size());
-        y = y0 + (x - x0)*( (y1 - y0) / (x1 - x0) );
-
-        while(phaseIndx >= table_length){
-            phaseIndx -= table_length;
+        tableIndx = std::round(phaseIndx);
+        while(tableIndx >= table_length){
+            tableIndx -= table_length;
         }
-        samp = amp * y;
+        samp = amp * wvTbl.at(tableIndx);
         vout.push_back(samp);
         phaseIndx += phaseIncr;
     }
+    return vout;
+}
+/*
+std::vector<MY_TYPE> interpolateWavetable( std::vector<MY_TYPE> wvTbl, MY_TYPE amp, MY_TYPE freq, MY_TYPE secs )
+{
 
+    // y(i,ß) = S[i] + ß(S[i+1] - S[i])
+    // given wavetable S, sample y at table address i and fraction address ß equals S[i] + ß(S[s+1] - S[i]) if we're linearly interpolating
+
+    std::vector<MY_TYPE> vout;
+    MY_TYPE samp;
+
+    MY_TYPE sample_rate = 44100;
+    MY_TYPE num_samples = sample_rate * secs;
+    MY_TYPE phase_index = 0;
+
+    unsigned long table_length = wvTbl.size();
+    MY_TYPE T = 1.0 / sample_rate;
+    MY_TYPE phase_increment = table_length * freq * T;
+
+    MY_TYPE table_index_prev; // i
+    MY_TYPE table_index_next; // i + 1
+
+    MY_TYPE sample_value_prev; // S[i]
+    MY_TYPE sample_value_next; // S[i+1]
+
+    for(int i = 0; i < num_samples; i++){
+
+        if(phase_index >= table_length){
+            phase_index -= table_length;
+        }
+
+        table_index_prev = floor(phase_index);
+        table_index_next = table_index_prev + 1;
+
+        sample_value_prev = wvTbl.at(table_index_prev);
+        sample_value_next = wvTbl.at(table_index_next);
+
+        MY_TYPE ß = phase_index - table_index_prev;
+
+        samp = sample_value_prev + (ß * (sample_value_next - sample_value_prev));
+        vout.push_back(amp * samp);
+
+        phase_index += phase_increment;
+
+    }
+
+    return vout;
+}
+*/
+
+std::vector<MY_TYPE> interpolateWavetable( std::vector<MY_TYPE> wvTbl, MY_TYPE amp, MY_TYPE freq, MY_TYPE secs ){
+    /*
+    declare variables
+        std::vector<MY_TYPE> vout
+
+        Initialize these variables to zero
+        int numSamples
+        size_t L
+        MY_TYPE increment
+        MY_TYPE previous_phase
+        MY_TYPE phaseNow
+        MY_TYPE outsamp
+        MY_TYPE decimalPart
+        unsigned int indxLeft
+        unsigned int indxRight
+
+    calc numSamples based on std::floor (FS*secs)
+    calc L = wvTbl size
+    calc increment using wavetable formula
+    increment = 1.0 * L * freq/FS
+
+    for loop from 0 to numSamples
+    calc phaseNow as
+      phaseNow = std::fmod( previous_phase + increment, L );
+
+    set indxLeft to std::floor of phaseNow
+    while indxLeft >= L calc indxLeft mod L
+
+     indxRight = indxLeft + 1
+    while indxRight >= L calc indxLeft mod L
+
+    calc the decimal part of phaseNow
+    you can use
+    decimalPart = std::fmod(phaseNow, 1.0)
+    or
+    decimalPart = phaseNow - std::floor(phaseNow)
+
+    calculate the interpolated sample
+    outsamp = wavTbl[indxLeft] + (decimalPart * (wavTable[indxRight] - wavTable[indxLeft]))
+
+    multiply outsamp by amp
+    push_back outsamp
+    set previous_phase = phaseNow
+    end for loop
+
+    return vout
+    */
+
+    std::vector<MY_TYPE> vout;
+
+    int num_samples{0};
+    size_t L{0};
+    MY_TYPE increment{0};
+    MY_TYPE previous_phase{0};
+    MY_TYPE phase_now{0};
+    MY_TYPE outsamp{0};
+    MY_TYPE decimal_part{0};
+    unsigned int index_left{0};
+    unsigned int index_right{0};
+
+    num_samples = std::floor(secs * 44100);
+    L = wvTbl.size();
+    increment = L * freq * (1.0 / 44100);
+
+    for(int s = 0; s < num_samples; s++){
+        phase_now = std::fmod(previous_phase + increment, L);
+        index_left = std::floor(phase_now);
+        while(index_left >= L){
+            index_left = std::fmod(index_left, L);
+        }
+        index_right = index_left + 1;
+        while(index_right >= L){
+            index_right = std::fmod(index_right, L);
+        }
+        decimal_part = std::fmod(phase_now, 1.0);
+        outsamp = wvTbl[index_left] + (decimal_part * (wvTbl[index_right] - wvTbl[index_left]));
+        outsamp = outsamp * amp;
+        vout.push_back(outsamp);
+        previous_phase = phase_now;
+    }
     return vout;
 }
 

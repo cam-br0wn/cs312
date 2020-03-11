@@ -3,6 +3,7 @@
 
 #include <QDebug>
 #include <QMessageBox>
+#include <QFileDialog>
 
 #include <cmath>
 
@@ -60,6 +61,9 @@ void MainWindow::initControls()
     ui->label_tablesizeValue->setNum(tableSize);
 
     ui->verticalSlider_amplitude->setValue(amplitude*100);
+    ui->label_amplitudeValue->setNum(amplitude);
+
+    ui->verticalSlider_frequency->setValue(frequency);
     ui->label_frequencyValue->setNum(frequency);
 
     ui->horizontalScrollBar_zoom->setValue(100);
@@ -86,12 +90,10 @@ void MainWindow::on_pushButton_generate_clicked()
     plot(v);
     vFileSamples = v;
 
-//    doMessageBox( "You clicked pushButton_generate" );
 }
 
 void MainWindow::on_pushButton_save_clicked()
 {
-//    doMessageBox( "on_pushButton_save_clicked()\n\n Use QFileDialog::getSaveFileName()\n Followed by writeWav() in wavTables.h" );
     QString fname = QFileDialog::getSaveFileName();
     writeWav(fname.toStdString(), vFileSamples);
 }
@@ -151,7 +153,6 @@ void MainWindow::on_pushButton_truncate_clicked()
             call plot(v)
             set vector vFileSamples = v
         */
-//    doMessageBox( "You clicked pushButton_truncate" );
     isTruncate = true;
     isRound = false;
     isInterpolate = false;
@@ -173,8 +174,6 @@ void MainWindow::on_pushButton_truncate_clicked()
 void MainWindow::on_pushButton_round_clicked()
 {
     // similar to on_pushButton_truncate_clicked using std::round instead of std::floor
-//    doMessageBox( "You clicked pushButton_round" );
-
     isTruncate = false;
     isRound = true;
     isInterpolate = false;
@@ -232,7 +231,7 @@ void MainWindow::on_verticalSlider_wavetable_valueChanged( int value )
                 on_pushButton_interpolate_clicked();
                 on_pushButton_generate_clicked();
         */
-    //ui->tableSize = std::pow(2, value);
+    tableSize = std::pow(2, value);
     ui->label_tablesizeValue->setNum(tableSize);
     if(isTruncate){
         on_pushButton_truncate_clicked();
@@ -306,6 +305,6 @@ void MainWindow::on_horizontalScrollBar_zoom_valueChanged( int value )
     call customPlot xAxis setRange from 0 to (value * 100 );
     call customPlot replot
         */
-    ui->customPlot->xAxis->setRange(0,value * 100);
+    ui->customPlot->xAxis->setRange(0, value * 100);
     ui->customPlot->replot();
 }
