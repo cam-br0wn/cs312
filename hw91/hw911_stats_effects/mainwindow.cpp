@@ -141,13 +141,13 @@ void MainWindow::on_actionSave_As_triggered()
 void MainWindow::on_radioButton_removedc_clicked()
 {
     ui->stackedWidget->setCurrentIndex( 0 );
-    doMessageBox( "mainwindow.cpp\n\nRemove DC clicked" );
+
 }
 
 void MainWindow::on_radioButton_normalize_clicked()
 {
     ui->stackedWidget->setCurrentIndex( 1 );
-    doMessageBox( "mainwindow.cpp\n\nNormalize clicked" );
+
 }
 
 void MainWindow::on_radioButton_amplify_clicked()
@@ -156,13 +156,13 @@ void MainWindow::on_radioButton_amplify_clicked()
     ui->verticalSlider_amplify->setValue( 50 );
     ui->doubleSpinBox_amplify->setValue( 0.50 );
 
-    doMessageBox( "mainwindow.cpp\n\nAmplify clicked" );
+
 }
 
 void MainWindow::on_radioButton_reverse_clicked()
 {
     ui->stackedWidget->setCurrentIndex( 3 );
-    doMessageBox( "mainwindow.cpp\n\nReverse clicked" );
+
 }
 
 void MainWindow::on_radioButton_echo_clicked()
@@ -176,14 +176,14 @@ void MainWindow::on_radioButton_echo_clicked()
 
     ui->horizontalSlider_echodamp->setValue( echo_damp * 100 );
     ui->label_echodampval->setNum( echo_damp );
-    doMessageBox( "mainwindow.cpp\n\nEcho clicked" );
+
 }
 
 void MainWindow::on_radioButton_changespeed_clicked()
 {
     ui->stackedWidget->setCurrentIndex( 5 );
     ui->label_speedVal->setNum( 1.0 );
-    doMessageBox( "mainwindow.cpp\n\nChange Speed clicked" );
+
 }
 
 void MainWindow::on_radioButton_randomsnips_clicked()
@@ -211,7 +211,6 @@ void MainWindow::on_pushButton_Play_clicked()
 {
     count = 0;
     isPlaying = true;
-
     dac.startStream();
 }
 

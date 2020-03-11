@@ -37,7 +37,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = hw911_stats_effects.pro1.0.0
-DISTDIR = /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw91/build-hw911_stats_effects-Desktop_Qt_5_12_5_clang_64bit-Debug/.tmp/hw911_stats_effects.pro1.0.0
+DISTDIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw91/build-hw911_stats_effects-Desktop_Qt_5_12_5_clang_64bit-Debug/.tmp/hw911_stats_effects.pro1.0.0
 LINK          = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
 LFLAGS        = -stdlib=libc++ -F/Library/Frameworks -headerpad_max_install_names $(EXPORT_ARCH_ARGS) -Wl,-syslibroot,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.14 -Wl,-rpath,@executable_path/../Frameworks -Wl,-rpath,/Applications/Qt/5.12.5/clang_64/lib
 LIBS          = $(SUBLIBS) -F/Applications/Qt/5.12.5/clang_64/lib -framework CoreFoundation -framework CoreMIDI -framework CoreAudio /usr/local/lib/librtaudio.6.1.0.dylib /usr/local/lib/libsndfile.1.dylib -framework QtWidgets -framework QtGui -framework QtCore -framework DiskArbitration -framework IOKit -framework OpenGL -framework AGL   
@@ -288,7 +288,7 @@ EXPORT_QMAKE_XCODE_DEVELOPER_PATH = /Applications/Xcode.app/Contents/Developer
 EXPORT_VALID_ARCHS = x86_64
 EXPORT_ACTIVE_ARCHS = $(filter $(EXPORT_VALID_ARCHS), $(ARCHS))
 EXPORT_ARCH_ARGS = $(foreach arch, $(if $(EXPORT_ACTIVE_ARCHS), $(EXPORT_ACTIVE_ARCHS), $(EXPORT_VALID_ARCHS)), -arch $(arch))
-EXPORT__PRO_FILE_ = /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw91/hw911_stats_effects/hw911_stats_effects.pro
+EXPORT__PRO_FILE_ = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw91/hw911_stats_effects/hw911_stats_effects.pro
 
 
 include /Applications/Qt/5.12.5/clang_64/mkspecs/features/mac/sdk.mk
@@ -775,7 +775,7 @@ moc_mainwindow.cpp: ../hw911_stats_effects/mainwindow.h \
 		../../../common/RtAudio/RtAudio.h \
 		moc_predefs.h \
 		/Applications/Qt/5.12.5/clang_64/bin/moc
-	/Applications/Qt/5.12.5/clang_64/bin/moc $(DEFINES) --include /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw91/build-hw911_stats_effects-Desktop_Qt_5_12_5_clang_64bit-Debug/moc_predefs.h -I/Applications/Qt/5.12.5/clang_64/mkspecs/macx-clang -I/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw91/hw911_stats_effects -I/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common -I/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/libsndfile -I/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/RtAudio -I/Library/Frameworks -I/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtGui.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtCore.framework/Headers -I. -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1 -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include -F/Applications/Qt/5.12.5/clang_64/lib ../hw911_stats_effects/mainwindow.h -o moc_mainwindow.cpp
+	/Applications/Qt/5.12.5/clang_64/bin/moc $(DEFINES) --include /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw91/build-hw911_stats_effects-Desktop_Qt_5_12_5_clang_64bit-Debug/moc_predefs.h -I/Applications/Qt/5.12.5/clang_64/mkspecs/macx-clang -I/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw91/hw911_stats_effects -I/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common -I/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/libsndfile -I/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/RtAudio -I/Library/Frameworks -I/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtGui.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtCore.framework/Headers -I. -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1 -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include -F/Applications/Qt/5.12.5/clang_64/lib ../hw911_stats_effects/mainwindow.h -o moc_mainwindow.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:

@@ -217,7 +217,7 @@ public:
         horizontalSlider_echonum->setObjectName(QString::fromUtf8("horizontalSlider_echonum"));
         horizontalSlider_echonum->setGeometry(QRect(20, 60, 321, 22));
         horizontalSlider_echonum->setMinimum(1);
-        horizontalSlider_echonum->setMaximum(4);
+        horizontalSlider_echonum->setMaximum(10);
         horizontalSlider_echonum->setPageStep(1);
         horizontalSlider_echonum->setOrientation(Qt::Horizontal);
         horizontalSlider_echonum->setTickPosition(QSlider::TicksBothSides);
