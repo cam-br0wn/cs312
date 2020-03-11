@@ -61,6 +61,9 @@ void MainWindow::initControls()
     ui->label_tablesizeValue->setNum(tableSize);
 
     ui->verticalSlider_amplitude->setValue(amplitude*100);
+    ui->label_amplitudeValue->setNum(amplitude);
+
+    ui->verticalSlider_frequency->setValue(frequency);
     ui->label_frequencyValue->setNum(frequency);
 
     ui->horizontalScrollBar_zoom->setValue(100);
@@ -228,7 +231,7 @@ void MainWindow::on_verticalSlider_wavetable_valueChanged( int value )
                 on_pushButton_interpolate_clicked();
                 on_pushButton_generate_clicked();
         */
-    //ui->tableSize = std::pow(2, value);
+    tableSize = std::pow(2, value);
     ui->label_tablesizeValue->setNum(tableSize);
     if(isTruncate){
         on_pushButton_truncate_clicked();
@@ -302,6 +305,6 @@ void MainWindow::on_horizontalScrollBar_zoom_valueChanged( int value )
     call customPlot xAxis setRange from 0 to (value * 100 );
     call customPlot replot
         */
-    ui->customPlot->xAxis->setRange(0,value * 100);
+    ui->customPlot->xAxis->setRange(0, value * 100);
     ui->customPlot->replot();
 }
