@@ -24,16 +24,16 @@
      </rect>
     </property>
     <property name="minimum">
-     <number>1</number>
+     <number>16</number>
     </property>
     <property name="maximum">
-     <number>12</number>
+     <number>128</number>
     </property>
     <property name="pageStep">
      <number>1</number>
     </property>
     <property name="value">
-     <number>3</number>
+     <number>16</number>
     </property>
     <property name="orientation">
      <enum>Qt::Vertical</enum>
@@ -140,10 +140,10 @@
      </rect>
     </property>
     <property name="minimum">
-     <number>1</number>
+     <number>220</number>
     </property>
     <property name="maximum">
-     <number>50</number>
+     <number>880</number>
     </property>
     <property name="singleStep">
      <number>1</number>
@@ -152,10 +152,10 @@
      <number>10</number>
     </property>
     <property name="value">
-     <number>4</number>
+     <number>220</number>
     </property>
     <property name="sliderPosition">
-     <number>4</number>
+     <number>220</number>
     </property>
     <property name="orientation">
      <enum>Qt::Vertical</enum>

@@ -148,36 +148,46 @@ std::vector<MY_TYPE> roundWavetable( std::vector<MY_TYPE> wvTbl, MY_TYPE amp, MY
 
 std::vector<MY_TYPE> interpolateWavetable( std::vector<MY_TYPE> wvTbl, MY_TYPE amp, MY_TYPE freq, MY_TYPE secs )
 {
-    phaseIndx = 0;
-    MY_TYPE sampleRate = 44100;
+
+    // y(i,ß) = S[i] + ß(S[i+1] - S[i])
+    // given wavetable S, sample y at table address i and fraction address ß equals S[i] + ß(S[s+1] - S[i]) if we're linearly interpolating
+
     std::vector<MY_TYPE> vout;
-    MY_TYPE numSamples = sampleRate * secs;
-    size_t table_length = wvTbl.size();
-    MY_TYPE T = 1.0/sampleRate;
-    MY_TYPE phaseIncr = 2 * M_PI * freq * T;
-    int x;
-    int x0;
-    int x1;
-    MY_TYPE y;
-    MY_TYPE y0;
-    MY_TYPE y1;
     MY_TYPE samp;
 
-    for(MY_TYPE i = 0; i < numSamples; ++i){
+    MY_TYPE sample_rate = 44100;
+    MY_TYPE num_samples = sample_rate * secs;
+    MY_TYPE phase_index = 0;
 
-        x = phaseIndx;
-        x0 = floor(phaseIndx);
-        x1 = x0 + 1;
-        y0 = wvTbl.at(x0 % wvTbl.size());
-        y1 = wvTbl.at(x1 % wvTbl.size());
-        y = y0 + (x - x0)*( (y1 - y0) / (x1 - x0) );
+    unsigned long table_length = wvTbl.size();
+    MY_TYPE T = 1.0 / sample_rate;
+    MY_TYPE phase_increment = table_length * freq * T;
 
-        while(phaseIndx >= table_length){
-            phaseIndx -= table_length;
+    MY_TYPE table_index_prev; // i
+    MY_TYPE table_index_next; // i + 1
+
+    MY_TYPE sample_value_prev; // S[i]
+    MY_TYPE sample_value_next; // S[i+1]
+
+    for(int i = 0; i < num_samples; i++){
+
+        if(phase_index >= table_length){
+            phase_index -= table_length;
         }
-        samp = amp * y;
-        vout.push_back(samp);
-        phaseIndx += phaseIncr;
+
+        table_index_prev = floor(phase_index);
+        table_index_next = table_index_prev + 1;
+
+        sample_value_prev = wvTbl.at(table_index_prev);
+        sample_value_next = wvTbl.at(table_index_next);
+
+        MY_TYPE ß = phase_index - table_index_prev;
+
+        samp = sample_value_prev + (ß * (sample_value_next - sample_value_prev));
+        vout.push_back(amp * samp);
+
+        phase_index += phase_increment;
+
     }
 
     return vout;

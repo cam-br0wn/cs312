@@ -3,6 +3,7 @@
 
 #include <QDebug>
 #include <QMessageBox>
+#include <QFileDialog>
 
 #include <cmath>
 
@@ -86,12 +87,10 @@ void MainWindow::on_pushButton_generate_clicked()
     plot(v);
     vFileSamples = v;
 
-//    doMessageBox( "You clicked pushButton_generate" );
 }
 
 void MainWindow::on_pushButton_save_clicked()
 {
-//    doMessageBox( "on_pushButton_save_clicked()\n\n Use QFileDialog::getSaveFileName()\n Followed by writeWav() in wavTables.h" );
     QString fname = QFileDialog::getSaveFileName();
     writeWav(fname.toStdString(), vFileSamples);
 }
@@ -151,7 +150,6 @@ void MainWindow::on_pushButton_truncate_clicked()
             call plot(v)
             set vector vFileSamples = v
         */
-//    doMessageBox( "You clicked pushButton_truncate" );
     isTruncate = true;
     isRound = false;
     isInterpolate = false;
@@ -173,8 +171,6 @@ void MainWindow::on_pushButton_truncate_clicked()
 void MainWindow::on_pushButton_round_clicked()
 {
     // similar to on_pushButton_truncate_clicked using std::round instead of std::floor
-//    doMessageBox( "You clicked pushButton_round" );
-
     isTruncate = false;
     isRound = true;
     isInterpolate = false;

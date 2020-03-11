@@ -37,7 +37,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = hw831_wavetables.pro1.0.0
-DISTDIR = /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw83/hw831_wavetables/build-debug/.tmp/hw831_wavetables.pro1.0.0
+DISTDIR = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw83/hw831_wavetables/build-debug/.tmp/hw831_wavetables.pro1.0.0
 LINK          = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++
 LFLAGS        = -stdlib=libc++ -F/Library/Frameworks -headerpad_max_install_names $(EXPORT_ARCH_ARGS) -Wl,-syslibroot,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -mmacosx-version-min=10.14 -Wl,-rpath,@executable_path/../Frameworks -Wl,-rpath,/Applications/Qt/5.12.5/clang_64/lib
 LIBS          = $(SUBLIBS) -F/Applications/Qt/5.12.5/clang_64/lib -framework CoreFoundation -framework CoreMIDI -framework CoreAudio /usr/local/lib/libsndfile.1.dylib -framework QtPrintSupport -framework QtWidgets -framework QtGui -framework QtCore -framework DiskArbitration -framework IOKit -framework OpenGL -framework AGL   
@@ -274,7 +274,7 @@ EXPORT_QMAKE_XCODE_DEVELOPER_PATH = /Applications/Xcode.app/Contents/Developer
 EXPORT_VALID_ARCHS = x86_64
 EXPORT_ACTIVE_ARCHS = $(filter $(EXPORT_VALID_ARCHS), $(ARCHS))
 EXPORT_ARCH_ARGS = $(foreach arch, $(if $(EXPORT_ACTIVE_ARCHS), $(EXPORT_ACTIVE_ARCHS), $(EXPORT_VALID_ARCHS)), -arch $(arch))
-EXPORT__PRO_FILE_ = /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw83/hw831_wavetables/hw831_wavetables.pro
+EXPORT__PRO_FILE_ = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw83/hw831_wavetables/hw831_wavetables.pro
 
 
 include /Applications/Qt/5.12.5/clang_64/mkspecs/features/mac/sdk.mk
@@ -758,7 +758,7 @@ moc_qcustomplot.cpp: ../../../../common/qcustomplot/qcustomplot.h \
 		/Applications/Qt/5.12.5/clang_64/lib/QtCore.framework/Headers/QtNumeric \
 		moc_predefs.h \
 		/Applications/Qt/5.12.5/clang_64/bin/moc
-	/Applications/Qt/5.12.5/clang_64/bin/moc $(DEFINES) --include /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw83/hw831_wavetables/build-debug/moc_predefs.h -I/Applications/Qt/5.12.5/clang_64/mkspecs/macx-clang -I/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw83/hw831_wavetables -I/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common -I/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/libsndfile -I/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/qcustomplot -I/Library/Frameworks -I/Applications/Qt/5.12.5/clang_64/lib/QtPrintSupport.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtGui.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtCore.framework/Headers -I. -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1 -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include -F/Applications/Qt/5.12.5/clang_64/lib ../../../../common/qcustomplot/qcustomplot.h -o moc_qcustomplot.cpp
+	/Applications/Qt/5.12.5/clang_64/bin/moc $(DEFINES) --include /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw83/hw831_wavetables/build-debug/moc_predefs.h -I/Applications/Qt/5.12.5/clang_64/mkspecs/macx-clang -I/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw83/hw831_wavetables -I/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common -I/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/libsndfile -I/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/qcustomplot -I/Library/Frameworks -I/Applications/Qt/5.12.5/clang_64/lib/QtPrintSupport.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtGui.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtCore.framework/Headers -I. -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1 -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include -F/Applications/Qt/5.12.5/clang_64/lib ../../../../common/qcustomplot/qcustomplot.h -o moc_qcustomplot.cpp
 
 moc_mainwindow.cpp: ../mainwindow.h \
 		../waveTables.h \
@@ -770,7 +770,7 @@ moc_mainwindow.cpp: ../mainwindow.h \
 		/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers/qmainwindow.h \
 		moc_predefs.h \
 		/Applications/Qt/5.12.5/clang_64/bin/moc
-	/Applications/Qt/5.12.5/clang_64/bin/moc $(DEFINES) --include /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw83/hw831_wavetables/build-debug/moc_predefs.h -I/Applications/Qt/5.12.5/clang_64/mkspecs/macx-clang -I/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/cs312/hw83/hw831_wavetables -I/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common -I/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/libsndfile -I/Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common/qcustomplot -I/Library/Frameworks -I/Applications/Qt/5.12.5/clang_64/lib/QtPrintSupport.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtGui.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtCore.framework/Headers -I. -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1 -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include -F/Applications/Qt/5.12.5/clang_64/lib ../mainwindow.h -o moc_mainwindow.cpp
+	/Applications/Qt/5.12.5/clang_64/bin/moc $(DEFINES) --include /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw83/hw831_wavetables/build-debug/moc_predefs.h -I/Applications/Qt/5.12.5/clang_64/mkspecs/macx-clang -I/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/cs312/hw83/hw831_wavetables -I/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common -I/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/libsndfile -I/Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common/qcustomplot -I/Library/Frameworks -I/Applications/Qt/5.12.5/clang_64/lib/QtPrintSupport.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtGui.framework/Headers -I/Applications/Qt/5.12.5/clang_64/lib/QtCore.framework/Headers -I. -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1 -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include -F/Applications/Qt/5.12.5/clang_64/lib ../mainwindow.h -o moc_mainwindow.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -829,7 +829,9 @@ mainwindow.o: ../mainwindow.cpp ../mainwindow.h \
 		/Applications/Qt/5.12.5/clang_64/lib/QtCore.framework/Headers/QDebug \
 		/Applications/Qt/5.12.5/clang_64/lib/QtCore.framework/Headers/qdebug.h \
 		/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers/QMessageBox \
-		/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers/qmessagebox.h
+		/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers/qmessagebox.h \
+		/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers/QFileDialog \
+		/Applications/Qt/5.12.5/clang_64/lib/QtWidgets.framework/Headers/qfiledialog.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o ../mainwindow.cpp
 
 waveTables.o: ../waveTables.cpp ../waveTables.h \
