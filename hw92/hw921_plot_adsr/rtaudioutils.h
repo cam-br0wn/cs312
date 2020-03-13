@@ -1,3 +1,13 @@
+/***************************************************************
+ rtaudioutils.h
+ Copyright (c) Carleton College CS312 free open source
+ Assignment: hw922
+ Stritzel Matt stritzelm@carleton.edu
+ Brown Cam brownc@carleton.edu
+ DATE: 2020-03-10
+ TIME: 13:13:46
+ ****************************************************************/
+
 #ifndef RTAUDIOUTILS_H_
 #define RTAUDIOUTILS_H_
 #endif
