@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>650</width>
+    <height>683</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QSlider" name="volume_slider">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>339</y>
+      <width>22</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>100</number>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="arp_rate_slider">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>339</y>
+      <width>22</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="minimum">
+     <number>60</number>
+    </property>
+    <property name="maximum">
+     <number>240</number>
+    </property>
+    <property name="value">
+     <number>120</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="arp_notes_slider">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>340</y>
+      <width>22</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>3</number>
+    </property>
+    <property name="maximum">
+     <number>12</number>
+    </property>
+    <property name="value">
+     <number>6</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <property name="invertedAppearance">
+     <bool>false</bool>
+    </property>
+    <property name="tickPosition">
+     <enum>QSlider::TicksAbove</enum>
+    </property>
+    <property name="tickInterval">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="volume_label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>600</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Volume</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="arp_rate_label">
+    <property name="geometry">
+     <rect>
+      <x>78</x>
+      <y>600</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Arp Rate</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="arp_notes_label">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>600</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Arp Notes</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="volume_reading">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="arp_rate_reading">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>320</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>120</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="arp_notes_reading">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>320</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="C_key">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>41</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton#C_key{
+	background-color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="Csharp_key">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>20</y>
+      <width>41</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton#Csharp_key{background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="D_key">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>20</y>
+      <width>41</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton#D_key{
+	background-color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="Dsharp_key">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>20</y>
+      <width>41</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton#Dsharp_key{background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="E_key">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>20</y>
+      <width>41</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton#E_key{
+	background-color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="F_key">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>20</y>
+      <width>41</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton#F_key{
+	background-color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="Fsharp_key">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>20</y>
+      <width>41</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton#Fsharp_key{background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="G_key">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>20</y>
+      <width>41</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>SplitHCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton#G_key{
+	background-color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="A_key">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>20</y>
+      <width>41</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton#A_key{
+	background-color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="Gsharp_key">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>41</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton#Gsharp_key{background-color: black;}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="B_key">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>20</y>
+      <width>41</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton#B_key{
+	background-color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="Asharp_key">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>20</y>
+      <width>41</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton#Asharp_key{background-color: black}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="major_button">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>220</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Major</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="minor_button">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>260</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Minor</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="instrument_select">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>240</y>
+      <width>201</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="currentText">
+     <string>Acoustic Grand Piano</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Acoustic Grand Piano</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bright Acoustic Piano</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Electric Grand Piano</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Honky-tonk Piano</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Electric Piano 1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Electric Piano 2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Harpsichord</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Clavi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Celesta</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Glockenspiel</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Music Box</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vibraphone</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Marimba</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Xylophone</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tubular Bells</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dulcimer</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Drawbar Organ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Percussive Organ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rock Organ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Church Organ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Reed Organ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Accordion</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Harmonica</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tango Accordion</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Acoustic Guitar (nylon)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Acoustic Guitar (steel)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Electric Guitar (jazz)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Electric Guitar (clean)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Electric Guitar (muted)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Overdriven Guitar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Distortion Guitar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Guitar Harmonics</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Acoustic Bass</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Electric Bass (finger)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Electric Bass (pick)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fretless Bass</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Slap Bass 1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Slap Bass 2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Synth Bass 1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Synth Bass 2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Violin</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Viola</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cello</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Contrabass</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tremolo Strings</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pizzicato Strings</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Orchestral Harp</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Timpani</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>String Ensemble 1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>String Ensemble 2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SynthStrings 1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SynthStrings 2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Choir Aahs</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Voice Oohs</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Synth Voice</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Orchestra Hit</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Trumpet</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Trombone</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tuba</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Muted Trumpet</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>French Horn</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Brass Section</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SynthBrass 1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SynthBrass 2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Soprano Sax</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Alto Sax</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tenor Sax</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Baritone Sax</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Oboe</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>English Horn</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bassoon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Clarinet</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Piccolo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Flute</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Recorder</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pan Flute</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Blown Bottle</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shakuhachi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Whistle</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ocarina</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lead 1 (square)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lead 2 (sawtooth)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lead 3 (calliope)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lead 4 (chiff)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lead 5 (charang)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lead 6 (voice)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lead 7 (fifths)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lead 8 (bass + lead)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pad 1 (new age)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pad 2 (warm)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pad 3 (polysynth)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pad 4 (choir)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pad 5 (bowed)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pad 6 (metallic)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pad 7 (halo)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pad 8 (sweep)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FX 1 (rain)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FX 2 (soundtrack)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FX 3 (crystal)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FX 4 (atmosphere)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FX 5 (brightness)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FX 6 (goblins)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FX 7 (echoes)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>FX 8 (sci-fi)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sitar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Banjo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shamisen</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Koto</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kalimba</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bag pipe</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fiddle</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shanai</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tinkle Bell</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Agogo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Steel Drums</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Woodblock</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Taiko Drum</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Melodic Tom</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Synth Drum</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Reverse Cymbal</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Guitar Fret Noise</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Breath Noise</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Seashore</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bird Tweet</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Telephone Ring</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Helicopter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Applause</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gunshot</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="instrument_label">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>220</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="text">
+     <string>Instrument Select</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>70</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Courier</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="maximum">
+     <number>6</number>
+    </property>
+    <property name="value">
+     <number>4</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="octave_label">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>50</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Octave Select</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stop_button">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>130</y>
+      <width>113</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="arp_type_select">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>240</y>
+      <width>161</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>UP</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DOWN</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>UP -&gt; DOWN</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>RANDOM</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>220</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="text">
+     <string>Arpeggio Type</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>650</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
