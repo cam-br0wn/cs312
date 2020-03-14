@@ -111,6 +111,7 @@ int MainWindow::sineADSRCallback( void* outputBuffer, void* /*inputBuffer*/, uns
             // if envAmp < 0
             //      set envAmp = 0
             //      and set isNoteOver to true
+            envAmp -= releaseInc;
             sampStartR = count;
             sampEndR = sampStartR + sampLenR;
             if (envAmp < 0){
@@ -327,12 +328,13 @@ void MainWindow::plotEnvelope()
     for (int i = 0; i < kEnvLength; ++i){
         x[i] = i;
         y[i] = venv.at(i);
-        ui->customPlot->addGraph();
-        ui->customPlot->graph( 0 )->setData( x, y );
-        ui->customPlot->xAxis->setRange( 0, kEnvLength );
-        ui->customPlot->yAxis->setRange( 0, 1 );
-        ui->customPlot->replot();
+
     }
+    ui->customPlot->addGraph();
+    ui->customPlot->graph( 0 )->setData( x, y );
+    ui->customPlot->xAxis->setRange( 0, kEnvLength );
+    ui->customPlot->yAxis->setRange( 0, 1 );
+    ui->customPlot->replot();
     adsrState = kAtkState;
 }
 
@@ -373,7 +375,7 @@ void MainWindow::open_dac_stream()
 MY_TYPE MainWindow::midi2frequency( const int midiNote )
 {
     MY_TYPE frq{0}; // avoid compile error
-    frq = 440 * pow(2, (midiNote - 69) / 12);
+    frq = 440.0 * std::pow(2.0, (midiNote - 69) / 12.0);
     return frq;
 }
 
@@ -497,7 +499,9 @@ void MainWindow::on_toolButton_D_pressed()
     isKeyDown = true;
     isKeyUp = false;
     count = 0;
-    playNote( MIDIstartNote + 2);
+    int start_note = MIDIstartNote + 2;
+    playNote(start_note);
+    return;
 }
 
 void MainWindow::on_toolButton_D_released()
@@ -657,7 +661,8 @@ void MainWindow::on_toolButton_hiC_pressed()
     isKeyDown = true;
     isKeyUp = false;
     count = 0;
-    playNote( MIDIstartNote + 12);
+    int note = MIDIstartNote + 12;
+    playNote( note );
 }
 
 void MainWindow::on_toolButton_hiC_released()

@@ -19,7 +19,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 # Use your full pathname to common and common/libsndfile folder
-COMMON = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common
+COMMON = /Volumes/COURSES/cs312-00-w20/StuWork/stritzelm/common
 LSF = $${COMMON}/libsndfile
 ULL = /usr/local/lib
 QPLOT = $${COMMON}/qcustomplot
