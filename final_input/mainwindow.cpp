@@ -99,10 +99,36 @@ void MainWindow::generateArp(){
  * Specifically the MIDI Output section
  */
 void MainWindow::playTrack(){
+
+    RtMidiIn *midiin = 0;
+
+    // RtMidiIn constructor
+    try {
+      midiin = new RtMidiIn();
+    }
+    catch ( RtMidiError &error ) {
+      error.printMessage();
+      exit( EXIT_FAILURE );
+    }
+
+    // Check inputs.
+      unsigned int nPorts = midiin->getPortCount();
+      std::cout << "\nThere are " << nPorts << " MIDI input sources available.\n";
+      std::string portName;
+      for ( unsigned int i=0; i<nPorts; i++ ) {
+        try {
+          portName = midiin->getPortName(i);
+        }
+        catch ( RtMidiError &error ) {
+          error.printMessage();
+        }
+        std::cout << "  Input Port #" << i+1 << ": " << portName << '\n';
+      }
+
     RtMidiOut *midiout = new RtMidiOut();
     std::vector<unsigned char> message;
     // Check available ports.
-      unsigned int nPorts = midiout->getPortCount();
+      nPorts = midiout->getPortCount();
       if ( nPorts == 0 ) {
         std::cout << "No ports available!\n";
       }
