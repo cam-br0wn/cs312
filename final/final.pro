@@ -17,11 +17,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 # You can also select to disable deprecated APIs only up to a certain version of Qt.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
-COMMON = /Volumes/COURSES/cs312-00-w20/StuWork/brownc2/common
-RTA = $${COMMON}/RtAudio
+COMMON = /Users/cambrown/Documents/GitHub/cs312
+RTA = $${COMMON}/rtaudio
 LSF = $${COMMON}/libsndfile
 QPLOT = $${COMMON}/qcustomplot
-RTM = $${COMMON}/RtMidi
+RTM = $${COMMON}/rtmidi
 ULL = /usr/local/lib
 
 macx {
@@ -40,7 +40,7 @@ TEMPLATE = app
         -framework CoreMIDI \
         -framework CoreAudio \
         $${ULL}/libsndfile.1.dylib \
-        $${ULL}//librtaudio.6.1.0.dylib
+        $${ULL}/librtaudio.6.1.0.dylib
 
     QMAKE_CXXFLAGS_WARN_ON += -Wno-unknown-pragmas
     QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.14
